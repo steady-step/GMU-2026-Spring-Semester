@@ -7,10 +7,13 @@
     range : the set of output values
     
 ## Represention of fucntion (4 ways)
-    1. verbally (introduce fuction in words)
-    2. numerically (represent fuction through table)
-    3. visually (with graph)
-    4. algebraically(such as y=x+3)
+1. verbally (introduce fuction in words)
+2. numerically (represent fuction through table)
+3. visually (with graph)
+4. algebraically(such as y=x+3)
+<img src="week1_file1.png" width="300">
+  But, Not every table,graph, and equation defines fuctions. <br>
+  this graph is not fuction. To know whether it's graph, you can write vertical line. if there are several lines it's not fuction. <br>
+  Also, y^2=x is not fuction.
 
-    But, Not every table,graph, and equation defines fuctions.
-    (y^2=x), 
+
