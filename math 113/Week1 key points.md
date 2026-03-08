@@ -22,4 +22,33 @@
 
 1. even fuction : f(-x)= f(x), symmetric with respect to the y-axis.
 2. odd fuction : f(-x) = -f(x),symmetric with respect to the orgin.
-3. Polynomials : 
+3. Polynomials : this type of fuction. constant is also polynomials.
+(Linear is one of the types of Polynomials, degree=1)
+<img src="week1_file3.png" width="200">
+4. Power fuctions : y=x^a(a is real number), if a is fraction, it is root fuction. <br>
+5. Rational fuction : ratio of two polynomials.<br>
+6. Algebraic fuctions: A fuction is only composed of addition, substraction, multiplication, division, root, and real power.<br>
+7. Trigonomatic fuction : A fuction composed of Sin, Cos, tan etc.<br>
+   * Sin and Cos are range from -1 to 1, and the period is 2ㅠ.<br>
+8. Exponential fuction : the fuction formed as y=a^x (a>0, and a is not 1)<br>
+   * if a<0, it exists imaginary number,  if a=0, some range is not defined, and if a=1, range is always 1.<br>
+9. Logarithmic Function : the fuction formed as y=logbx (x>0, b>0, b is not 1)<br>
+
+## New fuctions made by old fuctions
+    if c>0 
+    1. f(x)+c (shift up)  
+    2. f(x)-c (down) 
+    3. f(x-c) (move right) 
+    4. f(x+c) (move left)
+    5. cf(x) (stretch graph vertically)
+    6. 1/c f(x) (shirnk graph vertically)
+    7. f(cx) (shirnk graph horizontally)
+    8. f(1/c x)(stretch graph horizontally)
+    9. -f(x) (reflect graph about the x-axis)
+    10. f(-x) (reflect graph about the y-axis)
+
+
+
+
+
+
