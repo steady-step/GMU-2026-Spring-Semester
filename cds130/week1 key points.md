@@ -14,7 +14,7 @@
 
 Computationl sciecne is the intersection of science, mathematics, and computer science to solve problem and get insight through them.<br>
 So, First of all, we can find problem situation from science. And, change the scientific situation to mathmatics.(F=ma ->  Differentiation) <br>
-Next, Computer can not understand the process of differentiation. It is just a simple caculation. So, we should change this things to simple ones.<br>
+Next, Computer can not understand the process of differentiation. It is just a simple caculation. <br> So, we should change this things to simple ones.<br>
 it is numerical methods. Through this situation, it is changed as the algorithm which can be calculated by computer. <br> Finally we use computer with R, Matlab etc.<br>
 It is computational science. We make simulations with computer. Also, during the simulation, there occurs many raw datas. <br>So we visualize that for analyzing. <br>
 It is computational and "DATA" science. It's my major.<br>
