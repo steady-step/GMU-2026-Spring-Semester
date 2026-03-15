@@ -14,4 +14,9 @@
 
 ## One to one fuction and Reverse Fuction.
 
-  <img src="./images/week2_file1.png" width="300">
+  <img src="week2_file1.png" width="150">
+  One to One fuction means f(x1) is not equal f(x2) whenever x1 is not equal x2. <br>
+  Especailly, when codomain is same with range, we called it one-to-one correspondence. <br>
+  The image above here is one to one fuction. it is not correspondence. But, we can control<br>
+  codomains same with range to make it correspondence. So, when we make conditions realted with that, we usually use one to one fuction<br>
+  
