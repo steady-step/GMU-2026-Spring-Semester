@@ -14,4 +14,4 @@
 
 ## One to one fuction and Reverse Fuction.
 
-  One to ON
+  <img src="./images/week2_file1.png" width="300">
