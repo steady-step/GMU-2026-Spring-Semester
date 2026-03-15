@@ -1,6 +1,6 @@
 # Week2 keypoint-2
 
-## definiton of limit
+## Definiton of limit
 <img src="week2_file3.png" width="250">
   We usually think limit is just a situation. But, it is false. Limit is a contant. <br>
   
