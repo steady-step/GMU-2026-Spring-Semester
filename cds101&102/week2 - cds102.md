@@ -154,15 +154,52 @@
 
      Terminal : the tool for communicating with OS.
 
-    Virtual memory and the communication between process and package.
+    Virtual memory , use of packages and communication between processes.
 
-      When we print the pointer of variables in C, we think it is a real address. But, it is not. 
+     Virtual memory : allocating virtual memories instead of real memoires. we use mapping tables and mmu. 
 
-      It is just a virtual address made by OS and MMU. After finishing the real mode of CPU, MMU starts to operate.
+     When we use chrome.exe, kernel read exe header for finding starting point(pc). And make their own mapping table.
 
-      They allocate so many addresses which don't exist in reality for the process. and if they want to use that memory, MMU make a 
+     (virtual memoires <->real memoires) But now, they exists on hdd. so we record the clusters. 
 
-      interrupt and they just change the
+     For finding the real address, we should know cr3 register(the start address of the table) and virtual address.
+
+     After finding the real address, we want to start process but interrupt occured (it exists on hdd!)
+
+     Cluster is 4kb. So we upload 4 kb on ram. Also, we should relocate the address and do dynamic linking. (.dll)
+
+     .dll is used as virtual memory skills. First of all, Be uploaded 4 kb and relocated by kernel. Also, it is recorded on chrome.exe table.
+
+     And if the ram is full, it is gone back to HDD. and if it is back, it is relocated again by kernel. 
+
+     It is same with chrome.exe! chrome is uploaded with 4kb(cluster). and if the ram is full, it is gone back to RAM.
+
+     And if they want to back due to command, they will be back, and the addresses are relocated.
+
+     Also, we are misunderstanding about uploaded file. such as a.txt on chrome. it is not uploaded on chrome.exe!
+
+     It it just included on chorome.exe mapping table! and chrome.exe just get a virtual address for getting it.
+
+
+    Also, there are some processes in OS. they can not intervene each other. Parent process<->Child process are also differnet process. 
+
+    But they can commuicate only through admitted path such as pipe. They can not change their own data.
+
+    Also, other processes only communicate through admmited path such as shared memory. 
+     
+
+
+
+
+
+
+
+
+
+
+     
+
+     
 
     
     
