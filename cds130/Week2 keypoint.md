@@ -18,7 +18,7 @@
 
     Base 10 -> each digit is range from 0 ~9. so Base 2 -> each digit is 0 or 1.
 
-    1 bit -> 0 or 1, 1 byte = 4 bits, 1 word = 32 bits
+    1 bit -> 0 or 1, 1 byte = 8 bits, 1 word = 32 bits
 
     Computer only use bits considering the sturcture of logic gate.
 
@@ -76,7 +76,7 @@
 
     return value. Also, the sequense of the calucating is like this -> () <inside ->outside> -> ^ -> * / -> + -( if the sequense is same, calculate left to right)
 
-    Also, there are many fuctions. ex) pie(print pie), sin(x), cos(x), sqrt(x)9root x), exp(x) (e^x), log x(ln x), log 10(x), mod(x,y) (remainder), abs(x) (|x|).
+    Also, there are many fuctions. ex) pie(print pie), sin(x), cos(x), sqrt(x)9root x), exp(x) (e^x), logx(ln x), log10(x), mod(x,y) (remainder), abs(x) (|x|).
 
     
 
