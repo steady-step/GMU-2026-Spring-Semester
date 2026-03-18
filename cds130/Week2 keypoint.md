@@ -76,7 +76,7 @@
 
     return value. Also, the sequense of the calucating is like this -> () <inside ->outside> -> ^ -> * / -> + -( if the sequense is same, calculate left to right)
 
-    Also, there are many fuctions. ex) pie(print pie), sin(x), cos(x), sqrt(x)9root x), exp(x) (e^x), log x(ln x), log 10(x), mod(x,y) (remainder), abs(x) (|x|)
+    Also, there are many fuctions. ex) pie(print pie), sin(x), cos(x), sqrt(x)9root x), exp(x) (e^x), log x(ln x), log 10(x), mod(x,y) (remainder), abs(x) (|x|).
 
     
 
