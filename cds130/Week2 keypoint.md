@@ -44,9 +44,9 @@
 
     We make array like this -> [1,2,3;4,5,6] it is numeirc array. , means we'd like to extend data in one dimension. And, ; means we'd like to change the line.
 
-    Array can be one or two dimensions. Also, there are any integer types in matlab. 3, pie, nan and infintiy are also consdiered double type and they are             calculated
+    Array can be one or two dimensions. Also, there are any integer types in matlab. 3, pie, nan and infintiy are also consdiered double type and they are  calculated.
 
-    by CPU logic gate considering the unique data type. (NAN, infinity etc) Also, we make char array liek this -> ['Hello','a'] they are not string. So, the           letters 
+    by CPU logic gate considering the unique data type. (NAN, infinity etc) Also, we make char array liek this -> ['Hello','a'] they are not string. So, the letters 
 
     are saved as each letter. and they can be calcuated with unicode with numeirc. Finally, we can make string array like this -> ["Hello","ABC"]. They are string.
 
