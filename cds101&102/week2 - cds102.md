@@ -130,31 +130,9 @@
 
     sqrt a^2+b^2 -> \sqrt {a^2+b^2} 
 
-*** Others
-
-    Unicode -> Current code for using character instead of ascii code.
-
-    Library : The folder which have all package folder.
-
-    Package : The pre-made data and fuction for using easily in programming language.
-              We easily use these fuctions and datas through library(name) in R.
-
-    The process for changing r markdown to result file..
-
-      rmd is just a file. and we need some package for changing this file to reuslt files.
-
-      When we click knit, some package fuction operates through ::, and it is prepared.
-
-      and There are another SW for making PDF etc. So it makes this files to PDF.
 
 
-    In r studio
-
-     console : the tool for communicating with r.exe... there are some fuctions for controling r studio except calcaulating fuction.
-
-     Terminal : the tool for communicating with OS.
-
-    Virtual memory , use of packages and communication between processes.
+### Virtual memory , use of packages and communication between processes.
 
      Virtual memory : allocating virtual memories instead of real memoires. we use mapping tables and mmu. 
 
@@ -190,6 +168,32 @@
 
 
 
+
+### Others
+
+    Unicode -> Current code for using character instead of ascii code.
+
+    Library : The folder which have all package folder.
+
+    Package : The pre-made data and fuction for using easily in programming language.
+              We easily use these fuctions and datas through library(name) in R.
+
+    The process for changing r markdown to result file..
+
+      rmd is just a file. and we need some package for changing this file to reuslt files.
+
+      When we click knit, some package fuction operates through ::, and it is prepared.
+
+      and There are another SW for making PDF etc. So it makes this files to PDF.
+
+
+    In r studio
+
+     console : the tool for communicating with r.exe... there are some fuctions for controling r studio except calcaulating fuction.
+
+     Terminal : the tool for communicating with OS.
+
+    
 
 
 
