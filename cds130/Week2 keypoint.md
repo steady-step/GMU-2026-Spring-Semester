@@ -2,7 +2,7 @@
 
 ## basic theory
 
-    .m -> markdown file extension.
+    .m -> matlab file extension.
     
     markdown file name -> only alphabet + number + _ . Also, we should start the file name only with alphabet.
 
@@ -50,7 +50,7 @@
 
     return value. Also, the sequense of the calucating is like this -> () <inside ->outside> -> ^ -> * / -> + -( if the sequense is same, calculate left to right)
 
-    Also, there are many fuctions. ex) pie(print pie), sin(x), cos(x), sqrt(x)(root x), exp(x) (e^x), logx(ln x), log10(x), mod(x,y) (remainder), abs(x) (|x|).
+    Also, there are many fuctions. ex) pi(print pie), sin(x), cos(x), sqrt(x)(root x), exp(x) (e^x), logx(ln x), log10(x), mod(x,y) (remainder), abs(x) (|x|).
     
 
 ## Data structure and type of Matlab
