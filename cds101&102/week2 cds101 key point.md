@@ -15,7 +15,7 @@
     
     So, I will introduce 6 types for storing data. in R, scalar does not exists. 1 is a vector which has the length of 1.
 
-    Vector is 1 demension structrue and it is composed of same 1 length of vector with each space. we define like this -> c(1,2,3), c("a","b","c")
+    Vector is 1 demension structrue and it is composed of same 1 length of vector with each space. we define like this -> c(1,2,3), c("a","b","c").
 
     matrix is 2 demension structure and it is composed of same 1 length of vector with each space.
 
@@ -43,6 +43,12 @@
     the representative type is a b a. so if you want to change the type, a b a is changed. if you changed it to numberic -> 1 2 1.
 
     to character "a" "b" factor a b is different with character "a" "b".
+
+    Last, vector, matrix, arrays, and factor are composed of just 1-size vector.(also when defining).
+
+    they have specific number(1+2i), logical(true), character("ABC"), factor(non "")
+
+    Although we write vector c inside c for many times like that c(c(c(1,2,3)), the r studio invert that to c(1,2,3).
 
 
 ## other special information
@@ -75,7 +81,190 @@
     2-2. dataframe vs length=1 vector -> make logical matrix.
 
 
+## basic of R
 
+    Wrtting comment in R -> #
+
+    help(fuction name) -> help fuction, to know how to use this fuction.
+
+    sum(1,2,3,4,5,6,7) -> sum fuction, we can input some vectors.
+
+    mean(c(1,2,3))=2 -> the first vector is only for making avg. others are just option. mean(1,2,3)=1
+
+    sqrt(3) = root 3, exp(1)=e^1= 2.7~
+
+    (1+2)*3-4 = 5 this is also one-size vector.
+
+    sam <-  c(1,3,4,5) using variable symbol is <-.
+
+    View() -> visualize data with excel type.
+
+    " " , ' ' is same in R.
+
+    %>% is called as pipe. it belongs to tidyverse package. it helps us to make code on the other way.
+
+    mean(samp) = samp %>% mean
+
+    sd(samp) = Variance
+
+    print(variable) is usually same with variable but, we need print fuction especially in in loop statement.
+
+    x<-13:17 (make continious vector, interval =1) c(13,14,15,16,17) (integer)
+
+    if the either end is not integer, the vector is numeric. ex)x<-13.5:16.1
+
+    x<-6:1 (decreasing)
+
+    rm() -> remove fuctions on environment
+
+    NA -> No value in the space
+
+    NAN -> it is impossible in mathematics. (0/0)/
+
+    Null -> the space doesn't exist.
+
+    class() -> watch type.
+
+    Type change
+
+    1. type changing with as fuction -> as.type(x) such as as.integer(x)
+
+       we can get that type version of x, but x type is not originally changed.
+
+
+    2. vector type changing
+
+       priority : character > complex > numeric > integer > logical > raw
+
+       x<- c(1.7,"a")  1.7 is changed to "1.7" due to that priority.
+
+    3. type changing due to usual calucating(+,-,*,/)
+
+       priority also exists.
+
+       x=True,  x + 10 = 1+ 10 = 11
+       
+       But, x is not originally changed.
+
+    4. Bit caculating
+
+
+       previous priority is disappeared.
+
+       1) both are raw -> bit calculating
+
+       2) either is character -> error
+
+       3) rest -> type changing to logical.
+
+
+    Usual type change except raw
+
+    the result can be 'na' if "abc" to numeric.. it is na(empty). 
+     
+    Like this, except raw, there are 2 kind of result. exists, na
+
+    1) as fuction -> exists or na
+
+    2) vector -> exists or na
+
+    3) usual calculation -> exists or na
+
+    4) bit calculation -> ok
+
+
+    When raw data exists...
+
+    the result can be 'na' or error or existing. Also, raw data can't do usual calculation.(+,-,x,/)
+
+    Only it can do bit calculation.
+
+    1. as fuction -> na or error or exists
+
+    2. vector -> na or error or exists
+
+    3. usual calculation -> X
+
+    4. bit calculation -> ok
+
+
+    is.numeric(x) -> make logical vector if each element is numeric -> True, else : False
+
+    is.na(x) -> include nan to True.
+
+    table(x) -> make table about the number of each element.
+
+    if we want to make table like this,
+    
+    a1 <- c("a","b","b","a")
+    
+    a2 <- factor(c("a","b","b","a"))
+
+    table(a1) and table(a2) are same.
+
+    a    b
+
+    2    2
+    
+    the difference for making table(x) with character vector and factor
+    
+    1. To make table, charcter vector should check all previous-made elements for checking whether their elements already have been existed.
+
+       If we assume the number of element as N, the number of calculation is O(N^2)
+
+       But for making factor, first we check the labels and adds the number 1 at the element.we can represent the number of calculation as O(N).
+
+       factor is much efficient than usual vector.
+
+    2. When using factor, we can add unused elements like this
+
+    a    b    c
+
+    2    3    0
+
+    this is why r first check the labels. So, if we add labels into factor, we can make table like this different with usual vector.
+
+    
+    
+ 
+       
+
+
+
+
+
+
+
+
+
+       
+
+       
+
+       
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     
 
 
