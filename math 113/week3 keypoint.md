@@ -44,6 +44,16 @@
     
     L <= M
     
+## Squeeze Theorom
+
+    
+    If  lim x->a(or x->+ or - infinity) f(x) = L, lim x->a (or x->+ or - infinity) g(x) = L (the point of approach should be same each other)
+
+    and f(x)<=h(x)<=g(x) or f(x)<h(x)<g(x) or f(x)<=h(x)<g(x) or f(x)<h(x)<=g(x) 
+
+    (x range is same with comparision theorom when f(x)<=h(x)<=g(x))
+
+    lim x->a h(x) = L
 
 ## Continuity of function
 
