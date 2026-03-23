@@ -32,14 +32,16 @@
 
 ## Comparison Theorom 
 
-    If  lim x->a(or x->infinity) f(x) = L, lim x->a (or x->infinity) g(x) = M,
+    If  lim x->a(or x->+ or - infinity) f(x) = L, lim x->a (or x->+ or - infinity) g(x) = M (the point of approach should be same each other)
 
     and f(x)<=g(x) or f(x)<g(x), 
     
-    ( range of x (x->a) : k>0, k exists. in the range of (a-k,a) and (a,a+k), all f(x)<=g(x) or f(x)<g(x))
+    (the x range of(f(x)<=g(x) or f(x)<g(x)) is  (a-k,a)(a,a+k) (k is positive number, and in the range, all fuction value satifies that condition when x->a)
 
-    (range of x (x->infinity) : k is real number, k exists in the range of (k,infinity), all f(x)<=g(x) or f(x)<g(x))
+    (the x range of (f(x)<=g(x) or f(x)<g(x)) is (k,infinity) (k is real number, and in the range, all fuction value saitifies that condition when x->infinity)
 
+    (the x range of (f(x)<=g(x) or f(x)<g(x)) is (-infinity,k) (k is real number, and in the range, all fuction value saitifies that condition when x-> - infinity)
+    
     L <= M
     
 
