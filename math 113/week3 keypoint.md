@@ -34,9 +34,11 @@
 
     If  lim x->a(or x->infinity) f(x) = L, lim x->a (or x->infinity) g(x) = M, and
 
-    f(x)<=g(x) or f(x)<g(x) ( range of x (x->a) : k>0, k exists. in the range of (a-k,a) and (a,a+k), all f(x)<=g(x) or f(x)<g(x))
+    f(x)<=g(x) or f(x)<g(x)
+    
+    ( range of x (x->a) : k>0, k exists. in the range of (a-k,a) and (a,a+k), all f(x)<=g(x) or f(x)<g(x))
 
-                            (range of x (x->infinity) : k is real number, k exists in the range of (k,infinity), all f(x)<=g(x) or f(x)<g(x))
+    (range of x (x->infinity) : k is real number, k exists in the range of (k,infinity), all f(x)<=g(x) or f(x)<g(x))
 
 
     
