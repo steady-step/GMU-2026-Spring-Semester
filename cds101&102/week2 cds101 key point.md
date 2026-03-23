@@ -5,7 +5,7 @@
 
     There are 6 data types in R. numeric, integer, logical, complex, character, raw.
 
-    numeric is just a real number and there is NAN which means there does not exists in the mathematics(such as 3/0), 
+    numeric is just a real number and there is NAN which means there does not exists in the mathematics(such as 0/0), 
     
     integer is written as 3L for dividing into numeric. logical is composed of true, false, and na (na means the empty value)
 
