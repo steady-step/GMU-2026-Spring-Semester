@@ -72,7 +72,7 @@
     
     2-1. dataframe vs dataframe -> make logical matrix
 
-    2-2. dataframe vs length-1 vector -> make logical matrix.
+    2-2. dataframe vs length=1 vector -> make logical matrix.
 
 
 
