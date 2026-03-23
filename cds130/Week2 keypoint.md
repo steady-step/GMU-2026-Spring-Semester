@@ -38,33 +38,7 @@
 
 ## Basic of Matlab
 
-    Matlab is simillar with R. this language doesn't have exclusive data. The minimum unit is array. (In R, it is vector)
-
-    There are some kinds of arrays.(Numeric, char, string etc). Array is one dimension or two dimension. They are composed of same data type like vector. 
-
-    We make array like this -> [1,2,3;4,5,6] it is numeirc array. , means we'd like to extend data in one dimension. And, ; means we'd like to change the line.
-
-    Array can be one or two dimensions. Also, there are any integer types in matlab. 3, pie, nan and infintiy are also consdiered double type and they are  calculated.
-
-    by CPU logic gate considering the unique data type. (NAN, infinity etc) Also, we make char array liek this -> ['Hello','a'] they are not string. So, the letters 
-
-    are saved as each letter. and they can be calcuated with unicode with numeirc. Finally, we can make string array like this -> ["Hello","ABC"]. They are string.
-
-    So, they can not be calculated as unicode. they cna just put together with themselves. (EX: HelloABC), Also, the most important thing is we should match 
-
-    the number of columns and rows for making arrays. it is essential. And they can caculate each other with automatic type conversion similar with R.
-
-    Also, there are three bigger types for convience. cell array is defined like this. -> { "APPLE", [1,2,3]} it is similar with usual array. But, it can contain
-
-    all kinds of data types(including cell, struct, table etc) and we use {} this icon. Struct can be defined like this -> a.name = "k". We can just write 
-
-    like this. After all, we can call a.name... Also, it is used as 2 dimension -> a(2,3).name-> if we type this, .name is created in (2,3) and also
-
-    2 dimension arrays (2X3) and .name is all created in all 6 sections. Last, Table. We can make columns data with any 6 data types. and type like this
-
-    table(~,~,~) ~ is data types for each columns. 
-
-    Also, disp means print. so we can use this fuction like this disp('Hello world') we can print 'Hello world' without using disp. But, if we don't use
+    disp means print. so we can use this fuction like this disp('Hello world') we can print 'Hello world' without using disp. But, if we don't use
 
     disp, variable name is included.(If variable doesn't exist, ans is printed).
 
@@ -77,11 +51,88 @@
     return value. Also, the sequense of the calucating is like this -> () <inside ->outside> -> ^ -> * / -> + -( if the sequense is same, calculate left to right)
 
     Also, there are many fuctions. ex) pie(print pie), sin(x), cos(x), sqrt(x)(root x), exp(x) (e^x), logx(ln x), log10(x), mod(x,y) (remainder), abs(x) (|x|).
-
     
 
+## Data structure and type of Matlab
+
+    In the Matlab, there are 6 data types. Numeric, Logical, char, string, Datetime, Categorical.
+
+    Numeric means number. it also exists pi, infinity, integer, decimal number, NAN(it is combined word with non-exist and mathematically being impossible. (3/0)
+
+    Logical means logic values such as True, False.
+
+    char is just one character and we write this character with ' '. Also, when calculating, we use unicode. 
+
+    string is one or more characters we write string with " " .
+
+    Datetime is a special type and we can make this type with datetime fuction.
+
+    Categorical is special type simillar with factor in R. 
+
+    Also, variables in matlab can store 5 types. array, cell array, struct, table, fuction(with @). They are data structure.
+
+    First one is array. Array is composed of same type, and the unit is 1x1 array. 
+
+    For example, numeric array : A = [1,2;3,4], Logical array: L=[true, false;true,false], char array : c='hello', c=['tom']
+
+    string array : s=["TOM","JO"], datetime array : D= [datetime(2026,1,1);datatime(2026,1,2)]
+
+    When analyzing these, for making one or two dimensional array, we use [], and , means to expand the rows, and ;means to change the columns.
+
+    There are no scalas in Matlab. 'hello' is also 1x5 char arrays. and the length of this s= "TOM" vector is 1 (because it is string, not char.)
+
+    There are no limits in array dimensions. For making 3+ demensions, I will introduce two ways.
+
+    1. A(:,:,1) = [1,2;3,4], A(:,:,2)=[3,4;5,6]
+
+    2. use cat fuction. cat(3,m1,m2,m3) , 3 is demension, m1,m2 m3 is a 2 demension arrays. 
+
+    Like this, We can expend the demension. 4 demension? it is not difficult. it is just to make a 1xN table and each context has 3 dimension arrays.
+
+    Categorical : it is similar with factor in R. we can define it like this -> A= categorical(["a","b","c","d"]) in (), we can insert string array,
+
+    char array or cell array(all components should be just 1x1 arrays) and there are two layers in that. first one is just label. (A,B,C)
+
+    and second one is index connected with label. and printing that, we can see the characters except " ". it means it is not char or string. 
+
+    They are categorials and they just connect index to labels for printing. it is categorical.
+
+    ex) A= categorical(["A","B","C","D"]) -> A -> A B C D (except "") and the inside, the index is 1 2 3 4 and the label is A B C D.
+
+    Next, cell array is similar with array but difference is to store all kinds of things including struct, table, cell array, array, categorial fuction etc.
+
+    We define it like that c= {"a",1,[1,2,3]} and the way for extending dimension is same with arrays.
+
+    struct is one dimension structure. we can made each name in the space and we can store sturct, table, array, fuction etc.
+
+    We can define like this S.name = "G", S.age=25 or we can use struct fuction. S=struct('g',100)
+
+    it is similar concept with pointer in C.
+
+    Last, it is table. we can assign the context of columns like this. T= table(a1,a2,a3) each variable can be array or categorial, cell, struct or table.
+
+    they are placed at each columns and if the dimension is over 1, rest of the context is stored in the one spot sorted by rows.
+     
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
