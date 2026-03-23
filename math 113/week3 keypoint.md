@@ -87,7 +87,7 @@
 
       continuous + continuous = continuous
 
-      continuous + discontinuous = 99% continious ( except constant fuction)
+      continuous + discontinuous = 99% discontinious ( except constant fuction)
 
       discontinuous + discontinuous = unknown.
 
