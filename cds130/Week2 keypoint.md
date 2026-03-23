@@ -114,7 +114,36 @@
     they are placed at each columns and if the dimension is over 1, rest of the context is stored in the one spot sorted by rows.
      
 
+# Other concept
 
+    In the Matlab, the special fuction exists.
+
+    Usually for calculating, it should be same with data structrue and data size.
+
+    but it is exception. between array caculation,(not when creating.)
+
+    if the demension is 1, we can extend the range through copying.
+
+    ex) 1x2 + 3x2 = 3x2(extending) + 3x2 = 3x2
+
+    we just copy 1x2 three times under the row.
+
+    Also, array can calucalte if the size is same, but categorical, struct, cell array, table is usually impossible to calucalte.
+
+    But, categorical and table can calculate only when ==.
+
+    1. categorical -> we consider it as arrays. so, we compare it with char, string, and categorical arrays. the laws above them can be used.
+
+    (such as 1x2 + 3x2 = can be extended) the result is logical array.
+
+    2. table -> we can compare it with table and 1x1 array. we can not extend the range.
+
+       the result is logical 2-demension array.
+
+
+
+
+    
 
 
 
