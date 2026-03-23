@@ -57,7 +57,7 @@
 
       so, 1 2 7 1 2 + 1 2 5 3 6
 
-    2. array matrix can use length-1 vector when creating and cacluating.
+    2. array matrix can use length=1 vector when creating and cacluating.
 
     3. when we make dataframe, if the length of vector or factor is less than rows and the length x k = row ( k is positive integer)
 
