@@ -89,7 +89,7 @@
 
     sum(1,2,3,4,5,6,7) -> sum fuction, we can input some vectors.
 
-    mean(c(1,2,3))=2 -> the first vector is only for making avg. others are just option. mean(1,2,3)=1
+    mean(c(1,2,3))=2 -> the first vector is key point for making avg. others are just option. If mean(1,2,3) -> we only consider mean(1) = 1
 
     sqrt(3) = root 3, exp(1)=e^1= 2.7~
 
@@ -119,7 +119,7 @@
 
     NA -> No value in the space
 
-    NAN -> it is impossible in mathematics. (0/0)/
+    NAN -> it is impossible in mathematics. (0/0)
 
     Null -> the space doesn't exist.
 
@@ -170,7 +170,7 @@
 
     3) usual calculation -> exists or na
 
-    4) bit calculation -> ok
+    4) bit calculation -> Logic result or error
 
 
     When raw data exists...
@@ -185,7 +185,7 @@
 
     3. usual calculation -> X
 
-    4. bit calculation -> ok
+    4. bit calculation -> Bit result or Logic result or Error
 
 
     is.numeric(x) -> make logical vector if each element is numeric -> True, else : False
@@ -208,21 +208,28 @@
     
     the difference for making table(x) with character vector and factor
     
-    1. To make table, charcter vector should check all previous-made elements for checking whether their elements already have been existed.
+    1. To make table, charcter vector should check all previous-made elements of table for checking whether the elements already have been existed.
 
-       If we assume the number of element as N, the number of calculation is O(N^2)
+       If we assume the number of original element as N, the number of calculation is O(N^2).
+       
+       because we check approximetly n times for previous-made elements of table per the number of original element. so, N*N=N^2.
 
-       But for making factor, first we check the labels and adds the number 1 at the element.we can represent the number of calculation as O(N).
+       But for making factor, first we check the labels and adds the number 1 at the element of table. we can represent the number of calculation as O(N),
 
-       factor is much efficient than usual vector.
+       Because we immediately increase the number of element of table after checking labels. 
+       
+       So, we just calculate approximely N(the origin element number) for succesing. 
 
-    2. When using factor, we can add unused elements like this
+       Therefore, factor is much efficient than usual vector.
+
+
+    2. When using factor, we can add unused elements like this.
 
     a    b    c
 
     2    3    0
 
-    this is why r first check the labels. So, if we add labels into factor, we can make table like this different with usual vector.
+    this is why r first check the labels. So, if we add special labels into factor, we can make table like this different with usual vector.
 
     
     
