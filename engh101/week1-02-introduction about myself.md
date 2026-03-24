@@ -1,6 +1,7 @@
-# Week 1 assignment: writing introduction about myself
+# introduction about myself
 
 
+## These passages is assignment of week1 class. I copied all passages of my homework.
 
   Hello everyone! My name is Geon Jee. I'm a CDS student and I am taking this class with excited mindset. 
  Since I was young, I was so interested in computer/data science, so it may influenced my choice of major. 
