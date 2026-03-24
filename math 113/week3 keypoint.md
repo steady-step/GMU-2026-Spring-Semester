@@ -83,15 +83,15 @@
 
     we can prove this law with limit laws.
 
-    when the limit laws, 
+    when the limit laws(except composition of fuction), 
 
     exist + exist -> exist
 
-    exist + non exist -> non exist
+    exist + doesn't exist -> doesn't exist
 
-    non exist + non exist -> unknown
+    doesn't exist + doesn't exist -> unknown
 
-    Like this, when the continuous laws,
+    Like this, when the continuous laws(except composition of fuction),
 
     continuous + continuous = continuous
 
@@ -109,13 +109,19 @@
       lim x->a f(g(x))= f(g(a)) , this composition is continuous at a.
 
 
-    In the continuous law at composition,
+    In the limit and continious laws at composition,
 
-      continuous + continuous = continuous
+       exist + exist = exist
 
-      continuous + discontinuous = 99% discontinious ( except constant fuction)
+       exist + doesn't exist -> unknown
 
-      discontinuous + discontinuous = unknown.
+       doesn't exist + doesn't exist -> unknown
+
+       continious + continious -> continious
+
+       discontinuous + continuous -> unknown
+
+       discontinuous + discontinuous = unknown
 
 
 
