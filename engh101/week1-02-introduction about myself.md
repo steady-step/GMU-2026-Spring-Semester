@@ -1,4 +1,4 @@
-# introduction about myself
+# Introduction about myself
 
 
 ## These passages is assignment of week1 class. I copied all passages of my homework.
