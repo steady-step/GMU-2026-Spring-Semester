@@ -83,22 +83,6 @@
 
     we can prove this law with limit laws.
 
-    when the limit laws(except composition of fuction), 
-
-    exist + exist -> exist
-
-    exist + doesn't exist -> doesn't exist
-
-    doesn't exist + doesn't exist -> unknown
-
-    Like this, when the continuous laws(except composition of fuction),
-
-    continuous + continuous = continuous
-
-    discontinuous + continuous = discontinuous
-
-    discontinuous + discontinuous = unknown.
-
     these fuctions are continuous in the domain.
 
      -> polynomials, rational, root, trigonomatic, exponential, logarithmic, inverse trigonomatic fuction.
@@ -107,26 +91,6 @@
 
       if g is continuous at a, and f is continuous at g(a),
       lim x->a f(g(x))= f(g(a)) , this composition is continuous at a.
-
-
-    In the limit and continious laws at composition,
-
-       exist + exist = exist
-
-       exist + doesn't exist -> unknown
-
-       doesn't exist + doesn't exist -> unknown
-
-       continious + continious -> continious
-
-       discontinuous + continuous -> unknown
-
-       discontinuous + discontinuous = unknown
-
-
-
-
-
 
 
 
