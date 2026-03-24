@@ -11,7 +11,7 @@
 
      1. Find four sources(article etc) and classify the various perspectives in the sources.
 
-     2. Draw mind map in realtion to my topics
+     2. Draw mind map in realtion to my topics.
 
      3. Visit Songdo Kyobo bookstore and skim the books in relation to my topics.
 
