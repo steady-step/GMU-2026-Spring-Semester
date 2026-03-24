@@ -90,7 +90,7 @@
      Continuous of composition of fuctions 
 
       if g is continuous at a, and f is continuous at g(a),
-      lim x->a f(g(x))= f(g(a)) , this composition is continuous at a.
+      this composition is continuous at a, lim x->a f(g(x))= f(g(a).
 
 
 
