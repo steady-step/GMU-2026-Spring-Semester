@@ -22,7 +22,7 @@
      6. Add annotation to 5 PDF. the context of annotation is argument and purpose of sources, or evaluating highlighted contexts etc.
 
 
-    From week 4, I will upload the procedure of writing my blog post. 
+    From week 4, I will upload the procedure of writing my blog post. See you!
 
 
 
