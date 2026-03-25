@@ -144,19 +144,19 @@
 
      After finding the real address, we want to start process but interrupt occured (it exists on hdd!)
 
-     Cluster is 4kb. So we upload 4 kb on ram. Also, we should relocate the address and do dynamic linking. (.dll)
+     Cluster is 4kb. So we upload 4 kb on ram. Also, we should link .dll for original file through iat and eat (window file structure PE)
 
-     .dll is used as virtual memory skills. First of all, Be uploaded 4 kb and relocated by kernel. Also, it is recorded on chrome.exe table.
+     .dll is also included as part of the virtual memoires.
 
-     And if the ram is full, it is gone back to HDD. and if it is back, it is relocated again by kernel. 
+     And if the ram is full, it is gone back to HDD. and if it is back, we just change the mapping table.
 
-     It is same with chrome.exe! chrome is uploaded with 4kb(cluster). and if the ram is full, it is gone back to RAM.
+     It is same with chrome.exe! chrome is uploaded with 4kb(cluster). and if the ram is full, it is gone back to HDD.
 
-     And if they want to back due to command, they will be back, and the addresses are relocated.
+     And if they want to back due to command, they will be back, and the mapping table is changed.
 
      Also, we are misunderstanding about uploaded file. such as a.txt on chrome. it is not uploaded on chrome.exe!
 
-     It it just included on chorome.exe mapping table! and chrome.exe just get a virtual address for getting it.
+     It it just included as chorome.exe mapping table! and chrome.exe just set a virtual address for getting it.
 
 
     Also, there are some processes in OS. they can not intervene each other. Parent process<->Child process are also differnet process. 
