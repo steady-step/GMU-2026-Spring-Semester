@@ -189,7 +189,7 @@
 
     In r studio
 
-     console : the tool for communicating with r.exe... there are some fuctions for controling r studio except calcaulating fuction.
+     console : the tool for communicating with r.exe... there are even some fuctions for controling r studio except calcaulating fuction.
 
      Terminal : the tool for communicating with OS.
 
