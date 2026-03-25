@@ -77,7 +77,55 @@
 
     Although .dll or.exe is back to HDD, they first change the mapping table context to 0. and if they want to use, MMU occurs interrupt. 
     
-    And, they just load 4kb on RAM and change the mapping table value. User file uses virtual address so eff
+    And, they just load 4kb on RAM and change the mapping table value. User file uses virtual address so gradually and effectively.
+
+    all files including .dll .txt, .jpg etc are gradually uploaded per 4kb, moved to HDD per 4kb if RAM is full, and come back if it is needed.
+
+    The 4kb unit is independent. they just moved between RAM and HDD. Also, window usually use HDD with three section. File table, File store,
+
+    Virtual Memory back up store. Kernel back up files in Virtual memory back up store to prevent data destorying.
+
+    User program make mapping table with kernel mapping table. It is for efficiency. Kernel just can use their mapping table without changing CR3 register.
+
+    Also, user program's mapping table contains all linked thing's virtual address of user program such as .dll 
+    
+    and also contains uploaded file they want to use such as .txt file etc. 
+    
+    Furthermore, many files can use one .dll and kernel manages it to change mapping table when page fault interrupt.
+
+    In cpu, there are two rings. Ring 0 : Kernel mode Ring 3: user mode. 
+
+    User programs can not change the rings because ntoskrnl.exe first occupy ring 0 mode when turning on Computer.
+
+    Changing the ring mode from 3->0 is impossible due to CPU sturcture. 
+
+    If they want to access hardware, Interupt occured and the process is delected due to ISR code.
+
+    The only way for accessing hardware, it is system call. it is just request. and Kernel do it instead of user process.
+
+    Also thanks to virtual memories, we can protect their own process from other process.
+
+    Due to virtual memoires, they can not access our process's real address.
+
+    the address is just changed due to mapping table. it is one of the good things for virtual memories.
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
 
 
 
