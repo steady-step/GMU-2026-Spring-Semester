@@ -77,7 +77,7 @@
 
     x,y should be array(one or two demension) and the size should be same.
 
-    if x is one demension, and y is two demension : the length of raw should be same with length of x.
+    if x is one demension, and y is two demension : the length of row should be same with length of x.
 
     fuction makes each line with different color based on each y's columns.
 
