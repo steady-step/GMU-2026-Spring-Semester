@@ -51,7 +51,6 @@
 
     Histogram -> Centered? -> Mode...(Mostly)
 
-
     Peaks in histogram(Modality) -> increasing ->peak -> decreasing....
 
     unimodal : one pick in histogram
