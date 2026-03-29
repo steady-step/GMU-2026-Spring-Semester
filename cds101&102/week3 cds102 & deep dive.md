@@ -49,7 +49,28 @@
 
     qplot(x=a,data=b,binwidth=0.5,fill=d) -> the original histogram + the color is filled based on d.
 
-    skewness -> where are the datas biased?
+    Histogram -> Centered? -> Mode...(Mostly)
+
+
+    Peaks in histogram(Modality) -> increasing ->peak -> decreasing....
+
+    unimodal : one pick in histogram
+
+    bimodal : two picks in histogram
+
+    multimodal : over three picks in histogram
+
+    
+
+
+
+
+
+
+
+
+
+    
 
      
     
