@@ -53,7 +53,7 @@
 
     vector index : (), A(8)=12, A(2)=7 etc.
 
-    In matlab, vector is just one-dimension array.
+    In matlab, vector is also just array.
 
     A + 3 -> 3 is just 1x1 array, and the size is extended same with A. and matrix is calculated.
 
