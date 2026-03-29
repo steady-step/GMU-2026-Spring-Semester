@@ -35,7 +35,7 @@
     In matlab, automatic form change is similar with R, but the priority is logical < char < numeric < datetime < string.
     
 
-## grammer
+## grammar
 
     Comment : use %, comment is ignored when executing. the code's color is green.
 
