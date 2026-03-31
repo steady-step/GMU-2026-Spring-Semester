@@ -4,19 +4,19 @@
 
     First of all, I selected the topic for increasing interest of audience like this :
 
-    The essense of law : algorithm vs morality.
+    The essence of law : algorithm vs morality.
 
     Based on suggested form, I planned each paragraph like this.
 
     #1 : Introduction -> Present my topic for audience. First, I planned to present social issue:
     
-    AI is influencing many field. and it can also influence law field.
+    AI is influencing many fields. and it can also influence law field.
 
     After that, I planned to present another topic related to that:
 
-    Can AI replace judge? -> And I will finally present the fundemental controversial issue about that:
+    Can AI replace judge? -> And I will finally present the fundamental controversial issue about that:
 
-    The essense of law : algorithm vs morality. In that paragraph, Audience will know why I write this blog.
+    The essence of law : algorithm vs morality. In that paragraph, Audience will know why I write this blog.
 
     In this rapidly changing situation, We should think the essense of law, and also it can affect our life.
 
@@ -29,7 +29,7 @@
 
     #3. The first related theory about topic : legal positivism
 
-    First, I will present a video about that so that audience can understand what legal positivism is more easier.
+    First, I will present a video about that so that audience can understand what legal positivism is easier.
 
     Next, I will introduce the definition and features of legal positivism and introduce controversial issue and advantage about that.
 
