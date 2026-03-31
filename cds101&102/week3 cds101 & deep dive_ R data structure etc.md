@@ -18,7 +18,7 @@
 
     It is different. Vector,matrix,array just have a body which contains real information. Factor is also same, but levels is located in attributes.
 
-    Dataframe and lists are different. It is important. In their body, they just have a pointer about that. and We also should find the real informatin through pointer.
+    Dataframe and lists are different. It is important. In their body, they just have a pointer about that. and We also should find the real informatin through        pointer.
 
     I will introduce major attributes : names(vector), dim/dimnames(matrix), levels(factor).
 
