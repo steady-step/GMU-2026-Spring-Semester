@@ -109,7 +109,7 @@
 
     index -> use []. if you use A[1], this is just to make new data sturcture(length=1) it is important. It doesn't view the data. They make their own structure.
 
-    And, [] means to divide the demension, and you can just insert only one vector for each dimension. Integer vector is needed, but although you insert numeric 
+    And, [] means to divide the dimension, and you can just insert only one vector for each dimension. Integer vector is needed, but although you insert numeric 
 
     vector, they automatically changes it to integer. And through [], you can select many datas over one. ex) A[c(1,2,3),3,4] (three dimension for array)
 
