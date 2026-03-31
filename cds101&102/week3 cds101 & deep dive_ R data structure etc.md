@@ -4,7 +4,9 @@
 
     R data struture is composed of header and data. In header, there are length etc, and a pointer for attributes.
 
-    If you go to the pointer address, there are TAG, CAR, AND CBR. TAG means what recent attribute is (dim etc),
+    If you go to the pointer address, there are TAG, CAR, AND CDR. TAG means what recent attribute is (dim etc), 
+
+    CDR contains pointer for finding next attributes. (You can imagine linked list.)
 
     CAR also contains pointer for finding main source about this attribute. For example, I will present names attribute in vector.
 
@@ -34,7 +36,7 @@
 
 ## Grammer
 
-    For creating matrix, we use this fuction. matrix() in that, we can insert data, nrow, ncol, byraw, dimnames.
+    For creating matrix, we use this fuction. matrix() in that, we can insert data, nrow, ncol, byrow, dimnames.
 
     Data should be just one vector and nrow, ncol means the number of col, byraw means whether you make the matrix with row order or column order.
 
@@ -59,7 +61,7 @@
 
     rbind -> make matrix tying all presented matrix or vector through row direction.
 
-    For making dataframe, we use data.frame fuction. data.frame(DATA,raw.names, etc...)
+    For making dataframe, we use data.frame fuction. data.frame(DATA,row.names, etc...)
 
     We can insert many datas different with matrix, and we can make the name as labels.
 
