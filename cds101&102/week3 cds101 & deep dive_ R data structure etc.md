@@ -107,7 +107,119 @@
 
     index -> use []. if you use A[1], this is just to make new data sturcture(length=1) it is important. It doesn't view the data. They make their own structure.
 
-    And, [] means to divide the demension, and you can just 
+    And, [] means to divide the demension, and you can just insert only one vector for each dimension. Integer vector is needed, but although you insert numeric 
+
+    vector, they automatically changes it to integer. And through [], you can select many datas over one. ex) A[c(1,2,3),3,4] (three dimension for array)
+
+    [] can be used in all data types. In [], there are 3 types which can be inserted.
+
+    1. integer vector
+
+    2. logical vector(the length should be same with the full length), If it is TRUE, the value is printed
+
+    3. Character : use labels (dimnames etc)
+
+    When we use [], R just make the smaller same stucture with previous sturcture.
+
+    If it was Dataframe, A[1,2] is also dataframe.(but it is 1x1)
+
+    If you want to extract pure things in that, use [[]] A[[1,2]]. If the pure data is list, A[1,2] is just data frame, but A[[1,2]] is a pure list.
+
+    It can just extract one value.
+
+    $ is to extract pure data through name labels(dimanmes etc), and combine them with same structure. If it is impossble, it is error.
+
+    Such as, in dataframe, you can try to extract $ with row lables, but it may be error becuase it is mosly impossible to combine them with one structure.
+
+    So, we just use $ in dataframe with col names because we make dataframe with same structure per columns.
+
+    It can be possible if the data type is same. but is is rare. 
+
+    For example, if you want to add vector + vector in list it is impossbile with []. With [], vector in list is just a list (length=1)
+
+    So we should use [[]] or $. Also, the importnat thing is $ can be only used in dataframe, and list. it can be used in vector etc.
+
+    Also, in R, there is automatic fuction for operating like [[]]. in [], we can set the fuction like this drop=FALSE,
+
+    it means that I don't want to use this fuction. but, base situation is drop=TRUE, This can extract pure things if it is not list and demension is under 2.
+
+    It is convenient but dangerous because it can make unpreditable error.
+
+    Also, I introduced is. fuction before, but I'd like add more details.
+
+    We can use this fuction like these. 
+
+    1. is.numeric(type)
+
+    2. is.matrix(data structure) 
+
+    3. is.na( special value)
+
+    In is., it can receive only one data sturcture. So is.matrix result -> 1 length logical vector.
+
+    is.numeric , is. na -> analyze inside of that, and make logical vector. 
+
+    x <- c("a","b","c","d","e","f")
+
+    x[1] "a"
+
+    x[-1] : except x[1] -> "b","c","d","e","f"
+
+    length(x) -> length..
+
+    x[length(x)] "f"
+
+    x=="c" -> "c" (char vector) size is extended same with x length. So c("c","c","c","c","c","c")
+
+    And After logcial calculation, it will be (F,F,T,F,F,F)
+
+    And the x[x=="c] -> "c" (just print true index)
+
+    y<-c(1,2,3,4,5)
+
+    y[y>2 & y<4] -> 3
+
+    x[1,] -> want to print all row=1 value
+
+    if df is dataframe, df$foo -> print pure $foo data (combine them with one data structure)
+
+    df$foo is also vector list etc. So we can do like this -> df$foo[3]...
+
+    a<-c(1,2,3), b<-matrix(1:6,2,3)  l<- list(a,b)
+
+    l[1] -> just list.
+
+    l[[1]] -> vector
+
+    l[2] -> just length 1 list
+
+    l[[2]] -> matrix
+
+    All data structure's length can be 0. such as integer(0) means the integer vector (length=0) it exists certainly. it has header.
+
+    But, it can be calcualted with other data sturcture whose length is over 0. 
+
+    ex) integer(0) + c(1,2,3) (numeric ) -> numeric(0), vector extension is not occured.
+
+    If you want to delete na value, you can do like this.
+
+    which fuction is to indicate the TRUE value's index through integer vector.
+
+    is.na(df$age) ->we can make logical vector (T: na)
+
+    which(is.na(df$age)) -> make the integer index or TRUE.
+
+    So, we can do like this df(-which(is.na(df$age)),) 
+
+
+    
+
+    
+    
+
+    
+
+    
 
     
 
