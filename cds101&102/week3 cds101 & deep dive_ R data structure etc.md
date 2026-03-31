@@ -36,7 +36,7 @@
 
 ## Grammer
 
-    For creating matrix, we use this fuction. matrix() in that, we can insert data, nrow, ncol, byrow, dimnames.
+    For creating matrix, we use this function. matrix() in that, we can insert data, nrow, ncol, byrow, dimnames.
 
     Data should be just one vector and nrow, ncol means the number of col, byraw means whether you make the matrix with row order or column order.
 
@@ -49,7 +49,7 @@
     ex) matrix(1:6,nrow=2,ncol=3, byrow=TRUE) -> 1 2 3 
                                                  4 5 6
 
-    In fuction, if the order is clear, we don't need to use nrow=, ncol= dimnames= etc.
+    In function, if the order is clear, we don't need to use nrow=, ncol= dimnames= etc.
 
     Also, if we don't insert data, it is filled with NA.
 
@@ -87,7 +87,7 @@
 
     #1 use $ symbol
 
-    #2 a fuction which is already assigned the dataset (qplot(x=a,y=b,data=c) b is just a column of c.
+    #2 a function which is already assigned the dataset (qplot(x=a,y=b,data=c) b is just a column of c.
 
     #3 When defining df. -> df(a=1:3)
 
@@ -101,7 +101,7 @@
 
     For making list, you just use list() fuction.
 
-    This fuction is so simple for using. list(names=data,...)
+    This function is so simple for using. list(names=data,...)
 
     ex) x<-list(1,"a",TRUE,1+4i) the names are optional. Also, you can just add the names freely. Adding all names for element is not essential.
 
@@ -141,15 +141,15 @@
 
     So we should use [[]] or $. Also, the importnat thing is $ can be only used in dataframe, and list. it can be used in vector etc.
 
-    Also, in R, there is automatic fuction for operating like [[]]. in [], we can set the fuction like this drop=FALSE,
+    Also, in R, there is automatic function for operating like [[]]. in [], we can set the fuction like this drop=FALSE,
 
-    it means that I don't want to use this fuction. but, base situation is drop=TRUE, This can extract pure things if it is not list and demension is under 2.
+    it means that I don't want to use this function. but, base situation is drop=TRUE, This can extract pure things if it is not list and demension is under 2.
 
     It is convenient but dangerous because it can make unpreditable error.
 
     Also, I introduced is. fuction before, but I'd like add more details.
 
-    We can use this fuction like these. 
+    We can use this function like these. 
 
     1. is.numeric(type)
 
