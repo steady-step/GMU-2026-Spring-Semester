@@ -6,7 +6,7 @@
 
      We utilize these with multiplication and divison. For understanding these, I recommend you to imagine v-t graph.
 
-     Multiplying another units means many values made by area under the graph line. It is different with fuction value.
+     Multiplying another units means many values made by area under the graph line. It is different with function value.
 
      ex) kg * m/s^2 , in this example, we can imagine graph(x axis : kg, y axis : m/s^2) and the value in area under the graph line is kg*m/s^2.
 
@@ -44,7 +44,7 @@
     
     it is impossible to have the derivative value at the end point.
 
-    Continuity : if the fuction is continious at x=a, the fuction should be left-continous and right-continious, but!!
+    Continuity : if the fuction is continuous at x=a, the fuction should be left-continuous and right-continuous, but!!
 
     In the closed interval, the interval is recognized as continuity only if the both end points are either continious.
 
@@ -56,11 +56,11 @@
 
     we use like this : d(dy/dx)/dx = d^2y/dx^2.
 
-    If the fuction can differentiate at the interval, the fuction is continious at the interval. (Reverse is not applied this law)
+    If the fuction can differentiate at the interval, the fuction is continuous at the interval. (Reverse is not applied this law)
 
-    3 reason why the fuction is impossible to differentiate
+    3 reason why the function is impossible to differentiate
 
-    1) discontinious
+    1) discontinuous
 
     2) cusp point (ex: y=|x|, x=0), it is not smooth point. left-hand derivative is not same with right one.
 
