@@ -38,7 +38,7 @@
 
     For preventing file damage(computer is suddenly turned off), Window always changes MFT after updating clusters. it prevents file damage.
 
-    But, if the computer is suddenly turend off when making MFT? So we need Log file. We can find log file through MFT 2nd page.
+    But, if the computer is suddenly turend off when making MFT? So we need Log file. We can find log file through MFT entry 2.
 
     There are 3 information. Original information, Changed information, Adddress of MFT. After turning on the computer, Window check log file.
 
