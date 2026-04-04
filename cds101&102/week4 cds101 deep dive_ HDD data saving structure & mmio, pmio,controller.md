@@ -86,6 +86,16 @@
 
     This process is same with USB and PCle etc.
 
+    Interrupt can occur in broadly these four situation
+
+    1. Hardware interrupt by controller : Whether it is success sign or new input sign should check through ISR code.
+
+    2. Divison by zero
+
+    3. Page fault interrupt (MMU)
+
+    4. Software Interrupt(System call)
+
 
 
 
