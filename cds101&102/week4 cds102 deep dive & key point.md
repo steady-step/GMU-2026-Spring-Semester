@@ -1,6 +1,6 @@
 # Week 4 cds102 key point
 
-## Misunderstanding point
+## Confusing points
 
     qplot -> 1 variable : histogram, 2 variables : scatter plot(filled circle)
 
