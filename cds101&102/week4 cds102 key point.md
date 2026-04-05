@@ -65,7 +65,58 @@
     ex) c1 c2   c3     .rows
          A seoul 2  c(1,3,4) means the row which has A at c1 column, seoul at c2 column, 2 at c3 column is 1,3,4 rows.
 
-    summraize fuction is
+    Summraize fuction is to summraize the dataframe through new columns.
+
+    The form is like this -> summaraize(data,col=(define),col2=(define))
+
+    it is different with mutate function. First, it checks data's groups.
+
+    Next, make columns integrating all each group's data.
+
+    If there are no groups in dataframe, it will be one groups, and they don't print group's columns because there are no groups.
+
+    In columns, There can be vector, factor, list... if the length is 0, the column is deleted, length can be over 1.
+
+    Let's look at examples. 
+
+    summarize(df,avg=mean(data))  -> result : 1x1 data frame.. because there are no groups(whole data frame) and the length of mean(data) is just 1.
+
+    Also, function doesnt' print group column due to there are no groups.
+
+    ex)      mean
+              14
+
+    data%>%group_by(a)%>%summarize(avg=mean(b)).
+
+    It means, first make groups attrributes in data. and If we summarize that,
+
+    the avg creates per each groups, and also the group column creates for separating data.
+
+
+    a       avg
+
+    4       15
+
+    2       19
+
+    3       27
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     
 
 
