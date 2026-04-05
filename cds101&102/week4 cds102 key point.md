@@ -101,8 +101,27 @@
 
     3       27
     
+    the case when the col size is over 1.
 
+    data%>%group_by(a)%>%summarize(avg=c(1,2)) (just fix avg column as (1,2) for convenience.)
 
+    <result>
+
+    a       avg
+
+    4        1
+
+    4        2
+
+    2        1
+
+    2        2
+
+    3        1
+
+    3        2
+
+    
 
 
 
