@@ -84,7 +84,100 @@
 
       So, the result is : n=1, Y=2, n=2, Y=2,3 , n=3, Y=2,3,4
 
-      IF syntax is a 
+      IF syntax is conditional statement made by their logical expression.
+
+      the syntax is like this.
+
+      if(logical expression)
+
+      context
+
+      end
+
+      logical expression should have the logical result(TRUE/FALSE) if the result is TRUE, the syntax is executed.
+
+      There are many operators in Matlab. == ~=, <, > >= <=, &&, || ~ etc.
+
+      The operator precedence is like this. () -> Arithmetic(^ -> * / -> +,-) -> Relational -> Logical(~ -> && -> ||)...
+
+      If the procedence is same, calculate from left to right.
+
+      If else -> if the 'if' condition is not satisfied, else syntax is executed.
+
+      They exist in same location.
+
+      if()
+      
+      else()
+      
+      end
+
+      if elseif elseif...... it is also set. If even one condition is satisfied, the other conditions are not considered.
+
+      They also exist in same location.
+
+      if()
+      
+      elseif()
+      
+      elseif()
+      
+      end
+
+      if elseif elseif else : it is also set... else is a final destination.
+
+      They also exist in same location.
+
+      if()
+
+      elseif()
+
+      elseif()
+
+      else()
+
+      end
+
+      nest if is possible like this
+
+      if()
+
+        if()
+
+          end
+
+      end
+
+
+      but is is impossible to insert two if in one end.
+
+      if()
+
+      if()    -> impossible.
+
+      end     
+
+
+      ex)
+
+      c=1;
+
+      for a=1:3  
+        if(a<=a^2)
+             c=c+1
+    end
+
+    c   
+
+    result : c->4
+
+
+
+      
+
+      
+
+      
 
       
 
