@@ -60,9 +60,57 @@
 
     This is just one calculation. To mulitiply, we should calculate many times for finishing one commmand.
 
-    When using external bus, it is same. They also use handshake and tri-sate buffer, and also communicate with registers.
+    When using external bus, it is same with internal bus. They also use handshake and tri-sate buffer, and also communicate with registers.
 
     But, handshake line and interrupt line don't need any tri-sate buffers like previous ones.
+
+    DMA is Direct memory access. And recently, it is occured by each controllers. They have their own DMA registers. And use it.
+
+    <Memory -> controller>
+
+    First, CPU just informs specific address, count number, and control singal to controller through usual bus.
+
+    Controller saves it in their registers, and if it is ready, they ask unlocking of tri-state buffer to ram circuit.
+
+    In controller, they have four registers about DMA. address, data, control, and count. The special thing is count.
+
+    DMA is repeating until the count will be 0. (and if it is 32 bit computer, the each unit per loading is 32bits)
+
+    If the tri-state buffer is unlocking, they use dma address bus, data bus and control bus for loading them.
+
+    the process is dominated by them until it it done because dma circuit is shared circuit with other contorllers.
+
+    The data which they load is continious in RAM. And after finishing them, they call interrupt, and the next step is occured.
+
+    <Controller -> Memory>
+
+    It is simillar with previous one. As cpu already knows the size of data, cpu finds the continious parts on RAM.
+
+    And it is loaded with same process with previous one.
+
+    There are 3 special units in Computers.
+
+    Arbiter controlls the order of asks of that their tri-state buffer is unlock.
+
+    This unit is also just composed of logic gate, and it finally gives the signal which can unlock the tri-state buffer or unlock directly(DMA).
+
+    APIC controlls the order of Interrupt and select
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
     
 
