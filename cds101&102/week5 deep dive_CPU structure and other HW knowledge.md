@@ -135,6 +135,62 @@
 
 ## Real process in CPU below abstraction
 
+
+    In CPU, there are mechanical processes which we can't know if we only use upper programs.
+
+    First, there are four processes. Fetch -> Decode -> Execute -> Write Back.
+
+    Although write back doesn't exist in some commands, it should occupy as a process for consistency.
+
+    Recently, many cpu use pipelining. It means executing four processes above them simultaneously.
+
+    But, all process should be done for going to the next step.
+
+    In computer, there are two command types. RISC, CISC.
+
+    RISC is simple commands. They have same-size command. and the form is also similar with each other.
+
+    So time-delay is few.
+
+    But CISC is not simple commands. They have different size command, and the form & executing style are different each other.
+
+    This makes time-delay than RISC.
+
+    Also, many data structure such as Queue, Tree, Graph etc don't exist really in RAM.
+
+    They just abstracted theory for computing users.
+
+    When we analyze PE file, there are just many commands based on their registers, memory address etc.
+
+    There are not graph in RAM.
+
+    Computer command is composed of opcode and operand. Opcode means just the command type, and operand is factor.
+
+    In CISC, operand can be diverse forms. and operand can be multitude. (the numbeer of operand can be 1,2,3...)
+
+    So, the decoding circuit needs in decoding process. 
+
+    Although there are many commands in CPU, but they are mostly related to low-level command(register,memory address etc.) Not advanced command.
+
+    The only thing which CPU reflects for data structure is stack. There are commands in CPU (push, pop) for adding and deleting data in stack.
+
+    But, this is also just composed of RAM and register called stack pointer. In stack pointer, CPU just save the top address. 
+
+    And we change that per 4(if the computer is 32 bits computer) if the push and pop is occured.
+
+    But, this is just register! not real stack! So we can extract bottom data immediately with another way.
+
+    It is easy. First, find the data address which you want to find, and just extract them. And lastly, if you change the stack pointer value
+
+    considering changed one, it is done! Finally, I want to emphasize that computer base is just simple than preoccupation. Thank you.
+
+    
+
+
+
+
+
+
     
 
 
