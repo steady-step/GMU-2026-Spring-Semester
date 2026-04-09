@@ -1,5 +1,7 @@
 # Week 5 deep dive
 
+## CPU structure etc.
+
     CPU is just composed of many logic gate.
 
     The logic gate makes the specific command and CPU mode.
@@ -94,7 +96,50 @@
 
     This unit is also just composed of logic gate, and it finally gives the signal which can unlock the tri-state buffer or unlock directly(DMA).
 
-    APIC controlls the order of Interrupt and select
+    APIC controlls the order of Interrupt and select what CPU is assinged to this ISR signal.
+
+    This is also composed of just logic gate, and The detailed concept will introduce in multiple CPU steps.
+
+    Timer is to make timer-interrupt, and it is also assigned with each CPU.
+
+    This interrupt has role to change process periodically. 
+
+    This 3 module can change the mode through MMIO access.
+
+    Interrupt is composed of software interrupt, zero division interrupt, external line interrupt etc.
+
+    Except external line interrupt, they don't use APIC. In cpu, it just make interrupt, and occur stack back-up and automatic address change.
+
+    After finishing that, previous condition is recovred due to stack-backup. But, external line uses APIC. APIC controls the order of that, 
+
+    and make signals on their line to CPU. Their processes are different. 
+
+    Now, I will introduce multiple CPU.
+
+    Multiple is possible and it is used for many computers.
+
+    Presenting the process, in the early stage, Top CPU exists. 
+
+    Top CPU executes Firm ware automatically (HW) and bootloader and kernel(SW)
+
+    But, After uploading kernel, Top CPU turns on their timer and assignes CPU number for each ISR line for efficiency through MMIO.
+
+    Through this, if MMIO line 35 is called, and CPU 5 is assigned, CPU 5 just gives this. Other CPU ignores.
+
+    And, Top CPU makes interrupt for reseting. After this, the address is formed, and through this, CPU can fill their registers.
+
+    Next, Turn on MMU and Timer... Timer interrupt starts. and If the timer interrupt occured, the data is back up on RAM, and
+
+    ISR code is executed. Schedular can controll schedule through given CPU number information. 
+    
+
+## Real process in CPU below abstraction
+
+    
+
+
+
+    
 
 
 
