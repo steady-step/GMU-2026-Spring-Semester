@@ -4,19 +4,23 @@ Week5 is mid-term week. Although there are no additional chapters in this week, 
 
 ## Confusing points
 
-    Matlab is made for calculating matrix.
+    Matlab' merit is it can do matrix calculation.
 
-    The structure which has demension over 2 is just considered as array.
+    The structure which has demension over 2 is just considered as array not matrix.
     
-    So, they can not use A*B, A/B, A^B, etc. (only use A+B,A-B,A.*B...)
+    So, they can not use A*B, A/B, A^B, etc. (only use A+B,A-B,A.*B...) and A+B is just element calculation.
 
-    The calculation which is occured in structure which has demension 1 or 2 is considered as matrix one.
+    But, the calculation which is occured in structure which has demension 1 or 2 is considered as matrix one.
 
-    A+B is matrix calculation although it looks same with element calculation.
+    Therefore, A+B is matrix calculation although it looks same with element calculation. and 2 demension one can use a*b a/b etc...
 
     The singal A.+B is impossible. But, A.*3,A*3 both are possible.
 
-    Constant multiplication and division just calculate like element calculation even if you don't use dot.
+    It means a*3 is considered as a.*3 even if you don't use dot.
+
+    Also, in array calculation, extension and element caluclation are occured naturally.
+
+    But, in matrix calculation, extension is only occured in addition, subtraction, element calculation and constant multiplication and division.
 
     in R, ':' makes row vector and if we make empty box when indexing, it means selecting all.
 
