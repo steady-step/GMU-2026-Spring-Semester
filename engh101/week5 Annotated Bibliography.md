@@ -168,9 +168,9 @@ Source Link : https://doi.org/10.1371/journal.pone.0315270
 
 **3. APA reference**
 
-Javed, K., & Li, J. (2025). Bias in adjudication: Investigating the impact of artificial intelligence, media, f
+Javed, K., & Li, J. (2025). Bias in adjudication: Investigating the impact of artificial intelligence, media,
 
-inancial and legal institutions in pursuit of social justice. PLoS ONE, 20(1), 1-39. https://doi.org/10.1371/journal.pone.0315270
+financial and legal institutions in pursuit of social justice. PLoS ONE, 20(1), 1-39. https://doi.org/10.1371/journal.pone.0315270
 
 **4. Rhetorical elements analysis**
 
