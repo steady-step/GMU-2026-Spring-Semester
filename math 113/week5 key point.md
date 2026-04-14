@@ -29,7 +29,61 @@
 
     As f'(0)=1, (e^x)' = e^x..
 
+ <img src="week5_file1.png" width="200">
+
     if f and g are differentiable, (fg)'=fg'+gf'
+
+    we assume u=f(x), v=g(x) 
+
+    Δuv = (u+Δu)(v+Δv)-uv= uΔv + vΔu +ΔvΔu
+
+    lim Δx->0 Δuv/Δx = lim Δx->0 (uΔv/Δx + vΔu/Δx + ΔuΔv/Δx)
+
+    (∵v and u are diffentiable, by limit law)
+
+    (ulimΔx->0 Δv/Δx) +(vlim Δx->0 Δu/Δx) + (Δu) * (lim Δx->0 Δv/Δx)
+
+    = u'v + v'u + 0 x v' = u'v + v'u
+
+    if f and g are diffentiable,
+
+    (f/g)' = gf'-fg'/g^2
+
+    proof :  u=f(x), v=g(x), Δ(u/v) = (u+Δu)/(v+Δv)-u/v = (vΔu-uΔv)/(v(v+Δv))
+
+    (u/v)' = lim Δx->0 (u/v)/Δx = lim Δx->0 ((v * Δu/Δx) - (u * Δv/Δx))/v(v+Δv)
+
+    (∵v and u are diffentiable, by limit law)
+
+    = (v*u' - u*v')/v^2
+
+    f(x) and f'(x) are different function. Although f(x) is composition, f'(x) is not..
+
+    If we want to check the domain of f'(x), there are two steps.
+
+    1. exclude f(x) domain (It can calculate with composition function range, common range(when a+b,a-b,a*b...), presented range(x>5), denominator=0 etc...)
+
+    2. exclude f'(x) domain( it will be cusp or vertical tangent line)
+
+    I
+
+    
+           = 
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     
 
