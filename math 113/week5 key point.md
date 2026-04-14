@@ -65,7 +65,7 @@
 
     2. exclude f'(x) domain( it will be cusp or vertical tangent line)
 
-    I
+    
 
     
            = 
