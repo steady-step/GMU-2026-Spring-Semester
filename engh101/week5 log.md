@@ -1,4 +1,4 @@
-In week5, I will start to write diary in every weekday. 
+In week5, I will start to write diary from tuesday to friday.
 
 In diary, It will include everyday's research result for my research 2 project. 
 
