@@ -22,7 +22,7 @@ when interpreting them considering historical situation at the time of enactment
 
 Searching some sources, I finally found the most suitable source : Popular Originalism. 
 
-(https://digitalcommons.law.byu.edu/lawreview/vol50/iss6/6/외부 사이트로 링크입니다.) 
+(https://digitalcommons.law.byu.edu/lawreview/vol50/iss6/6/) 
 
 This source introduces recent judgement trends with examples. Through this example, 
 
