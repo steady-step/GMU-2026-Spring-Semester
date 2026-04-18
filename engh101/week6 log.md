@@ -4,7 +4,7 @@
 
     I will upload three files as follows.
 
-    1. Research question and main themes : introducing my specified research question and main themes for project 2.
+    1. Topic idea and main themes : introducing my specified topic idea and main themes for project 2.
 
     2. week6 diary :  the diary which I wrote in every weekdays for exploring theoretical basic for project 2.
 
