@@ -1,6 +1,8 @@
 # Week 7 diary
 
-4/16/2026 : Today, I deeply analyzed this article(Hart, H. L. A. (1958). 
+## 4/16/2026 
+
+Today, I deeply analyzed this article(Hart, H. L. A. (1958). 
 
 Positivism and the separation of law and morals. Harvard Law Review, 71(4), 593–629. https://doi.org/10.2307/1338225) 
 
@@ -20,7 +22,9 @@ I could know the strong evidence of separation thesis.
 
 Also, I expect this analysis will be good experience for doing matrix and other assignments. 
 
-4/17/2026 : Today, I deeply analyzed this article(Irwin, J. F., & Real, D. L. (2011). 
+## 4/17/2026 : 
+
+Today, I deeply analyzed this article(Irwin, J. F., & Real, D. L. (2011). 
 
 Unconscious influences on judicial decision-making: The illusion of objectivity. McGeorge Law Review, 42(1),
 
@@ -36,7 +40,9 @@ Through this analysis, I could know the strong evidence of necessity for replaci
 
 So, I will use this article as the reason why I recommend AI judge instead of human one for realizing ideal law. 
 
-4/18/2026 : Today, I deeply analyzed this article(Javed, K., & Li, J. (2025). Bias in adjudication: 
+## 4/18/2026 : 
+
+Today, I deeply analyzed this article(Javed, K., & Li, J. (2025). Bias in adjudication: 
 
 Investigating the impact of artificial intelligence, media, financial and legal institutions in pursuit of social justice. 
 
@@ -54,7 +60,9 @@ as AI judge is not perfect technology. Through this analysis, I could know AI ju
 
 So, I will use this article as the strong evidence about adoption of AI judge.
 
-4/19/2026 : Today, I performed comparison of previous 3 sources each other. First, Hart source is independent 
+## 4/19/2026 : 
+
+Today, I performed comparison of previous 3 sources each other. First, Hart source is independent 
 
 from other two sources. I can utilize this source as the context in my project about the evidence
 
