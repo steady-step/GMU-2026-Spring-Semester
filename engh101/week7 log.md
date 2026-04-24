@@ -22,7 +22,7 @@ and analyzed 7 sources ( 2 popular sources + 5 scholary sources) with pdf annota
 
 Also, I wrote week 7 diary from Thrusday to Sunday to record the process of analzing sources used in matrix.
 
-This week's final project is In-class Guiding Questions worksheet for two sources. 
+This week's final project is source comparision worksheet for two sources. 
 
 I selected two scholary sources and I compared these two deeply with diverse factors.
 
