@@ -34,4 +34,3 @@ Step 4: Turn your idea into a researchable question.
 
 My research question: What is the essence of law, and is AI judge right solution for realizing ideal law in our society instead of human judge?
 
-**
