@@ -4,6 +4,8 @@
 
     Activity : Mid-term test
 
+    (About my project detail)
+
 
 ## Thursday
 
