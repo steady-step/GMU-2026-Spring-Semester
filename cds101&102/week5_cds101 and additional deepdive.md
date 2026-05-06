@@ -128,6 +128,62 @@
 
     length 1 vector can omit c().
 
+    tidyverse <- we can use other package(ggplot2,dplyr etc) through calling this.
+
+    read_csv(function from private package)
+
+    select(data,a:b) -> we can use : specially in dplyr for making range of colnames.
+
+    arrange -> arrnage data through character or number (Ascending order or Descending order)
+
+    arrange(data,col1,col2) -> first arrange to col1, and next arrnage to col2.
+
+    arrange(desc(col1)) -> descending order
+
+    when we use sum or mean etc. na.rm is basically FALSE.
+
+    but if we want to exclude na when calculating, we set it to TRUE.
+
+    ex) mean(data,na.rm=TRUE)
+
+    summraize(also we can use it to summraise) has .groups argument.
+
+    Basic condition is "drop_last"
+
+    it means we just delete only last group of previous one in this new dataframe.
+
+    if we want to delete it, we can use like this -> .groups="drop"
+
+    .groups="keep" -> just keep,
+
+    .groups="rowwise" -> make all row as each group.
+
+    pivot_wider -> tidyr package (we can call it through calling tidyverse), it is only for dataframe.
+
+    pivot means central axis but, in basektball, pivoting means turning our body making one legs as pivot.
+
+    So, pivot in data science is first, fix other column, second, turn the data.
+
+    pivot_wider(data,names_from,values_from)
+
+    names_from is columns where we want to change its value through colnames.
+
+    such as a column has 2000,2001,2002,2003.... 2000, 2001, 2002, 2003 becomes new column next to fixed column.
+
+    second, values_from
+
+    
+
+
+
+    
+
+
+
+
+
+    
+
     
 
 
