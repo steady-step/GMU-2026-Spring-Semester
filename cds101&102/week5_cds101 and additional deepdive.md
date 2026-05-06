@@ -38,7 +38,7 @@
 
              if the length is same with original data, just extend each data with the number of each element of times.
 
-    length out -> make final result. if the result is bigger than length out value, cut it.
+    length.out -> make final result. if the result is bigger than length out value, cut it.
 
                   if it is smaller than length out value, extend it.
 
@@ -92,11 +92,11 @@
 
     head(data,-3) -> exclude the bottom 3 rows.
 
-    tails(data) -> the number of basic prining row is 6.
+    tail(data) -> the number of basic prining row is 6.
 
-    tails(data,3) -> print the bottom 3 rows.
+    tail(data,3) -> print the bottom 3 rows.
 
-    tails(data,-3) -> exclude the top 3 rows.
+    tail(data,-3) -> exclude the top 3 rows.
 
     [] -> original form
 
