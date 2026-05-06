@@ -170,7 +170,41 @@
 
     such as a column has 2000,2001,2002,2003.... 2000, 2001, 2002, 2003 becomes new column next to fixed column.
 
-    second, values_from
+    second, values_from is data which we want to fill in new column.
+
+    so, function fill the blanks considering fixed column. many data may be na as the value doesn't exist.
+
+    also, if the value is overlapped in same blank, the column which has overlapped blank becomes list for making it one element.
+
+    * (list(c(1,2)) has only one element.
+
+    if the number of names_from column is over 1, the overlapped column is made like this -> 2001_james, 2001_cds 2001_mason 2002_usa
+
+    also, if the number of values_from column is over 1, also, the overlapped column is made like this -> data1_2001_james....
+
+    ex) pivot_wider(data,names_from=a,values_from=b)
+
+    rownames, colnames is originally character (colnames vector's type is character)
+
+    if we use colnames in [], we can use it through "" or ``.
+
+    behind of $, "" and `` are optional, but if the colnames is number(ex:100) we should use "" or `` as number can not be located behind of $.
+
+    ex) a$"100" a$`100`
+
+    in [[]], "" or `` is essential.
+
+    In most functions located in private package, "" or `` is optional but it is not always true.
+
+    in select function, select(data,2000) (2000 is colnames) doesn't print 2000 columns.
+
+    it just print 2000st column. So, we should use "" or `` 
+
+    ex) select(data,"2000") or select(data,`2000`)
+
+    
+
+    
 
     
 
