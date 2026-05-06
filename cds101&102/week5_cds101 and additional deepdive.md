@@ -24,7 +24,7 @@
 
     d <- which(is.na(df$age))
 
-    new <= df[-d,]
+    new <- df[-d,]
 
     In function, arguments have order. but, if we wrtie the specific name, we don't need to keep order.
 
