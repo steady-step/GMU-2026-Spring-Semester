@@ -202,6 +202,57 @@
 
     ex) select(data,"2000") or select(data,`2000`)
 
+## libary and package
+
+    R is interpreting language. So, r engine uses package everytime they execute programs.
+
+    When we analyze package folder, there are in libary folder. So we call the folder which contains all package folder as library.
+
+    Also, in libary folder, there are own package folders. in package folders, there are files for executing. 
+    
+    (also it contains some lists of other packages which they want to upload simulatenouly with this package.
+
+    So, package is book. and libary is bookshelf.
+
+    but, in C, the linking machine code called as library. it doesn't mean bookshelf folder.
+
+    library(a) -> upload all a package code and save it. We can use that package's code whenever you want to execute.
+
+    a::book() -> use book function of a package. r engince just find only a function code (not upload all package) and doesnt' save it.
+
+    So, if we want to use it again, we also should use a:: again.
+
+    tidyverse() -> it contains their own function but the main purpose is to upload other related package.
+
+    %>%(pipe) is also from other package. but tidyverse call another package which contains %>% for convience.
+
+    %>% -> can use in all function.
+
+    |> -> base r symbol. This symbol is developed as pipe has gotten popularity.
+    
+    the role is same with pipe and it can use in all functions including private ones.
+
+    Package list which is uploaded by tidyverse
+
+    readr -> upload external file. (ex:read_csv)
+
+    tidyr -> data reshaping. (ex: pivot_wider..)
+
+    dplyr -> data processing and wrangling. (ex: mutate,filter, summarzie etc.)
+
+    ggplot2 -> data visualization
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
     
 
     
