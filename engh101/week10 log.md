@@ -8,6 +8,6 @@
 
     have a class
 
-    Also, there are assignments in week10 about project 2's rough draft and first draft.
+    Also, there are assignments in week10 about project 2's rough draft.
 
     I will upload these two files.
