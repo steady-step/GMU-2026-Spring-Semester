@@ -1,4 +1,4 @@
-# Week 10_rough draft
+# Week 10_first draft
 
 ## The limitation of natural law theory for realizing ideal law
 
