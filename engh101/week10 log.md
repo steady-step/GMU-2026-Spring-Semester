@@ -14,7 +14,7 @@
 
     I learned CARS model and citation(APA and MLA)
 
-    First, CARS model is the best sturcture for making logical instruction.
+    First, CARS model is the best sturcture for making logical introduction.
 
     (Creating A Research Space)
 
