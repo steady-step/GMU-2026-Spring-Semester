@@ -8,6 +8,12 @@
 
     Second, I will upload second draft(about 1200~1300 words) unitl Sunday.
 
+    My final version will contain introduction(based on CARS model), four body paragraphs and conclusion.
+
+    It will be about 2000 words.
+
+    First draft will contain first and second body paragrpah, and second one will add introduction and conclusion.
+
 ## Thursday
 
     have a class
