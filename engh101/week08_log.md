@@ -1,6 +1,6 @@
 # Week 8
 
-    In week 8, engh 101 class was replaced by individual meetings.
+    In week 8, engh 101 class was replaced to individual meetings.
 
     This meeting was set for discussing my progress of project and synthesis matrix with professor.
 
@@ -23,7 +23,9 @@
     
     However, following the professor's advice, I have decided to focus on AI Judges as my main theme building up the narrative
     
-    from the essence of law to the problem made by human judges, and finally to AI judges."
+    from the essence of law to the problem made by human judges, and finally to evaluation of AI judges."
+
+ **My final topic : Is AI judge appropriate alternative for realizing the essence of law overcoming human judge's inherent limitation?**
 
     
 
