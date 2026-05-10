@@ -33,47 +33,59 @@
 
 **Research Question**
 
-    Reserach Question :  Is AI judge appropriate alternative for realizing the essence of law overcoming human judge's inherent limitation?
+Reserach Question 
 
-    Research Evidence : Recently, public's ditrust in judiciary has been increasing by media reporting on controversial judicial outcomes.
+    Is AI judge appropriate alternative for realizing the essence of law overcoming human judge's inherent limitation?
 
-                        In this situation, AI judge has risen as new alternative for resolving this problem. 
+Research Evidence 
 
-                        So, purpose of thie project is to analyze whether AI judge can be effective alternative instead of human judge.
+    Recently, public's ditrust in judiciary has been increasing by media reporting on controversial judicial outcomes.
 
-    Target Audience : Legal professionals, policy makers, public who are interested in law
+    In this situation, AI judge has risen as new alternative for resolving this problem. 
 
-    key concept of synthesis matirx : legal postivism, limit of natural law, origianlism, evaluation of AI judge, 
+    So, purpose of thie project is to analyze whether AI judge can be effective alternative instead of human judge.
 
-                                      the problem caused by human judge.
-
-    Main result of sources in synthesis matrix -> refer to week07_synthesis matrix.md
-
-    Comparision between sources in synthesis matrix -> refer to week07_synthesis matrix.md, week07 diary.md, and week08 diary.md
-
-    Pattern or trend in sources -> theoretical foundation -> pointing out human judge's problem -> evaluation of AI judge
-
-    The topics which you consider as the most important part. -> human judge which distorts the essence of law and AI judge as alternatives.
-
-    The limitation or empty space from source's discussion : how to monitor AI judge not to be misused by the certain groups,
-
-                                                             how to how we can decrease rejective emotion about AI’s judgement etc.
-
-    The conclusion gotten from this research project -> AI judge is inevitable trend of the times and it can be effective alternative instead of human one.
-
+Target Audience 
     
+    Legal professionals, policy makers, public who are interested in law
 
+Key concept of synthesis matirx 
+
+    legal postivism, limit of natural law, origianlism, evaluation of AI judge, the problem caused by human judge.
+
+Main result of sources in synthesis matrix
+
+    refer to week07_synthesis matrix.md
+
+Comparision between sources in synthesis matrix 
+
+    refer to week07_synthesis matrix.md, week07 diary.md, and week08 diary.md
+
+Pattern or trend in sources 
+
+    theoretical foundation -> pointing out human judge's problem -> evaluation of AI judge
+
+The topics which you consider as the most important part. 
     
+    human judge which distorts the essence of law and AI judge as alternatives.
 
-    
+ The limitation or empty space from source's discussion 
+ 
+    how to monitor AI judge not to be misused by the certain groups,
 
+    how to how we can decrease rejective emotion about AI’s judgement etc.
 
-                        
+The conclusion gotten from this research project 
+
+    AI judge is inevitable trend of the times and it can be effective alternative instead of human one.
+
     
 
 ## Thursday
 
-    No class.
+    No class. I will start to write main research project.
+
+    The first draft will be uploaded in week 10.
 
 
 **APA reference**
