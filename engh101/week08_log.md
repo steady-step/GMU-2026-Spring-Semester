@@ -4,6 +4,10 @@
 
     This meeting was set for discussing my progress of project and synthesis matrix with professor.
 
+    Also, week8 diary will be uploaded for evaluating sources used in syenthesis matrix.
+
+    This will be my final diary for this class. (diary assignment is from week5 to week8.)
+
     So, I will just upload only week8 diary and apply professor's feedback for making my project better.
 
 
