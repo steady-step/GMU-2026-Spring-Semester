@@ -41,7 +41,7 @@
     and it is far from essence of law. Through these, we can know necessity of new theoretical approach for realizing ideal law.
 
 
-## Contribution of legal positivism for realizing ideal law
+## Legal postivism, the perfect theory through ideal law
 
     Another theory for explaining the essence of law is legal positivism. 
     
