@@ -21,9 +21,9 @@
 
     Previously, I made broad topics including the essence of law and the evaluation of AI judges. 
     
-    However, following the professor's advice, I have decided to focus on AI Judges as my main theme building up the narrative
-    
-    from the essence of law to the problem made by human judges, and finally to evaluation of AI judges."
+    However, following the professor's advice, I have decided to focus on AI Judges as my main theme building up narrative from
+
+    the essence of law to problem made by human judges.
 
  **My final topic : Is AI judge appropriate alternative for realizing the essence of law overcoming human judge's inherent limitation?**
 
