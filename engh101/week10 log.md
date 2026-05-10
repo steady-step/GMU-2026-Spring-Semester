@@ -2,14 +2,26 @@
 
 ## Tuesday 
 
-    no class
+    no class. I am writing main project paper.
+
+    First, I will upload first draft(about 800 words) until Thursday.
+
+    Second, I will upload second draft(about 1200~1300 words) unitl Sunday.
 
 ## Thursday
 
     have a class
 
-    Also, there are assignments in week10 about project 2's first rough draft(the first and second body paragrpah) 
+    I learned CARS model and citation(APA and MLA)
 
-    and second rough draft.
+    First, CARS model is the best sturcture for making logical instruction.
 
-    I will upload these two files.
+    (Creating A Research Space)
+
+    1. Establishing a Territory : Explain how important and meaningful this topic is.
+
+    2. Establishing a Niche : Point out gap or problem which is lack for current situation.
+
+    3. Occupying the Niche : declare how my reserach fills this Niche.
+
+    APA & MLA -> They are all own decided form for citation. In text citation form and Citation form in referecne sector are also each different.
