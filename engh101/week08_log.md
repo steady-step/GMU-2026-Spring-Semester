@@ -4,7 +4,7 @@
 
     This meeting was set for discussing my progress of project and synthesis matrix with professor.
 
-    So, I will not upload additional post in this week and just apply professor's feedback for making my project better.
+    So, I will just upload only week8 diary and apply professor's feedback for making my project better.
 
 
 ## Individual meeting
