@@ -2,7 +2,7 @@
 
 ## Definiton of limit
 <img src="week2_file3.png" width="250">
-  We usually think limit is just a situation. But, it is false. Limit is a contant. <br>
+  We usually think limit is just a situation. But, it is false. Limit is a constant. <br>
   
     We define f(x)->L, as x->a like these. 
       1. Make open interval except a (a-r,a),(a,a+r) 
@@ -13,7 +13,7 @@
     Also, if x->∞ we define L like these. 
      1. Suppose L is the value of limit. 
      2. Make random error for verifying whether L is the value of limit. 
-     3. if L is 3, and error is 0.01, we should fine M, which means all f(x) is range from 2.99 to 3.01 in x>M. 
+     3. if L is 3, and error is 0.01, we should find M, which means all f(x) is range from 2.99 to 3.01 in x>M. 
      4. Find M. if we can find all M with all error, L is the real value of limit. 
 
 ## definiton of infinity
@@ -28,9 +28,9 @@
 
     For any positive number M>0, all real numbers x such that x>M.
 
-    Therefore, printed infinity can have nagative number for a moment,
+    Therefore, printed infinity can have negative number for a moment,
 
-    x->infinity can not have nagative number.
+    x->infinity can not have negative number.
 
     
 
