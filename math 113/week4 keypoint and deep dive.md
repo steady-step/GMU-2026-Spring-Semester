@@ -48,13 +48,19 @@
 
     In the closed interval, the interval is recognized as continuity only if the both end points are either continious.
 
-    the signal fo derivative. -> f'(x), y', dy/dx(it means delta y ->0, and delta x ->0), df/dx, D f(x), Dxf(x) (based on x)
+    the signal of derivative. -> f'(x), y', dy/dx, df/dx, D f(x), Dxf(x) (based on x)
 
-    Especially, dy/dx is so important. Right variable means domain, and left variable means range.
+    Especially, dy/dx is so important. dx -> infinitesimal change(consistent) of x assuming derivative is done in function.
 
-    Also, this expression can use chain rule. (dy/dt * dt/dx) = dy/dx, and if the derivative is applied for two times,
+    dy -> infinitesimal change of y (different per point), therefore, dy/dx = 3x^2 ( if function = x^3)
 
-    we use like this : d(dy/dx)/dx = d^2y/dx^2.
+    dy = dx * 3x^2 ( dx is consistent)
+
+    Also, df(x)/dx = 3x^2 is possible, 
+
+    Leibniz notation can represent like real multiplication.  (d/dx f(x) = 3x^2)
+
+    and second derivative notation is d^2y/dx^2, d^2y/dx^2=6x, dx^2 * 6x = d^2y. (dx^2 -> first derivate's infinitesimal change of x)
 
     If the fuction can differentiate at the interval, the fuction is continuous at the interval. (Reverse is not applied this law)
 
