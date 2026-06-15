@@ -31,6 +31,8 @@
       1. Suggest any positive 'M' for checking whether this condition is positive infinity.
       2. find the number 'a' which can make the number(L) over M. the number(L) can be evaluated like the same way which I used at defining f(x)->L, as x->a.
       3. If it exists 'a' even one with all M, this condition is positive infinity.
+
+      (This infinity condition con have negative number for a moment unlike x->infinity condition.)
     
 
 ## 4 conditions not to exist the value of limit.
