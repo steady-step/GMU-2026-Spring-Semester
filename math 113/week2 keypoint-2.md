@@ -19,7 +19,7 @@
 ## definiton of infinity
  Infinity is not number, it is condition.
 
-    We define positive infinity(printed) like these.
+    We define positive infinity of function value like these.
       1. Suggest any positive 'M' for checking whether this condition is positive infinity.
       2. find the number 'a' which can make the number(L) over M. the number(L) can be evaluated like the same way which I used at defining f(x)->L, as x->a.
       3. If it exists 'a' even one with all M, this condition is positive infinity.
@@ -28,7 +28,7 @@
 
     For any positive number M>0, all real numbers x such that x>M.
 
-    Therefore, printed infinity can have negative number for a moment,
+    Therefore, infinity of function value can have negative number for a moment,
 
     x->infinity can not have negative number.
 
