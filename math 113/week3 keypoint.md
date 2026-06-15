@@ -32,7 +32,7 @@
 
 ## Comparison Theorom 
 
-    If  lim x->a(or x->+ or - infinity) f(x) = L, lim x->a (or x->+ or - infinity) g(x) = M (the point of approach should be same each other)
+    If  lim x->a(or x->a+, a-, + or - infinity) f(x) = L, lim x->a (or x->a+, a-, + or - infinity) g(x) = M (the point of approach should be same each other)
 
     and f(x)<=g(x) or f(x)<g(x), 
     
@@ -47,7 +47,7 @@
 ## Squeeze Theorom
 
     
-    If  lim x->a(or x->+ or - infinity) f(x) = L, lim x->a (or x->+ or - infinity) g(x) = L (the point of approach should be same each other)
+    If  lim x->a(or x->a+, a-, + or - infinity) f(x) = L, lim x->a (or a+, a-, x->+ or - infinity) g(x) = L (the point of approach should be same each other)
 
     and f(x)<=h(x)<=g(x) or f(x)<h(x)<g(x) or f(x)<=h(x)<g(x) or f(x)<h(x)<=g(x) 
 
