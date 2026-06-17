@@ -10,7 +10,7 @@
       3. analyze all f(x) in the interval when compressing r to 0. 
       4. find the number when compressing. it is L. and it is constant. 
 
-    Also, if x->∞ we define L like these. 
+    Also, when x->∞ we define L like these. 
 
     the range of x-> infinity like this
 
