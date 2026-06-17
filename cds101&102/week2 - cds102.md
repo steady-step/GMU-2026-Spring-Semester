@@ -1,5 +1,7 @@
 # Week2 cds102 (R markdown)
 
+**Week 1 was just preparation week**
+
 ## R markdown structure
 
     1. YAML : Data Serialization Language. The common language for indicating form of file (ex: title, author, date, form of file(pdf) etc.)
