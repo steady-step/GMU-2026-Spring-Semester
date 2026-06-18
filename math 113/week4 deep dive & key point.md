@@ -107,9 +107,11 @@
 
     we can do like this.
 
-    In the tangent line at x=1, dy/dx?
+    ex)In the tangent line at x=1, dy/dx?
 
-    In the tange line at x=1, also in the line the x point is 3 and dx=3, dy=?
+    ex)Consider the tangent line at x=1 as a linear function. 
+    
+    If we fix a point on this line at x=3 and define dx=2, dy?
 
     d(f(x)) or dy -> Equation of Tangent Line's delta y , original function = f(x),
 
