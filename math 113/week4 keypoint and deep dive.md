@@ -50,6 +50,8 @@
 
     the signal of derivative. -> f'(x), y', dy/dx, df/dx, D f(x), Dxf(x) (based on x)
 
+    second derivative : f''(x), d^2y/dx^2
+
     If the fuction can differentiate at the interval, the fuction is continuous at the interval. (Reverse is not applied this law)
 
     3 reason why the function is impossible to differentiate
@@ -67,7 +69,7 @@
 
     But, this is not uncertain definition.
 
-    Although Leibniz made derivative and antiderivative signal,
+    Although Leibniz made derivative and integral signal,
 
     the meaning of those signal was uncertain.
 
@@ -128,6 +130,12 @@
     (x is tangent point)
 
     it is same signal with f''(x)
+
+    If we define dx and dy like this, derivative has no problem.
+
+    But, in integral, there are problems.
+
+    
 
     
 
