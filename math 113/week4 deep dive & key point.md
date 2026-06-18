@@ -109,7 +109,7 @@
 
     In the tangent line at x=1, dy/dx?
 
-    In the tange lint at x=1, also in x=3, dx=3, dy=?
+    In the tange line at x=1, also in the line the x point is 3 and dx=3, dy=?
 
     d(f(x)) or dy -> Equation of Tangent Line's delta y , original function = f(x),
 
