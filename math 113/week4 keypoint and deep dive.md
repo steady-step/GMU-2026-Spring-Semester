@@ -135,6 +135,41 @@
 
     But, in integral, there are problems.
 
+<img src="week4_file1.png" width="500">    
+
+
+    As shown in the image above,
+
+    changing that signals to integral and f(x) is appropriate.
+
+    But, delta x -> dx is not natural.
+
+    This is collusion of definition.
+
+    It is enough to accept this situation as just collusion of definition between Leifnitz and Later mathematicians.
+
+    Also, later mathematicians uses dx when using integration by substitution
+
+    although the definition is not appropriate for using it in ingeration.
+
+    In other words, the key point is
+
+    1. There is definiton collusion between Leifnitz and Later mathematicians. (We dealed with later one in previous section.)
+    
+    2. It is correct that we consider dx and dy definition as later definition.
+
+    3. By later defintion, derivative has no problem, but in integral, there are problems.
+
+    4. For resolving this, considering situation(Integral siginal has been used for a long time),
+
+       later mathmatician selected uses it origianlly, but make a new way (integration by substitution)
+
+       for using dx like it satifies the definition.
+
+       (integration by substitution is based on other math laws.
+
+    
+
     
 
     
