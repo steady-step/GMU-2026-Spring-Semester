@@ -182,7 +182,7 @@
 
        But, it uses a lot of CPU energy. So, cpu turns on the user process usually when the interrupt occurs to that process.
 
-       Although the process which is not given the result can also be executed by CPU, but by Scheduling algorkthms,
+       Although the process which is not given the result can also be executed by CPU, but by Scheduling algorithms,
 
        They have low priority for executing.
 
