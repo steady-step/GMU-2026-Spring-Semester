@@ -48,9 +48,7 @@
 
     This is just one calculation. To mulitiply, we should calculate many times for finishing one commmand.
 
-    When using external bus, it is same with internal bus. They also use handshake and tri-sate buffer, and also communicate with registers.
-
-    But, handshake line and interrupt line don't need any tri-sate buffers like previous ones.
+    When using external bus, it is same with internal bus. But, they use handshakes and interrupt each other.
 
     DMA is Direct memory access. And recently, it is occured by each controllers. They have their own DMA registers. And use it.
 
