@@ -142,11 +142,19 @@
 
     1. timer ISR -> it just checks the cpu's recent alive process for context switching.
 
-                    It doesn't add new process in CPU.
+                    It doesn't add new process in CPU. timer ISR is also internal ISR.
 
                     If Cpu wants to change process, context switiching occurs based on their stacks context.
 
-    2. internal ISR(such as page fault isr) -> just use ISR
+    2. internal ISR except timer(ex: page fault isr) -> just use ISR
+
+    Also, IPI is also internal ISR. If cpu 7 gets turn-off command by user program,
+
+    it send IPI message to all local apic including its one.
+
+    After getting this through local APIC, interrupt begins for turning off all programs.
+
+    Through this process -> all user process is finished -> ultimately, kernel is finihsed by first cpu which sent messages usually.
 
     3. system call -> just use ISR
 
