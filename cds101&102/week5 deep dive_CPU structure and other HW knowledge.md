@@ -12,14 +12,6 @@
 
     This element is the main component of CPU.
 
-    We can classify bus with 3 kinds.
-
-    First, non-shared bus (such as handshake, interrupt bus).
-
-    In this bus, there are not any worries for overlaping one over signals.
-
-    So, there don't need to use tri-state buffers.
-
     Tri state buffer is circuit which can make three condition. (0,1,Z)
 
     if enable=1, input : 0, output:0 , input: 1, ouput: 1
@@ -30,14 +22,12 @@
 
     It can protect data and circuit through cutting off V. But, in this case, they don't need.
 
-    Second, shared bus(printing out of register)
+    We can classfiy bus in two groups.
 
-    In this point, tri-state buffer is essential.
+    1. external bus -> after receiving handshake and interrupt signals, it controlls tri-state buffers each other.
 
-    tri staet buffer can cut off V, and it can protect circuit.
-
-    Last, shared bus(inputing point)
-
+    2. internal bus -> Control unit is king. it controlls tri state buffers in cpu.
+    
     In this point, tri-state buffer is not essential.
 
     This inputing point connects with registers. So, CU just controll the register condition with condition bit.
