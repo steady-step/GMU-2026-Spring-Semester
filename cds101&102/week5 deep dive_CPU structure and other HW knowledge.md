@@ -27,12 +27,8 @@
     1. external bus -> after receiving handshake and interrupt signals, it controlls tri-state buffers each other.
 
     2. internal bus -> Control unit is king. it controlls tri state buffers in cpu.
-    
-    In this point, tri-state buffer is not essential.
 
-    This inputing point connects with registers. So, CU just controll the register condition with condition bit.
-
-    CU just communicate with ALU and register with internal bus.
+    (CU just communicate with ALU and register with internal bus.)
 
     First, register is just combination of flip-flop. So, each flip-flop(1bit) connects with internal bus(1bit) through input point and output point.
 
