@@ -20,7 +20,7 @@
 
     1 means connecting with VCC(+), 0 means connecting with gnd-, and Z means cutting off V.
 
-    It can protect data and circuit through cutting off V. But, in this case, they don't need.
+    It can protect data and circuit through cutting off V. 
 
     We can classfiy bus in two groups.
 
