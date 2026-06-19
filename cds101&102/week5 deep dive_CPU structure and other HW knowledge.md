@@ -152,6 +152,22 @@
 
     4. I/O interrupt -> first, cpu is chosen by i/o apic.
 
+    ***Key point***
+
+    I/O apic -> select the cpu which deals with requested i/o interrupt.
+
+    Local apic -> select the local cpu's interrupt order.
+
+    it contains not only i.o interrupt but also internal isr.
+
+    By its command, the isr order of each local CPU is chosen.
+
+    But, system call is just considered as local command.
+
+    It is just back-up in stacks, and after finishing hw interrupt, it begins again.
+
+    ***
+
     if usb interrupt -> cpu 7,
 
     cpu 7 do roles for resolving this situation.
