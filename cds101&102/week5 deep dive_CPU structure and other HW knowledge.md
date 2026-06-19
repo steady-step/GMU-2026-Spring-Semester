@@ -1,6 +1,6 @@
 # Week 5 deep dive
 
-## CPU structure etc.
+## CPU structure & process
 
     CPU is just composed of many logic gate.
 
@@ -128,8 +128,64 @@
 
     Through this signal, other cpu turns on and changes from real mode to virtual mode based on finished kernel settings.
 
-    
-    
+    First, top CPU starts to make first user process and changes mode to ring3.
+
+    All cpus share kernel code, but we can know the difference per each CPU through command for checking its CPU number when entrying ISR code.
+
+    Usually, through Kernel, all cpu can know what cpu occupies user process and its cr3 point.
+
+    But, each CPU can view their stack for saving context of their all responsible user process.
+
+    It differs based on its cpu number by kernel code.
+
+    There are 4 types mostly related to ISR in mulitple CPU environment.
+
+    1. timer ISR -> it just checks the cpu's recent alive process for context switching.
+
+                    It doesn't add new process in CPU.
+
+                    If Cpu wants to change process, context switiching occurs based on their stacks context.
+
+    2. internal ISR(such as page fault isr) -> just use ISR
+
+    3. system call -> just use ISR
+
+    4. I/O interrupt -> first, cpu is chosen by i/o apic.
+
+    if usb interrupt -> cpu 7,
+
+    cpu 7 do roles for resolving this situation.
+
+     a. just request for creating new process -> becomes this cpu's process
+
+     b. request of other process managed by other CPU. -> just write its situation at kernel code
+
+        -> After the role CPU becomes isr code (kernel mode) -> it can know interrupr occurs.
+
+    There are 3 ways user process utlize kernel.
+
+    1. system call -> request for returning result to their address -> kernel returns the result.
+
+    2. IPC -> communiation between different user process
+
+       representative way -> shared memory -> it is the good way for communicating two pre-agreed processes before.
+
+       ex) a process -> create shared memory with key. (assign its user address to shared memory)
+
+           b process(already known that key) -> request for connecting each other 
+
+           -> kernel edits b's mapping table to access a's shared memory through using same real addreess value in both mapping tables.
+
+    3. the way user processes get interrupt responses.
+
+       Basicially, the way for checking whether the result is given is polling.(checking periodically)
+
+       But, it uses a lot of CPU energy. So, cpu turns on the user process usually when the interrupt occurs to that process.
+
+       Although the process which is not given the result can also be executed by CPU, but by Scheduling algorkthms,
+
+       They have low priority for executing.
+
 
 ## Real process in CPU below abstraction
 
