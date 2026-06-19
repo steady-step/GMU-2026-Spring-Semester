@@ -70,16 +70,49 @@
 
     Theoretically, it can change or read process's code, but it is restricted usually.
 
-    Process
 
     Virtual Kernel address is much higher than user process's one.
 
 
-      1. Real Address (Mapping table)
+    *** Memory location key point ***
 
-      2. Virtual Kernel Address (much higher)
 
-      3. User process Address(Virtaul, lower, independent per user process)
+    memory 
+
+    1. mapping table space (we should remember start point for cr3 register)
+
+    2. Virtaul address -> in mapping table real address value result, the index belongs to mapping table(real address) is excluded.
+
+        2-1. memery address
+
+            2-1-1. each user's virtaul address
+
+            2-1-2. Kernel virtual address
+
+        2-2.Rom
+
+        2-3. MMIO
+
+        (2-2 and 2-3 is also in mapping table, but its virtual address usually matches with real address.)
+
+        (They are not memomry. they just registers and rom)
+
+
+    3. ISR -> it executes based on virtual address.
+
+       internal interrupt -> it doesn't need to view IVT.
+
+       By the kinds of each interrupt, the address is automatically changed by HW, and we should make ISR code in that specific virtual address.
+
+       System call & I/O interrupt -> We can control its ISR code location through changing IVT.
+
+       IVT table location is already fixed, and through filling the ivt table,
+
+       the start point of ISR code is fixed.
+
+       Kernel just write the isr code based on automatic address start point our-made IVT table start point.
+
+    
 
 
 
