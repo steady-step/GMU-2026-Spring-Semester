@@ -22,6 +22,12 @@
 
     It can protect data and circuit through cutting off V. 
 
+    It is located in output circuit. (Not input circuit)
+
+    Because in input circuit, register can ignore all data.
+
+    But, in output circuit, for preventing collusion of voltage, it is essential.
+
     We can classfiy bus in two groups.
 
     1. external bus -> after receiving handshake and interrupt signals, it controlls tri-state buffers each other.
@@ -50,6 +56,8 @@
 
     When using external bus, it is same with internal bus. But, they use handshakes and interrupt each other.
 
+    ** For preventing affection of Combinational Circuit by computer bus, register do roles as buffer zone.
+
     DMA is Direct memory access. And recently, it is occured by each controllers. They have their own DMA registers. And use it.
 
     <Memory -> controller>
@@ -76,21 +84,31 @@
 
     There are 3 special units in Computers.
 
-    Arbiter controlls the order of asks of that their tri-state buffer is unlock.
+    Arbiter controlls the order of asks of that their tri-state buffer is unlock. 
 
-    This unit is also just composed of logic gate, and it finally gives the signal which can unlock the tri-state buffer or unlock directly(DMA).
+    This unit is also just composed of logic gate, it is only one in computer, and it doesn't have firmware or mmio.
+
+    Just logic gate.
 
     APIC controlls the order of Interrupt and select what CPU is assinged to this ISR signal.
 
-    This is also composed of just logic gate, and The detailed concept will introduce in multiple CPU steps.
+    Usually, there are two types. local APIC, i/o APIC. 
 
-    Timer is to make timer-interrupt, and it is also assigned with each CPU.
+    local is for making order of each CPU's interrupt. (per each CPU)
+
+    i/o APIC is to select which of CPUs the isr siginal will be assigned to. (only one)
+
+    ex) ISR 15 -> cpu no.7
+
+    In APIC, there are mmio, but no firmware.
+
+    Timer is to make timer-interrupt, and it is also assigned with each CPU in local APIC.
 
     This interrupt has role to change process periodically. 
 
-    This 3 module can change the mode through MMIO access.
+    Timer is also just circuit. It doesn't have any MMIO system or firmware.
 
-    Interrupt is composed of software interrupt, zero division interrupt, external line interrupt etc.
+    Interupt : external interrupt, internal interrupt, system call.
 
     Except external line interrupt, they don't use APIC. In cpu, it just make interrupt, and occur stack back-up and automatic address change.
 
@@ -100,21 +118,17 @@
 
     Now, I will introduce multiple CPU.
 
-    Multiple is possible and it is used for many computers.
+    First, after turning on the computer, top CPU executes.
 
-    Presenting the process, in the early stage, Top CPU exists. 
+    It completes kernel setting including mmu mapping table.
 
-    Top CPU executes Firm ware automatically (HW) and bootloader and kernel(SW)
+    Also, top cpu sets i/o apic and each local apic based on kernel code.
 
-    But, After uploading kernel, Top CPU turns on their timer and assignes CPU number for each ISR line for efficiency through MMIO.
+    After this process, it makes signal through its local apic.
 
-    Through this, if MMIO line 35 is called, and CPU 5 is assigned, CPU 5 just gives this. Other CPU ignores.
+    Through this signal, other cpu turns on and changes from real mode to virtual mode based on finished kernel settings.
 
-    And, Top CPU makes interrupt for reseting. After this, the address is formed, and through this, CPU can fill their registers.
-
-    Next, Turn on MMU and Timer... Timer interrupt starts. and If the timer interrupt occured, the data is back up on RAM, and
-
-    ISR code is executed. Schedular can controll schedule through given CPU number information. 
+    
     
 
 ## Real process in CPU below abstraction
@@ -128,7 +142,7 @@
 
     Recently, many cpu use pipelining. It means executing four processes above them simultaneously.
 
-    But, all process should be done for going to the next step.
+    But, all process should be done for going to the next step. 
 
     In computer, there are two command types. RISC, CISC.
 
