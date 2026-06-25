@@ -57,6 +57,27 @@ I will deal with Computer structure especially based on CPU, ISR, and  transisto
 
     In recent computer, the most of circuit tends to be located inside CPU.
 
+    Also, multiple CPU system has a limitation as many CPU can not use extenal bus simulatenously
+
+    as the bus is connected each other.
+
+    So, the situation when CPU 1 sends data to SATA controller and CPU 2 sends data to RAM simulatenously is impossible.
+
+    This is controlled by Arbitar.
+
+    But, considering the situation of usign external bus command, using multiple CPU is more efficient than single CPU.
+
+    Transistor has two roles mostly in computer.
+
+    1. binary calucation.
+
+    2. voltage amplification using 2 not gates.
+
+
+
+
+    
+
     
 
     
