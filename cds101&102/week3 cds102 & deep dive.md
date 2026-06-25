@@ -49,36 +49,6 @@
 
     qplot(x=a,data=b,binwidth=0.5,fill=d) -> the original histogram + the color is filled based on d.
 
-    Histogram -> Centered? -> Mode...(Mostly)
-
-    Peaks in histogram(Modality) -> increasing ->peak -> decreasing....
-
-    unimodal : one peak in histogram
-
-    bimodal : two peaks in histogram
-
-    multimodal : over three peaks in histogram
-
-    But, although it seems peak, all is not peak.
-
-    the condition for being peak.
-
-    1. the gap between peak and bottom should be deep enough.
-
-    2. the peak should be high enough.
-
-    3. it should be maintained although the binwidh is changed.
-
-    If the conditions are not fulfilled, it is just noise.
-
-    skewness: How biased are the datas.
-
-    Left skewed : The tail is located in left, and datas are biased with right direction. average < median < mode
-
-    Right skewed : The tail is located in right. and datas are biased with left direction. mode < median < average
-
-    Symmetric : Datas are not biased. average = median = mode
-
     qplot(x=a,y=b,data=c, facets = ~d) facets -> divide graph into many graphs. ~ means following this condition.
 
     qplot(x=a,y=b,data=c) -> scatter plot
