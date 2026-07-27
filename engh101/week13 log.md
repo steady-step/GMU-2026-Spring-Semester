@@ -6,7 +6,21 @@ So, in Tuesday and Thursday, editing activities were conducted.
 
 I will upload second final version of project 2.
 
-Below are professor's feedback.
+Considering professor's feedback, the points for editing are these.
+
+1. restructuring introduction part matched with CARS model
+
+2. applying hedging in essay
+
+3. dealing with counterargument
+
+4. complementing APA style especially in text citation
+
+5. complementing conclusion
+
+6. Applying Given-new contract.
+
+Below are all texts of professor's feedback.
 
 **Instructor feedback on Geon’s draft**
 
