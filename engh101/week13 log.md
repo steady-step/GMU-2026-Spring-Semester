@@ -22,6 +22,9 @@ Considering professor's feedback, the points for editing are these.
 
 Below are all texts of professor's feedback.
 
+
+
+
 **Instructor feedback on Geon’s draft**
 
 (Consider this evaluation for your revision.)
