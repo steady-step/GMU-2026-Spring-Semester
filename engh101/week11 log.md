@@ -8,7 +8,7 @@ In Week11, There are 1 major assignment and 2 class activities.
 
 The front of sentence -> Given information
 
-The behind of sentence -> New information
+The end of sentence -> New information
 
 **2. Phrasal Bank web sites**
 
