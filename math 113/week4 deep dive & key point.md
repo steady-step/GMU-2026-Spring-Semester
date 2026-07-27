@@ -4,7 +4,7 @@
 
      Algebraic expression of units is a way for representing units algebraically. ex) m/s^2, km/h
 
-     We utilize these with multiplication and divison. For understanding these, I recommend you to imagine v-t graph.
+     We utilize these with multiplication and divison. For understanding these, I recommend you to imagine v-t graph
 
      Multiplying another units means many values made by area under the graph line. It is different with function value.
 
