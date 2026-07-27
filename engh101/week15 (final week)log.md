@@ -1,6 +1,6 @@
 # Week 15 log
 
-In week 15, I will upload 4 files.
+In week 15, I will upload 3 files.
 
 1. Rhetorical Addendum : Explain project 3's rhetorical situation with Microsoft Word. (About 700 words)
 
@@ -10,4 +10,8 @@ In week 15, I will upload 4 files.
 
 3. Project 3 Prototype : Make visual-based project through selected genre.
 
-4. Final exam : The test question is released in advance. and I studied them before taking test.
+Also, I took final exam test on Thursday(last class). The questions in test are about CARS model, Given new contract and my project 2 & 3.
+
+## Course Conclusion
+
+This marks the official completion of my ENGH 101 course at GMU Korea. Thank you for visiting my portfolio!
