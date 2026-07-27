@@ -38,17 +38,17 @@ Also, guiding questions are changed and should be written in one paragraph smoot
 
 Next, considering professor's feedback, the points for editing are these.
 
-1. restructuring introduction part matched with CARS model
+    1. restructuring introduction part matched with CARS model
 
-2. applying hedging in essay
+    2. applying hedging in essay
 
-3. dealing with counterargument
+    3. dealing with counterargument
 
-4. complementing APA style especially in text citation
+    4. complementing APA style especially in text citation
 
-5. complementing conclusion
+    5. complementing conclusion
 
-6. Applying Given-new contract.
+    6. Applying Given-new contract.
 
 Below are all texts of professor's feedback.
 
