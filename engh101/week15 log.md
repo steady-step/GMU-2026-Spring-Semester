@@ -10,4 +10,4 @@ In week 15, I will upload 4 files.
 
 3. Project 3 Prototype : Make visual-based project through selected genre.
 
-4. Final exam : The question is already revealed before taking test. So, I will upload answer about question briefly.
+4. Final exam : The test question is released in advance. and I studied them before taking test.
