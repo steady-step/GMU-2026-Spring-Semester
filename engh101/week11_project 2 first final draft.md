@@ -277,80 +277,125 @@ popular originalism means integrating originalism and living constitutionalism
 which considers constitution as living organism and using successive filters when making judgement. 
 
 Of course, this theory also can be misused in reality.
-Another major criticism of Balkin's theory, made by Novak (2025), is that integrating theory can also
-be misused in reality. In other words, it warns integrating theory can be also misused like originalism.
-But, this problem can be resolved enough through AI technology as AI is based on only their
-algorithms. From this, we can know AI can resolve many problems which can’t resolve before. Like
-many theories which I mentioned before, their exists many realistic methods for realizing legal
-positivism. To make perfect algorithm, there will need numerous legal scholars for realizing the
-essence of law. Lastly, There need not only technical and academic perspectives but also social
-factors for making AI judge not be misused. Javed and Li (2025) deals with this context in detail. This
-thesis emphasizes our social role for making AI judge not be misused with simulation results from
-short term to long term when adopting AI judge. Simulation results indicate AI judge will be helpful for
-our society although it makes biased judgement in short-term. Also, it emphasizes necessity of
-monitoring by media and public as AI is not perfect technology. This is meaningful as it verify the
-possibility about AI judge will be helpful for our society and it suggests the necessity of our social role
-as monitor. In other words, we should always remember AI judge is not perfect technology and we
-should monitor them not to be misused by specific organization. Until now, we evaluated AI judge and
-presented the ways AI judge can be used for realizing essence of law from technical, academic and
-social perspectives. Overall, AI judge can be evaluated as the alternatives instead of human judge for
-realizing the essence of law and it can resolve many problems which can not resolve before. If
-technical, academic and social complement is achieved, I expect AI judge will be the best way for the
-realization of an ideal legal system.
-Conclusion
-Until now, I performed evaluation of AI judge as alternatives instead of human judge analyzing the
-essence of law and human judge’s problems such as inherent limitation like unconscious bias and
-adoption of incorrect application method about legal positivism when making judgements. AI judge is
-not perfect technology as I mentioned before in the previous section. But, I believe this can effectively
-resolve human judge’s problem, can be the best way for realizing the essence of law through making
-algorithm fitted with appropriate legal positivism application method such as Hart’s one and using AI’s
-inherent traits such as being mechanical and not emotional and can ultimately prevent social chaos
-and create a stable society which can guarantee our safety through resolving public’s distrust of
-judiciary by ensuring objective consistency in legal decisions. I also expect this essay will be
-motivation for other scholar’s research as there are many topics which should resolve and can not
-deal with in this essay such as how to monitor AI system not to be misused by certain groups, how we
-can decrease rejective emotion about AI’s judgement etc. Lastly, I sincerely hope my suggestion
-about adopting AI judge will be helpful towards the improvement of our society’s fairness and justice
+
+Another major criticism of Balkin's theory, made by Novak (2025), is that integrating theory 
+
+can also be misused in reality. In other words, it warns integrating theory can be also misused like originalism.
+
+But, this problem can be resolved enough through AI technology as AI is based on only their algorithms. 
+
+From this, we can know AI can resolve many problems which can’t resolve before. 
+
+Like many theories which I mentioned before, their exists many realistic methods for realizing legal positivism. 
+
+To make perfect algorithm, there will need numerous legal scholars for realizing the essence of law. 
+
+Lastly, There need not only technical and academic perspectives but also social factors for making AI judge not be misused. 
+
+Javed and Li (2025) deals with this context in detail. 
+
+This thesis emphasizes our social role for making AI judge not be misused with simulation results 
+
+from short term to long term when adopting AI judge. 
+
+Simulation results indicate AI judge will be helpful for our society although it makes biased judgement in short-term.
+
+Also, it emphasizes necessity of monitoring by media and public as AI is not perfect technology. 
+
+This is meaningful as it verify the possibility about AI judge will be helpful for our society 
+
+and it suggests the necessity of our social role as monitor.
+
+In other words, we should always remember AI judge is not perfect technology 
+
+and we should monitor them not to be misused by specific organization. 
+
+Until now, we evaluated AI judge and presented the ways AI judge can be used for realizing essence of law from technical,
+
+academic and social perspectives. Overall, AI judge can be evaluated as the alternatives instead of human judge 
+
+for realizing the essence of law and it can resolve many problems which can not resolve before. 
+
+If technical, academic and social complement is achieved, I expect AI judge will be the best way for the realization of an ideal legal system.
+
+**Conclusion**
+
+Until now, I performed evaluation of AI judge as alternatives instead of human judge analyzing
+
+the essence of law and human judge’s problems such as inherent limitation like unconscious bias
+
+and adoption of incorrect application method about legal positivism when making judgements. 
+
+AI judge is not perfect technology as I mentioned before in the previous section. 
+
+But, I believe this can effectively resolve human judge’s problem, can be the best way 
+
+for realizing the essence of law through making algorithm fitted with appropriate legal positivism application method
+
+such as Hart’s one and using AI’s inherent traits such as being mechanical and not emotional 
+
+and can ultimately prevent social chaos and create a stable society 
+
+which can guarantee our safety through resolving public’s distrust of judiciary by ensuring objective consistency in legal decisions. 
+
+I also expect this essay will be motivation for other scholar’s research as there are many topics 
+
+which should resolve and can not deal with in this essay such as how to monitor AI system not to be misused by certain groups,
+
+how we can decrease rejective emotion about AI’s judgement etc. Lastly, I sincerely hope 
+
+my suggestion about adopting AI judge will be helpful towards the improvement of our society’s fairness and justice
+
 of our legal system even if just a little.
-APA reference
-Irwin, J. F., & Real, D. L. (2011). Unconscious influences on judicial decision-making: The illusion of
-objectivity.
-McGeorge Law Review,
-42(1), 1-18. https://scholarlycommons.pacific.edu/mlr/vol42/iss1/1/
+
+**APA reference**
+
+Irwin, J. F., & Real, D. L. (2011). Unconscious influences on judicial decision-making: 
+The illusion of objectivity.
+McGeorge Law Review, 42(1), 1-18. https://scholarlycommons.pacific.edu/mlr/vol42/iss1/1/
+
 Hart, H. L. A. (1958). Positivism and the separation of law and morals.
-Harvard Law Review,
-71(4),
-593–629. https://doi.org/10.2307/1338225
+Harvard Law Review, 71(4), 593–629. https://doi.org/10.2307/1338225
+
 Javed, K., & Li, J. (2025). Bias in adjudication: Investigating the impact of artificial intelligence, media,
-financial and legal institutions in pursuit of social justice.
-PLoS ONE,
-20(1), 1-39.
-https://doi.org/10.1371/journal.pone.0315270
-Collins, P. M., Jr., & Komatsu, T. (2025, August 28).
-How the conservative Federalist Society will
+financial and legal institutions in pursuit of social justice. PLoS ONE, 20(1), 1-39. https://doi.org/10.1371/journal.pone.0315270
+
+Collins, P. M., Jr., & Komatsu, T. (2025, August 28). How the conservative Federalist Society will
 affect the Supreme Court for decades to come. The Conversation. https://theconversation.com/how-
 the-conservative-federalist-society-will-affect-the-supreme-court-for-decades-to-come-263397
+
 Wolf, T. (2024, May 13).
 Opposing originalism. Brennan Center for Justice.
 https://www.brennancenter.org/our-work/research-reports/opposing-originalism
-Donnelly, T. G. (2025). Popular Originalism.
-BYU Law Review,
-50(6), 1527-1582.
-https://digitalcommons.law.byu.edu/lawreview/vol50/iss6/6
+Donnelly, T. G. (2025).
+
+Popular Originalism. BYU Law Review,
+50(6), 1527-1582. https://digitalcommons.law.byu.edu/lawreview/vol50/iss6/6
+
 Novak, W. J. (2025). Some realism about originalism.
 Michigan Law Review,
 123(6), 1185-1207.
 https://repository.law.umich.edu/cgi/viewcontent.cgi?article=14175&context=mlr
+
+
 Guiding Post-Script Questions
+
 1-1 . Explained difficult legal term easily so that audience can understand certainly.
+
 1-2. Made body subheading certainly so that audience can understand topic easily.
+
 1-3. Repeated key topics so that audience can understand topic easily.
+
 2. The parts when I evaluated AI judge from technical, academic and social perspectives.
+   
 3. All words in this essay are over 2000 (about 2300).
+   
 4. I learned how to research helpful sources and how to write effective essay. Also, as a writer, I
 learned how to make a structure of writing.
+
 5. I will use synthesis matrix when researching sources for essay etc. Because I can know this way is
 so effective for organizing sources.
+
 6. I will exclude difficult legal term in go public and insert many graphic source for public. Because this
 activity’s key point is public’s understanding about this topic.
 
