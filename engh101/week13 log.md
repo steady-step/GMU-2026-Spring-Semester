@@ -6,33 +6,33 @@ So, in Tuesday and Thursday, editing activities were conducted.
 
 I will upload second final version of project 2.
 
-Also, guiding questions are changed and by rubric, guiding questions are written in one paragraph smoothly.
+Also, guiding questions are changed and should be written in one paragraph smoothly by changed assessment rubric.
 
 **Guiding questions**
 
-1. Briefly discuss at least three specific writing choices that you made because you were writing for a general academic audience.
+    1. Briefly discuss at least three specific writing choices that you made because you were writing for a general academic audience.
 
-2. What do you like best about your essay?
+    2. What do you like best about your essay?
    
-3. What concerns do you have about your essay? OR What do you want me to pay special attention to or comment on?
+    3. What concerns do you have about your essay? OR What do you want me to pay special attention to or comment on?
 
-4. Discuss what you learned from researching and writing this essay and the annotated bibliography and synthesis matrix:
+    4. Discuss what you learned from researching and writing this essay and the annotated bibliography and synthesis matrix:
 
-about writing, research, yourself as a writer.
+       about writing, research, yourself as a writer.
 
 
-5. What research and writing approaches and/or process steps would you use for another assignment?
+    5. What research and writing approaches and/or process steps would you use for another assignment?
 
-For what types of writing would you use them again, and why?
+       For what types of writing would you use them again, and why?
 
-6. If you have more time, what would you like to expand more in your research discussion?
+    6. If you have more time, what would you like to expand more in your research discussion?
 
    
-7. Describe the significance of your research to the society.
+    7. Describe the significance of your research to the society.
    
-8. How do AI tools help any part of your research process?
+    8. How do AI tools help any part of your research process?
 
-9. What might you rethink or do differently as you work on the Go Public Campaign, and why?
+    9. What might you rethink or do differently as you work on the Go Public Campaign, and why?
 
 
 
