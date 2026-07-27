@@ -8,5 +8,5 @@ Thursday : Warming up for project 3
 
 Also, consultation with Learning Assistant is conducted.
 
-Considering this week's activity, I will not upload additional post in this week. 
+Considering these week's activities, I will not upload additional post in this week. 
 
