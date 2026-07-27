@@ -2,7 +2,7 @@
 
 ### Can AI Judges Serve as a Viable Alternative to Human Judges by Mitigating Their Inherent Limitations? ###
 
-**Introduction**
+#### Introduction ####
 
 Recently, academic interest in how to resolve distrust in the judiciary and adopting AI judges 
 
@@ -32,7 +32,7 @@ First of all, the sections that follow present two influential theories which ex
 
 Ultimately, The findings of this study suggest that AI judges can serve as a viable alternative to human judges by mitigating their inherent limitations.
 
-**The limitation of natural law theory in realizing the essence of law**
+#### The limitation of natural law theory in realizing the essence of law ####
 
 First representative theory for explaining the essence of law is Natural law theory. 
 
@@ -73,7 +73,7 @@ and we can know it is far from essence of law. Through these arguments, we can k
 of new theoretical approach for realizing ideal law.
 
 
-**Legal Positivism : Upholding the Essence of Law through Objectivity**
+#### Legal Positivism : Upholding the Essence of Law through Objectivity
 
 Another theory for explaining the essence of law is legal positivism. 
 
@@ -173,7 +173,7 @@ In the section that follows, it will be argued that there are many problems in r
 
 although legal positivism is evaluated as the robust theory towards the essence of law.
 
-**The problems caused by human judges**
+#### The problems caused by human judges
 
 As mentioned in previous paragraph, there are many practical problems in reality 
 
@@ -273,7 +273,7 @@ In this situation, we can consider AI judges as a alternative. So, in the follow
 
 we will deal with the context about whether AI judges can be a viable alternative to human judges by mitigating their inherent limitations.
 
-**An Evaluation of AI Judges as a Potential Alternative to Human Judges**
+#### An Evaluation of AI Judges as a Potential Alternative to Human Judges
 
 As previously analyzed, human judges’ problems stem from human’s subjectivity. 
 
@@ -371,7 +371,7 @@ academic and social perspectives. Overall, AI judges can be evaluated as a viabl
 
 human judges by mitigating their inherent limitations if previous three factors were completed.
 
-**Conclusion**
+#### Conclusion
 
 Until now, I have evaluated the potential of AI judges as a viable alternative to human judges
 
@@ -399,7 +399,7 @@ Lastly, I sincerely hope my research about AI judges will be helpful towards the
 
 of our legal system even if just a little through that it becomes opportunity for discussing more about AI judges.
 
-**APA reference**
+#### APA reference
 
 Irwin, J. F., & Real, D. L. (2011). 
 Unconscious influences on judicial decision-making: The illusion of objectivity.
@@ -433,7 +433,7 @@ Michigan Law Review,
 123(6), 1185-1207.
 https://repository.law.umich.edu/cgi/viewcontent.cgi?article=14175&context=mlr
 
-**Post-Script Question**
+#### Post-Script Question
 
 In writing this post, I used three strategies to help readers understand the context more easily:
 
