@@ -1,89 +1,179 @@
 ## Project 2 second final version
 
-Can AI Judges Serve as a Viable Alternative to Human Judges
-by Mitigating Their Inherent Limitations?
-Introduction
-Recently, academic interest in how to resolve distrust in the judiciary and adopting AI judges as a
-new viable alternative in the field has increased as human judges’ problems have revealed to the
-public through media. But, analyzing previous research, previous one tends to only focus on their
-technical analysis such as their algorithmic bias. Admittedly, technical possibility is important for
-evaluating whether it can serve a viable alternative. However, considering the critical characteristics
-of the legal field where it will be applied, a comprehensive approach through legal philosophy is also
-equally important. Thus, this essay will analyze whether AI judges can serve as a viable alternative
-based on representative theories about the essence of law, natural law theory, and legal positivism.
-Also, it will present technical, theoretical, and social views for designing AI judges so that they
-become the method to come as close as possible to the essence of law by mitigating human judges’
-inherent limitations. First of all, the sections that follow present two influential theories which explain
-the essence of law. Ultimately, The findings of this study suggest that AI judges can serve as a viable
-alternative to human judges by mitigating their inherent limitations.
-The limitation of natural law theory in realizing the essence of law
-First representative theory for explaining the essence of law is Natural law theory. Main premise of
-this theory is to admit higher law than positive law. This higher law called as natural law. This theory
-became the basic evidence for punishing Nazi war criminals in Nuremberg Trials after World War ∥.
-Ultimately, this theory connects to many opinions about integrating morality and law. Although this
-assertion seems to be principled and moral, there are serious problems in this. The main weakness
-with this theory is that Natural law is not a specific clause, and moral criteria for judging incidents is
-different for each person. If legal professionals considered natural law theory as the basis one, one of
-the law’s important elements, objectivity, would disappear This system lacks the fundamental
-requirements of due process. Hart (1958) also criticizes Natural law theory, mentioning intellectual
-confusion of the public. : "On the one hand Bentham had in mind the anarchist who argues thus: 'This
-ought not to be the law, therefore it is not and I am free not merely to censure but to disregard it.' On
-the other hand he thought of the reactionary who argues: 'This is the law, therefore it is what it ought
-to be,' and thus stifles criticism at its birth" (Hart, 1958, pp. 597–598). To put it another way, There
-exist negative views about not only natural law theory’s essence but also social views. In other words,
-contrary to intuitive belief, integrating law and morality can make our society confused and we can
-know it is far from essence of law. Through these arguments, we can know necessity of new
-theoretical approach for realizing ideal law.
-Legal Positivism : Upholding the Essence of Law through Objectivity
-Another theory for explaining the essence of law is legal positivism. Legal positivism is an academic
-view which admits only positive law as law. The strong point of this theory is objectivity. It interprets
-law as just statutes and prevents intervention of moral judgment which can distort the essence of law
-through subjectivity. In other words, this theory is exact opposite to natural law theory and it
-completely divides these two ideologies. While many analysts now argue that the strategy of legal
-positivism cannot reflect our society or make our society righteous, a deeper analysis reveals that this
-approach safeguards the legal system. One of the theses which explains this theory comprehensively
-is Hart (1958). Hart is one of the giant legal philosophers in 20th century and he is considered as
-representative scholar of 20th-century legal positivism. He presented this thesis in 1958 when the
-separation of law and morals was criticized by public due to impact of Nazi. Nazi criminals asserted
-they just followed the German law at that time, so there is no evidence for punishing them. Although
-they were found guilty in Nuremberg Trials, public’s distrust about legal positivism remained the
-same. So, Hart wrote this thesis for changing this atmosphere made by public and legal professionals,
-this is evaluated as prestigious thesis. The main concept is core and penumbra, admitting the
-minimum of natural law when establishing law for survival. First, As Hart(1958) asserts : "there must
-be a core of settled meaning, but there will be, as well, a penumbra of debatable cases in which
+### Can AI Judges Serve as a Viable Alternative to Human Judges by Mitigating Their Inherent Limitations? ###
+
+**Introduction**
+
+Recently, academic interest in how to resolve distrust in the judiciary and adopting AI judges 
+
+as a new viable alternative in the field has increased as human judges’ problems have revealed 
+
+to the public through media. But, analyzing previous research, previous one tends to only focus on 
+
+their technical analysis such as their algorithmic bias. 
+
+Admittedly, technical possibility is important for evaluating whether it can serve a viable alternative. 
+
+However, considering the critical characteristics of the legal field where it will be applied,
+
+a comprehensive approach through legal philosophy is also equally important. 
+
+Thus, this essay will analyze whether AI judges can serve as a viable alternative based on representative theories 
+
+about the essence of law, natural law theory, and legal positivism.
+
+Also, it will present technical, theoretical, and social views for designing AI judges 
+
+so that they become the method to come as close as possible to the essence of law 
+
+by mitigating human judges’ inherent limitations.
+
+First of all, the sections that follow present two influential theories which explain the essence of law.
+
+Ultimately, The findings of this study suggest that AI judges can serve as a viable alternative to human judges by mitigating their inherent limitations.
+
+**The limitation of natural law theory in realizing the essence of law**
+
+First representative theory for explaining the essence of law is Natural law theory. 
+
+Main premise of this theory is to admit higher law than positive law. 
+
+This higher law called as natural law. This theory became the basic evidence for punishing Nazi war criminals in Nuremberg Trials after World War ∥.
+
+Ultimately, this theory connects to many opinions about integrating morality and law. 
+
+Although this assertion seems to be principled and moral, there are serious problems in this.
+
+The main weakness with this theory is that Natural law is not a specific clause, 
+
+and moral criteria for judging incidents is different for each person. 
+
+If legal professionals considered natural law theory as the basis one, 
+
+one of the law’s important elements, objectivity, would disappear.
+
+This system lacks the fundamental requirements of due process. Hart (1958) 
+
+also criticizes Natural law theory, mentioning intellectual confusion of the public. :
+
+"On the one hand Bentham had in mind the anarchist who argues thus: 
+
+'This ought not to be the law, therefore it is not and I am free not merely to censure but to disregard it.'
+
+On the other hand he thought of the reactionary who argues: 'This is the law, therefore it is what it ought
+
+to be,' and thus stifles criticism at its birth" (Hart, 1958, pp. 597–598). 
+
+To put it another way, There exist negative views about not only natural law theory’s essence but also social views. 
+
+In other words, contrary to intuitive belief, integrating law and morality can make our society confused 
+
+and we can know it is far from essence of law. Through these arguments, we can know necessity
+
+of new theoretical approach for realizing ideal law.
+
+
+**Legal Positivism : Upholding the Essence of Law through Objectivity**
+
+Another theory for explaining the essence of law is legal positivism. 
+
+Legal positivism is an academic view which admits only positive law as law. 
+
+The strong point of this theory is objectivity. It interprets law as just statutes and prevents 
+
+intervention of moral judgment which can distort the essence of law through subjectivity. 
+
+In other words, this theory is exact opposite to natural law theory and it completely divides these two ideologies.
+
+While many analysts now argue that the strategy of legal positivism cannot reflect our society or make our society righteous, 
+
+a deeper analysis reveals that this approach safeguards the legal system. 
+
+One of the theses which explains this theory comprehensively is Hart (1958).
+
+Hart is one of the giant legal philosophers in 20th century and he is considered as representative scholar of 20th-century legal positivism.
+
+He presented this thesis in 1958 when the separation of law and morals was criticized by public due to impact of Nazi.
+
+Nazi criminals asserted they just followed the German law at that time, 
+
+so there is no evidence for punishing them. Although they were found guilty in Nuremberg Trials, public’s distrust about legal positivism
+
+remained the same. So, Hart wrote this thesis for changing this atmosphere made by public and legal professionals,
+
+this is evaluated as prestigious thesis. The main concept is core and penumbra, 
+
+admitting the minimum of natural law when establishing law for survival. First, As Hart(1958) asserts : 
+
+"there must be a core of settled meaning, but there will be, as well, a penumbra of debatable cases in which
+
 words are neither obviously applicable nor obviously ruled out" (1958, p. 607). there are two parts in
-law. Core is the certain parts which can make judgment based on law. And, penumbra is the
-uncertain parts which can not make judgment instantly through law. In this situation, judicial judgment
-is necessary. But, this is not application of morality. Judges just regard law as clause and makes
-judgments considering previous judicial precedents, the situation when the law is established etc. In
-other words, it means human’s judgment is just mechanical decision for resolving problems made by
-penumbra parts not moral decision. Second, Hart admits the minimum of natural law when
-establishing law : "If we are to live together and make use of one another in the ways which morality
-and law make possible, we must submit to the restrictions which are the minimum content of natural
-law" (Hart, 1958, p. 622). It is for our lives as we will be dangerous if the law can not guarantee our
-safety. But, this permission is applied only for the process of making law. And the situation when
-morality affect legal judgment after making law considered as distortion of essence of law. Also, Hart
-asserts moral judgment can be applied. But, this is only for the time when establishing law and the
+
+law. Core is the certain parts which can make judgment based on law. 
+
+And, penumbra is the uncertain parts which can not make judgment instantly through law.
+
+In this situation, judicial judgment is necessary. But, this is not application of morality. 
+
+Judges just regard law as clause and makes judgments considering previous judicial precedents, 
+
+the situation when the law is established etc. In other words, it means human’s judgment is just mechanical decision for resolving problems
+
+made by penumbra parts not moral decision. Second, Hart admits the minimum of natural law when establishing law : 
+
+"If we are to live together and make use of one another in the ways which morality and law make possible,
+
+we must submit to the restrictions which are the minimum content of natural law" (Hart, 1958, p. 622). 
+
+It is for our lives as we will be dangerous if the law can not guarantee our safety.
+
+But, this permission is applied only for the process of making law. 
+
+And the situation when morality affect legal judgment after making law considered as distortion of essence of law.
+
+Also, Hart asserts moral judgment can be applied. But, this is only for the time when establishing law and the
+
 law evaluated as not being moral is also law: "The moral iniquity of such laws would be something
+
 that could be demonstrated; it would surely follow merely from a statement of what the rule required to
+
 be done that the rule was morally wrong and so ought not to be law or conversely that it was morally
+
 desirable and ought to be law. But the demonstration of this would not show the rule not to be (or to
-be) law" (Hart, 1958, p. 626). And, Hart presents two advantages which legal positivism has, they are
-clarity: "So perhaps the most important single lesson to be learned from this form of the denial of the
+
+be) law" (Hart, 1958, p. 626). And, Hart presents two advantages which legal positivism has, 
+
+they are clarity: "So perhaps the most important single lesson to be learned from this form of the denial of the
+
 Utilitarian distinction is the one that the Utilitarians were most concerned to teach: when we have the
+
 ample resources of plain speech we must not present the moral criticism of institutions as
+
 propositions of a disputable philosophy." (Hart, 1958, p. 621). and sharper foundation for moral
+
 criticism: "If with the Utilitarians we speak plainly, we say that laws may be law but too evil to be
+
 obeyed. This is a moral condemnation which everyone can understand and it makes an immediate
-and obvious claim to moral attention." (Hart, 1958, p. 620). These advantages demonstrate why legal
-positivism remains a robust framework for judicial objectivity. These are contexts of Hart’s theory.
+
+and obvious claim to moral attention." (Hart, 1958, p. 620). 
+
+These advantages demonstrate why legal positivism remains a robust framework for judicial objectivity. 
+
+These are contexts of Hart’s theory.
+
 Hart’s framework is considered as one of the highly effective application methods of legal positivism
+
 to reality. However, the previously mentioned methods suffer from some serious drawbacks in reality,
-such as human judges’ inherent limitations, application of other ineffective methods related to legal
-positivism to reality instead of effective methods such as Hart’s one. In the section that follows, it will
-be argued that there are many problems in reality although legal positivism is evaluated as the robust
-theory towards the essence of law.
-The problems caused by human judges
+
+such as human judges’ inherent limitations, application of other ineffective methods 
+
+related to legal positivism to reality instead of effective methods such as Hart’s one. 
+
+In the section that follows, it will be argued that there are many problems in reality
+
+although legal positivism is evaluated as the robust theory towards the essence of law.
+
+**The problems caused by human judges**
 As mentioned in previous paragraph, there are many practical problems in reality although the theory
 is a robust framework. It is because there are numerous restrictions in reality to operate theory’s
 concept correctly. Among them, the representative things are human judges’ adoption of ineffective
