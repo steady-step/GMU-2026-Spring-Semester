@@ -36,13 +36,13 @@
 
 ## basic of R
 
-    Wrtting comment in R -> #
+    Writing comment in R -> #
 
-    help(fuction name) -> help fuction, to know how to use this fuction.
+    help(function name) -> help function, to know how to use this function.
 
-    sum(1,2,3,4,5,6,7) -> sum fuction, we can input some vectors.
+    sum(1,2,3,4,5,6,7) -> sum function, we can input some vectors.
 
-    mean(c(1,2,3))=2 -> the first vector is key point for making avg. others are just option. If mean(1,2,3) -> we only consider mean(1) = 1
+    mean(c(1,2,3))=2 -> the first vector is key point for making avg. others are just option. If mean(c(1,2,3)) -> we only consider mean(1) = 1
 
     sqrt(3) = root 3, exp(1)=e^1= 2.7~
 
@@ -58,17 +58,17 @@
 
     mean(samp) = samp %>% mean
 
-    sd(samp) = Variance
+    sd(samp) = standard deviation
 
-    print(variable) is usually same with variable but, we need print fuction especially in in loop statement.
+    print(variable) is usually same with variable but, we need print function especially in in loop statement.
 
-    x<-13:17 (make continious vector, interval =1) c(13,14,15,16,17) (integer)
+    x<-13:17 (make continuous vector, interval =1) c(13,14,15,16,17) (integer)
 
     if the either end is not integer, the vector is numeric. ex)x<-13.5:16.1
 
     x<-6:1 (decreasing)
 
-    rm() -> remove fuctions on environment
+    rm() -> remove functions on environment
 
     NA -> No value in the space
 
@@ -80,7 +80,7 @@
 
     Type change
 
-    1. type changing with as fuction -> as.type(x) such as as.integer(x)
+    1. type changing with as function -> as.type(x) such as as.integer(x)
 
        we can get that type version of x, but x type is not originally changed.
 
@@ -91,7 +91,7 @@
 
        x<- c(1.7,"a")  1.7 is really changed to "1.7" due to that priority.
 
-    3. type changing due to usual calucating(+,-,*,/)
+    3. type changing due to usual calculating(+,-,*,/)
 
        priority also exists.
 
