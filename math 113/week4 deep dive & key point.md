@@ -10,19 +10,31 @@
      
      (Multiplication and division -> Operate numbers with numbers and units with units)
 
-     Next, they made diverse units with existing ones (kg m/s, m/s, m/s^2)
+     Next, they made formulas through observing natural situation.
 
-     In theory, kg^7/m^3 is also possbile, but this is no meaningful as it doesn't exist in our world.
+     <The way for making formulas> 
 
-     Also, we can use function when analyzing physical situation.
+     if same variable's effect is accumulated or decreased -> +, -
 
-     For example, if s(x-axis) and m/s(y-axis) graph exists, first we can caluclate its area and slope using mathematical method.
+     if different variable's effect is increased in the formula(direct proportion) -> X
+
+     if different variable's effect is decreased in the formula(inverse proportion) -> division
+
+     Also, constant of proportionality can be used. It can have units or not.
+
+     Last, we just substitute number in these formulas.
+
+     ex) The area of square which has 1m side is 1m^2 as the area is proportional in both m units(width, height -> m*m = m^2)
+
+     Even, we can utilize graphs.
+     
+     if s(x-axis) and m/s(y-axis) graph exists, first we can calculate its area and slope using mathematical method.
 
      ex1) area=6 -> By definite integral, its unit is m/s * s = m therefore 6m
 
      ex2) its slope = 3 (By derivative) -> 6m/s / 2s = 3m/s^2 -> acceleration
 
-     Like these, we can ultlize mathmetics in physics.
+     Like these, we can utilize mathematics in physics.
     
 ## Mathematical theories
 
