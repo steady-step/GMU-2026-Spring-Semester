@@ -93,19 +93,17 @@
 
 ### Virtual memory , use of packages and communication between processes.
 
-     Virtual memory : allocating virtual memories instead of real memoires. we use mapping tables and mmu. 
+     Virtual memory : allocating virtual memories instead of real memoires. we use mapping tables and MMU. 
 
      When we use chrome.exe, kernel read exe header for finding starting point(pc). And make their own mapping table.
 
-     (virtual memoires <->real memoires) But now, they exists on hdd. so we record the clusters. 
+     (virtual memoires <->real memoires) But now, they exists on HDD. 
 
-     For finding the real address, we should know cr3 register(the start address of the table) and virtual address.
+     For finding the real address, we should know cr3 register(the start address of the table).
 
      After finding the real address, we want to start process but interrupt occured (it exists on hdd!)
 
-     Cluster is 4kb. So we upload 4 kb on ram. Also, we should link .dll for original file through iat and eat (window file structure PE)
-
-     .dll is also included as part of the virtual memoires.
+     Cluster is 4kb. So we upload per 4 kb on ram. 
 
      And if the ram is full, it is gone back to HDD. and if it is back, we just change the mapping table.
 
@@ -118,9 +116,9 @@
      It it just included as chorome.exe mapping table! and chrome.exe just set a virtual address for getting it.
 
 
-    Also, there are some processes in OS. they can not intervene each other. Parent process<->Child process are also differnet process. 
+    Also, there are some processes in OS. they can not intervene each other. Parent process<->Child process are also different process. 
 
-    But they can commuicate only through admitted path such as pipe. They can not change their own data.
+    But they can communicate only through admitted path such as pipe. They can not change their own data.
 
     Also, other processes only communicate through admmited path such as shared memory. 
      
