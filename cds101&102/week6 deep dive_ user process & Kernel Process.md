@@ -8,9 +8,9 @@
 
     After this process, for making user's process, we need three steps.
 
-    1 Make that user process's mapping table. (it contains not only user one but also kernel one)
+    1 Make that user process's mapping table. (it makes mapping table which can find also kernel mapping table through tracking)
 
-       -> We don't need to change CR3 point when we face interrupt or system call.
+       -> We don't need to change CR3 point when we face interrupt or system call whenever computer mode is changed to kernel mode.
 
        -> Kernel should also remember its real start point address for CR3 register.
 
@@ -34,43 +34,8 @@
 
     if Write bit is not allowed, although a.exe want to write on v.txt, MMU error -> Ring 0 -> Kernel execution.
 
-    In Kernel, it can edit and read anything theoretically through making mapping table and editing HDD.
-
-    But, kernel's safe system (Preventing not to delete Kernel, edit kernel etc.)
-
-    So, Kernel's mapping table also has write bit so that it is not changed.
-
-    If Kernel trys to change it -> interrupt(although it is already ring 0)
-
-    Theoretically it is possible through changing mapping table, 
-
-    but OS bring up the blue scrren mainly.
-
     Process in window -> only .exe
-
-    If kernel add files(such as a.sys) in their virtual address,
-
-    virtaul address of each user process's mapping table also needs to change.
-
-    Bwt, OS uses key point.
-
-    Mapping table is developed so that it can find original kernel mapping table
-
-    without copying it whenver we make user mapping table.
-
-    So, if we just change kernel mapping table only once, the problem is resolved.
-
-    IPC or giving data as the result of system call 
-
-      1 IPC : ex) Mapping shared memory space simultaneouly at a process and b process's virtaul mapping table
-
-                  for communicating and saving their own privacy.
-
-      2 system call result -> Mainly, assign new virtual address space for giving result.
-
-    Theoretically, it can change or read process's code, but it is restricted usually.
-
-
+    
     Virtual Kernel address is much higher than user process's one.
 
 
