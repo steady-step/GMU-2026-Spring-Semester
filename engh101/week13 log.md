@@ -8,7 +8,7 @@ I will upload second final version of project 2.
 
 Also, guiding questions are changed and should be written in one paragraph smoothly by changed assessment rubric.
 
-**Guiding questions**
+## Guiding questions
 
     1. Briefly discuss at least three specific writing choices that you made because you were writing for a general academic audience.
 
@@ -59,7 +59,7 @@ Below are all texts of professor's feedback.
 
 (Consider this evaluation for your revision.)
 
-**Thesis and Research Question B**
+### Thesis and Research Question B
 
 The research question whether AI judges can serve as a viable alternative to human judges is timely and intellectually ambitious. 
 
@@ -85,7 +85,7 @@ Additionally, the thesis would benefit from hedging: claiming AI "can be the bes
 
 that AI is "not a perfect technology." A more carefully qualified claim would be more defensible and more appropriate for academic writing.
 
-**Complexity and Focus B+**
+### Complexity and Focus B+
 
 The paper demonstrates genuine intellectual ambition by working through two competing legal theories before arriving at its argument about AI. 
 
@@ -105,7 +105,7 @@ that "this problem can be resolved enough as technology advances." This is the c
 
 The section on popular originalism and Balkin's theory is genuinely interesting but arrives too late and too briefly to be fully developed.
 
-**Research B+**
+### Research B+
 Seven sources are used, meeting the minimum requirement. The range across legal philosophy (Hart, 1958), 
 
 empirical psychology (Irwin & Real, 2011), legal theory journals (Donnelly, 2025; Novak, 2025), 
@@ -136,7 +136,7 @@ Other authors (see Collins & Komatsu, 2025; Wolf, 2024) question the usefulness 
 
 which is an awkward repetition that should be cleaned up.
 
-**Structure and Organization A-**
+### Structure and Organization A-
 
 The four section headings are clearly labeled and the logical sequence — natural law theory, 
 
@@ -154,7 +154,7 @@ Sentence-level coherence also needs work throughout. Many sentences are very lon
 
 and the Given–New contract breaks down frequently as new ideas are introduced without adequate grounding from previous sentences.
 
-**Overall Assessment**
+### Overall Assessment
 This draft tackles one of the most genuinely original research questions submitted this semester. 
 
 The paper shows real engagement with difficult theoretical material and demonstrates that Geon has read and thought seriously 
