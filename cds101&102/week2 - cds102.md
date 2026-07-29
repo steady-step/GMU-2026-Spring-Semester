@@ -48,96 +48,47 @@
 
 ### Markdown
 
-    # title : it can make title... if we add the number of # the size of title is decreased.
+    # title : it can make title. if we add the number of #, the size of title is decreased.
 
     **abc** : Make bold letter. *abc* : Make Italics.
 
-    - abc : Unordered list    1. abc : Ordered list.
+    1. abc -> number list
 
-    <Space in Markdown>
+    space x 4 or ` ` or ``` ``` -> make block
 
-    Space in the middle of word -> it is only considered as one space.
-
-    Behind of #, -. 1.  -> activate the fuction.
-
-    Space 2+ enter at the end of the sentence -> line break
-
-    Space 4+ at the start of the sentence -> it is considered as code. The markdown signal can be shown and automatic line break is not applied. 
-                                             Also, all space can be shown.
-
-    Space 2~4 at the list -> Make sub list.
-
-    Under 4 at the start of the setence -> Ignored.
+    ```{r}
+    r code
+    ```
+    `r ~` r inline code
 
     <Table>
 
     First of all, write |    |    |    |  for making first raw, and write letter. | a | b |  c |
 
-    Second, write second raw like this.. |  |   |   | this raw means sort of the columns.
+    Second, write second raw like this.|  |   |   | this raw means sort of the columns.
 
-    you can write * over the number of 3 for sorting. and write :.  *** and :*** means left sorted, ***: means right sorted, :***:means center sorted.
+    you can write - & : for sorting
 
-    ex) | ***** |  ***: | :***: | (You can write * over 3) it means left, right, center sort each.
+    :--- -> L    --- -> M  :---: -> M   ---: -> R
 
     and You can write |  |  |  | for making other raws like first raw (ex:  |hello |  hi  | nice  | )
-
-    Also, for making captions of table you can write Table : title behind the table. (There should be no codes between them.)
-
-    
-    <Others>
-
-    For line breaking, there are 3 ways.
-
-     1. <br> (1 line)
-
-     2. space 2 & enter (1 line)
-
-     3. enter 2+ -> seperating paragraph. (2 line)
-
 
     For inserting picture : ![caption](file.png)
 
 
-### R code
-
-    For inserting R code, type like this
-
-    ```{r}
-      ~code
-
-    ```
-
-    you can see code and result when changing this to pdf.
-
-    also, there are two key points.
-
-    1. we can make a name of this chunk. ```{r setup}
-
-    2. we can add some setting ```{r, warning FALSE, include=FALSE}
-
-     warning FALSE means hiding warning message. and include=FALSE means hiding all result and code in PDF HTML etc.
-
-
 ### LATEX
 
-    For using LATEX, TYPE $ $ . and we should type LATEX code between them.
+    For using LATEX, we can remember five ways easily.
 
-    we can type x=10.. it automatically change font of x.
+    1. type $ $
 
-    if we want to write square, x^n, subscirpt -> x_n 
+    2. if the letter which we want to use is on the key board -> just use it
 
-    If the location is changed different with usual keyboard such as suqare, it only admit one letter.
-     
-    So, when we want to write x^10, 10 is two letter. so we should type like this. $x^{10}$.
+    3. if it is not -> \function name{}{} ( the number of {} is over 0)
 
-    {} is used for combining a number of letter.
+    4. important... if we use superscript or subscript, use ^(super), and _(sub)
 
-    Also, if the signals don't exist on keyboard, we should use \.
-
-    fraction a/b -> type like this. \frac a b,  alpha(greek alphabet) -> \alpha... 
-
-    sqrt a^2+b^2 -> \sqrt {a^2+b^2} 
-
+       and if the number of letter if over 1, use {}.
 
 
 ### Virtual memory , use of packages and communication between processes.
@@ -174,30 +125,27 @@
     Also, other processes only communicate through admmited path such as shared memory. 
      
 
-
-
-
 ### Others
 
     Unicode -> Current code for using character instead of ascii code.
 
     Library : The folder which have all package folder.
 
-    Package : The pre-made data and fuction for using easily in programming language.
-              We easily use these fuctions and datas through library(name) in R.
+    Package : The pre-made data and function for using easily in programming language.
+              We easily use these functions and data through library(name) in R.
 
     The process for changing r markdown to result file..
 
-      rmd is just a file. and we need some package for changing this file to reuslt files.
+      rmd is just a file. and we need some package for changing this file to result files.
 
-      When we click knit, some package fuction operates through ::, and it is prepared.
+      When we click knit, some package function operates through ::, and it is prepared.
 
       and There are another SW for making PDF etc. So it makes this files to PDF.
 
 
     In r studio
 
-     console : the tool for communicating with r.exe... there are even some fuctions for controling r studio except calcaulating fuction.
+     console : the tool for communicating with r.exe... there are even some functions for controlling r studio except calculating fuction.
 
      Terminal : the tool for communicating with OS.
 
