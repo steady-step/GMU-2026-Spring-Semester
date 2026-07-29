@@ -7,11 +7,11 @@ Creating Driving Questions / Key Concepts / Themes for your Synthesis Matrix
 Name: Geon Jee
 
 
--Your research question:
+### Your research question:
 
 What is the essence of law, and is AI judge right solution for realizing ideal law in our society instead of human judge?
 
--What motivates you for exploring this research?
+### What motivates you for exploring this research?
 
 Recently, there are many controversial issues about judgement. Some people argue law should be separated with morality, 
 
@@ -27,7 +27,7 @@ and their issue about whether it can be the best alternative way instead of huma
 
 
 
--Key themes or key concepts that you’d like to explore in your body paragraphs
+### Key themes or key concepts that you’d like to explore in your body paragraphs
 
 1. The limitations of Natural Law Theory that have potential for distorting essence of law.
  
