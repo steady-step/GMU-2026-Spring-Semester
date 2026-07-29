@@ -2,9 +2,9 @@
 
 ## Algebraic Expression of Units
 
-     Physicists defines basic phsical unit such as m, kg etc.
+     Physicists defines basic physical unit such as m, kg etc.
 
-     and also defines the rules
+     and also define the rules
      
      (Addition and subtraction-> only with same units) and
      
