@@ -6,14 +6,16 @@
 
     This test is about MEAL plan, CRAAP evaluation concept and my research project progress.
 
-    The test question is released in advance. and I studied them before taking test. (Below)
+    The test question is released in advance. and I studied them before taking test. (it is about MEAL plan, CRAAP test and my project 2) 
+
+    Below is my study activity before taking test.
 
  
  **MEAL plan structure : the structure which can make paragraph logcially.**
 
     M : Main idea -> Key sentence
 
-    E : Evidecne  -> Evidence for main idea
+    E : Evidence  -> Evidence for main idea
 
     A : Analysis  -> Explain why evidence support main idea.
 
