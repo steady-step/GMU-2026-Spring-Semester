@@ -138,17 +138,11 @@
 
     It differs based on its cpu number by kernel code.
 
-    There are 4 types mostly related to ISR in mulitple CPU environment.
+    There are 3 types mostly related to ISR in mulitple CPU environment.
 
-    1. timer ISR -> it just checks the cpu's recent alive process for context switching.
+    1. internal ISR (ex: page fault isr) -> just use ISR
 
-                    It doesn't add new process in CPU. timer ISR is also internal ISR.
-
-                    If Cpu wants to change process, context switiching occurs based on their stacks context.
-
-    2. internal ISR except timer(ex: page fault isr) -> just use ISR
-
-    Also, IPI is also internal ISR. If cpu 7 gets turn-off command by user program,
+    **IPI is also internal ISR. If cpu 7 gets turn-off command by user program,
 
     it send IPI message to all local apic including its one.
 
@@ -156,9 +150,17 @@
 
     Through this process -> all user process is finished -> ultimately, kernel is finihsed by first cpu which sent messages usually.
 
-    3. system call -> just use ISR
+    ** Timer is also internal ISR.
 
-    4. I/O interrupt -> first, cpu is chosen by i/o apic.
+    it just checks the cpu's recent alive process for context switching.
+
+    It doesn't add new process in CPU. timer ISR is also internal ISR.
+
+    If Cpu wants to change process, context switiching occurs based on their stacks context.
+
+    2. system call -> just use ISR
+
+    3. I/O interrupt -> first, cpu is chosen by i/o apic.
 
     ***Key point***
 
@@ -186,7 +188,7 @@
 
         -> After the role CPU becomes isr code (kernel mode) -> it can know interrupr occurs.
 
-    There are 3 ways user process utlize kernel.
+    I will introduce two ways user process utlize kernel.
 
     1. system call -> request for returning result to their address -> kernel returns the result.
 
@@ -200,7 +202,7 @@
 
            -> kernel edits b's mapping table to access a's shared memory through using same real addreess value in both mapping tables.
 
-    3. the way user processes get interrupt responses.
+    <the way user processes get interrupt responses>
 
        Basicially, the way for checking whether the result is given is polling.(checking periodically)
 
