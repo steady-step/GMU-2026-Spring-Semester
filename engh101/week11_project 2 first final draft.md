@@ -1,6 +1,6 @@
 ## Project 2 first final draft
 
-### introduction
+### Introduction
 
 Recently, The importance of research about resolving distrust in the judiciary has been increasing
 
