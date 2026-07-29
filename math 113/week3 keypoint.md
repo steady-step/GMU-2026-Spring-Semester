@@ -22,26 +22,13 @@
 
 
 
-### the law made by power and root law
-
-    if F is polynomials or rational, and a is domain of f, lim x->a f(x) = f(a)
-
-    other fuction : use limit, power, and root law for calculating lim.
-
-
-
 ## Comparison Theorom 
 
     If  lim x->a(or x->a+, a-, + or - infinity) f(x) = L, lim x->a (or x->a+, a-, + or - infinity) g(x) = M (the point of approach should be same each other)
 
     and f(x)<=g(x) or f(x)<g(x), 
     
-    (the x range of(f(x)<=g(x) or f(x)<g(x)) is  (a-k,a)(a,a+k) (k is positive number, and in the range, all fuction value satifies that condition when x->a)
-
-    (the x range of (f(x)<=g(x) or f(x)<g(x)) is (k,infinity) (k is real number, and in the range, all fuction value saitifies that condition when x->infinity)
-
-    (the x range of (f(x)<=g(x) or f(x)<g(x)) is (-infinity,k) (k is real number, and in the range, all fuction value saitifies that condition when x-> - infinity)
-    
+    (x range of satisfying that condition -> (a-k,a)∪(a,a+k) (lim x->a) or (k,infinity) (lim x-> infinity) or (-infinity,k) (lim x-> - infinity))
     L <= M
     
 ## Squeeze Theorom
@@ -87,10 +74,6 @@
 
      -> polynomials, rational, root, trigonomatic, exponential, logarithmic, inverse trigonomatic fuction.
 
-     Continuous of composition of fuctions 
-
-      if g is continuous at a, and f is continuous at g(a),
-      this composition is continuous at a, lim x->a f(g(x))= f(g(a).
 
 
 
