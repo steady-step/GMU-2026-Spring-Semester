@@ -14,31 +14,37 @@
 
 ### YAML
 
-    First of all, we should code --- on first line. This section is called as YAML header.
+    For using YAML in R markdown, we should type --- on the first line.
+
+    And YAML is composed of key and value.
+
+    First for using key, we type like this -> key:
+
+    And there are two ways.
+
+    1. scalar
+
+    2. other inner key
+
+    First, when we use scalar, there are three ways.
+
+    1) key: value
+
+    2) key:
+         value
+
+    3) key:
+         - value1
+         - value2
+
+    Second, when use other keys, we type like this.
+
+    key:
+      key2: scalar2
+      key3: scalar3
+
+    When we type value, using " "  or ' ' is recommended for preventing error message.
     
-    The essential part for YAML header is output part for choosing what forms you want. (PDF,WORD,HTML)
-
-    Type like this -> output:    it means that we will select the form of output.(it is attribute)
-
-    There are two options of result. First option is that we type another attribute as sub-attirbute.
-
-    Second one is that we type scalar. Scalar means forms which can not devided into anything.
-
-    There are 5 kinds of scalars : strings, numbers,booleans, NULL, etc.
-
-    Numbers, Booelans, NULL, Numbers, documents type never use " " . Other recommend to use " ".
-
-    If, there is only one sub-scalar we can type like this -> output: pdf_document (output+:+space 1 + scalar)
-
-    But, originally, the basic grammer is to type like this... 
-
-    output:     (output+:+enter+space2)
-      pdf_document:
-        toc:TRUE
-
-    ["float"] : List, th combination of scalar.
-    Also, we can add yaml code in the middle. 
-
 
 ### Markdown
 
