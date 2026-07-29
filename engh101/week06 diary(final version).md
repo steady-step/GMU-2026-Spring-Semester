@@ -1,6 +1,8 @@
 # Week6 diary 
 
-4/6/2026 : Today, I researched some sources with keywords related to my topics with mason library websites. 
+## 4/6/2026 
+
+Today, I researched some sources with keywords related to my topics with mason library websites. 
 
 Today’s searching key word is AI judge. Searching some sources, Finally I found the most suitable source. 
 
@@ -14,7 +16,9 @@ Reading this source, I partially agreed writer’s opinion, but also came to hav
 
 So, I’m planning to investigate more about that.
 
-4/7/2026 : Today, I researched some sources with keywords related to my topics with mason library websites. 
+## 4/7/2026 
+
+Today, I researched some sources with keywords related to my topics with mason library websites. 
 
 Today’s searching term is originalism. Originalism means legal philosophy which prioritizes original meaning of law 
 
@@ -32,7 +36,9 @@ Also I could know the detail concept of originalism through this source.
 
 I think the new information I could know by this source will be helpful for my research project.
 
-4/8/2026 : Today, I researched some sources with keywords related to my topics on Google. Through searching, I found useful popular source. 
+## 4/8/2026 
+
+Today, I researched some sources with keywords related to my topics on Google. Through searching, I found useful popular source. 
 
 10 Things Judges Should Know About AI(https://judicature.duke.edu/articles/10-things-judges-should-know-about-ai/) 
 
@@ -42,7 +48,9 @@ and introduces how judges handle AI as useful tools. Reading this article, I tho
 
 and I’m planning to research additional ways we use AI tools effectively in courts.
 
-4/9/2026 : Today, I searched some popular sources which contain recent judgement trend between legal positivism and natural law theory. 
+## 4/9/2026 
+
+Today, I searched some popular sources which contain recent judgement trend between legal positivism and natural law theory. 
 
 Finally I found this popular source. Opposing Originalism(Opposing Originalism | Brennan Center for Justice).
 
@@ -52,7 +60,9 @@ Also, it introduces much effort of “Historians Council on the Constitution” 
 
 Reading this article, I thought originalism and legal positivism are misusing for their benefit. So, I felt the need of AI judge seriously as the best solution.
 
-4/10/2026 : Today, I searched some scholarly sources which contain recent judgement trend between legal positivism and natural law theory.
+## 4/10/2026 
+
+Today, I searched some scholarly sources which contain recent judgement trend between legal positivism and natural law theory.
 
 Finally, I found this scholarly source. SOME REALISM ABOUT ORIGINALISM.( https://repository.law.umich.edu/cgi/viewcontent.cgi?article=14175&context=mlr)
 This source criticizes misusing of originalism by judges through using only selective historical source when interpreting law. 
