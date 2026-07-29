@@ -6,7 +6,7 @@
 
     This test is about MEAL plan, CRAAP evaluation concept and my research project progress.
 
-    The test question is released in advance. and I studied them before taking test.
+    The test question is released in advance. and I studied them before taking test. (Below)
 
  
  **MEAL plan structure : the structure which can make paragraph logcially.**
