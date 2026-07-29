@@ -120,7 +120,7 @@
 
     But they can communicate only through admitted path such as pipe. They can not change their own data.
 
-    Also, other processes only communicate through admmited path such as shared memory. 
+    Also, other processes only communicate through admitted path such as shared memory. 
      
 
 ### Others
