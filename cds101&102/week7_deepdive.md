@@ -4,19 +4,15 @@ Following week 6 deep dive,
 
 I will deal with Computer structure especially based on CPU, ISR, and  transistor.
 
-     First, we can classfy interrupt type with these 5.
+     First, we can classfy interrupt type with these 3.
 
      1. external ISR -> made by I/O apic
 
-     2. timer interrupt(internal)
+     2. internal interrupt(timer etc.)
+     
+     3. System Call
 
-     3. ipi (interanl)
-
-     4. Other interrupt except 2 & 3. 
-
-     5. System Call
-
-     2-4 is created by local APIC, and 5 is just made by CPU command.
+     2 is created by local APIC, and 3 is just made by CPU command.
 
      As I said before, the CPU which will perfrom each i/o interrupt signal is chosen by i/o apic.
 
@@ -32,7 +28,7 @@ I will deal with Computer structure especially based on CPU, ISR, and  transisto
 
      Timer interrupt just changes process and it can not create new process.
 
-     IPI can not only change process but also just give signals to other CPUs.
+     IPI can give signals to other CPUs.
 
      Except these, other internal interrupt just performs usual exception.
 
