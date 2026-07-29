@@ -38,11 +38,11 @@
 
 ## Basic of Matlab
 
-    disp means print. so we can use this fuction like this disp('Hello world') we can print 'Hello world' without using disp. But, if we don't use
+    disp function is for printing.
 
-    disp, variable name is included.(If variable doesn't exist, ans is printed).
+    we can print letter without disp. But in this situation, variable name is also printed.
 
-    variable name can be made by rules similar with file names. (alphabet and number, _ only, first letter is alphabet)
+    (if it doesn't have name, ans= is printed)
 
     we can make variable like this -> a=5, d=3, b=d b=b+1
 
