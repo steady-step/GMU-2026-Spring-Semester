@@ -1,6 +1,6 @@
 ## Project 2 first final draft
 
-**introduction**
+### introduction
 
 Recently, The importance of research about resolving distrust in the judiciary has been increasing
 
@@ -34,7 +34,7 @@ ultimately, in the section that follows, it will be argued that AI judge can be 
 
 of human judge although it is not perfect technology.
 
-**The limitation of natural law theory for realizing the essence of law**
+### The limitation of natural law theory for realizing the essence of law
 
 First representative theory for explaining the essence of law is Natural law theory. Main context of this
 
@@ -72,7 +72,7 @@ In other words, contrary to intuitive belief, integrating law and morality can m
 
 Through these, we can know necessity of new theoretical approach for realizing ideal law.
 
-**Legal positivism, perfect theory for realizing the essence of law**
+### Legal positivism, perfect theory for realizing the essence of law
 
 Another theory for explaining the essence of law is legal positivism. 
 
@@ -148,7 +148,7 @@ related to legal positivism to reality instead of correct methods such as Hart�
 
 In the following section, we will deal with the problems in reality although legal positivism is the perfect theory towards the essence of law.
 
-**The problems caused by human judges**
+### The problems caused by human judges
 
 As it is mentioned in previous paragraph, there are many practical problems in reality 
 
@@ -238,7 +238,7 @@ So, in the following section, we will deal with the context about
 
 whether AI judge can be alternative instead of human judge overcoming human’s inevitable problems.
 
-**An evaluation of AI judge as the alternatives instead of human judge**
+### An evaluation of AI judge as the alternatives instead of human judge
 
 When we analyze the problems made by human judges again, they are all based on human’s subjectivity. 
 
@@ -318,7 +318,7 @@ for realizing the essence of law and it can resolve many problems which can not 
 
 If technical, academic and social complement is achieved, I expect AI judge will be the best way for the realization of an ideal legal system.
 
-**Conclusion**
+### Conclusion
 
 Until now, I performed evaluation of AI judge as alternatives instead of human judge analyzing
 
@@ -348,7 +348,7 @@ my suggestion about adopting AI judge will be helpful towards the improvement of
 
 of our legal system even if just a little.
 
-**APA reference**
+### APA reference
 
 Irwin, J. F., & Real, D. L. (2011). Unconscious influences on judicial decision-making: 
 The illusion of objectivity.
@@ -378,7 +378,7 @@ Michigan Law Review,
 https://repository.law.umich.edu/cgi/viewcontent.cgi?article=14175&context=mlr
 
 
-Guiding Post-Script Questions
+### Guiding Post-Script Questions
 
 1-1 . Explained difficult legal term easily so that audience can understand certainly.
 
