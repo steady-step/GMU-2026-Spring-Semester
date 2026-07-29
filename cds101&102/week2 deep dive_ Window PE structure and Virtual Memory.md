@@ -12,28 +12,28 @@
 
     Last, Section body. there are 6 types in section.
 
-    text : a main code. we can confirm Virtual address in text through relocation and linking.
+    .text : a main code. we can confirm Virtual address in text through relocation and linking.
 
     .data, .bss, rsrc : many kinds of data and image files etc. text use these through Virtual Address pointer.
 
-    .reloc : if it is impossbile to contain this file in wanting virtual address mentioned in header,
+    .reloc : if it is impossible to contain this file in wanting virtual address mentioned in header,
 
              They show us the context which I have to relocate.
 
 
-    .rdata : IAT, ILT, import directory , ENT, EOT, EAT (for dynmaic linking.)
+    .rdata : IAT, ILT, import directory , ENT, EOT, EAT (for dynamic linking.)
 
     In text, there are address for iat. Iat will contain virtual address they want to move.(to other file ex:.dll)
 
-    In beginning condition, IAT contains name of fuction they want to link. ILT is just copy version for beginning. 
+    In beginning condition, IAT contains name of function they want to link. ILT is just copy version for beginning. 
 
-    And, import directory means Where the fuction they hope to link is.( a.dll etc)
+    And, import directory means Where the function they hope to link is.( a.dll etc.)
 
     So, Kernel wants to link. and They find export table of .dll etc.
 
-    ENT is just a table of fuction name. And we can find the Relative Address of fuction with EAT.(Eot uses for middle stage for finding.)
+    ENT is just a table of function name. And we can find the Relative Address of function with EAT.(Eot uses for middle stage for finding.)
 
-    And we record the virtual address of fuction starting location in IAT changing the Relative Address of fuction to virtual address.
+    And we record the virtual address of function starting location in IAT changing the Relative Address of function to virtual address.
 
 ## Virtual Memory
 
@@ -45,7 +45,7 @@
 
     But it is not virtual address. it is just real address. And bootloader finds pc location for starting. 
 
-    Kernel starts to do dynmaic link with .dll and .sys through import and export table. Also, kernel make mapping table for indicating mapping between 
+    Kernel starts to do dynamic link with .dll and .sys through import and export table. Also, kernel make mapping table for indicating mapping between 
 
     virtual address and real address. After all linking and mapping table is done, kernel turns on MMU.
 
@@ -55,23 +55,25 @@
 
     Furthermore, If kernel want to read some files, they just make new virtual memory mapping for the new files and
 
-    After using it, delete it. Also, the ram-uploaded file such as .dll .sys usually never go back to HDD different with other files during computer turn on time.
+    After using it, delete it. Also, the kernel's important ram-uploaded file such as .dll .sys usually never 
+    
+    go back to HDD different with other files during computer turn on time.
 
     After all, Kernel change the mode to Virtual mode and they just remember starting address of mapping table and they record it in CR3 register when calculating.
 
     Now, we will use usual process such as chrome.exe... First, they upload some files of chrome in kernel and check the pc location.
 
-    All files in window is divided into clusters(4kb). and The file also exists in HDD as 4kb. So, kernel just upload 4 kb which has pc entry point.
+    All files in window is divided into page(4kb). and The file also exists in HDD as 4kb. So, kernel just upload 4 kb which has pc entry point.
 
     Also, they make mapping table but, the real address is not in RAM. 
 
     MMU is in the CPU. the rold is just to change virtaul address to real address checking mapping table. But, if it is in HDD. they make page-fault interrupt.
 
-    Through it, kernel's isr code runs. they load 4kb clusters in RAM and change the mapping table. Also, they do dynamic linking through import/export table.
+    Through it, kernel's isr code runs. they load 4kb page in RAM and change the mapping table. Also, they do dynamic linking through import/export table.
 
-    The most misunderstanding thing is that many people think they just upload all chrome.exe in same time per cluster.
+    The most misunderstanding thing is that many people think they just upload all chrome.exe in same time per page.
     
-    but it is wrong. Although kernel file load to RAM in same time per cluster, user file is different. they just upload files per 4kb only if they need. 
+    but it is wrong. Although kernel file load to RAM in same time per page, user file is different. they just upload files per 4kb only if they need. 
     
     it is same with .dll. if the file is uploaded first on RAM, they do dynamic linking. From next times, they don't need to do linking anymore.
 
