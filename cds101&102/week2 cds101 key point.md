@@ -104,6 +104,21 @@
     is.na(x) -> same with above when na.
 
     table(x) -> make table about the number of each element.
+
+    <The difference for making table(x) with character vector and factor>
+    
+    To make table, charcter vector should check all previous-made elements of table for checking whether the elements already have been existed.
+
+    If we assume the number of original element as N, the number of calculation is O(N^2).
+
+    But for making factor, we can represent the number of calculation as O(N) as it already know label.
+
+    Also, when using factor, we can add unused elements like this.
+
+    a    b    c
+
+    2    3    0
+
     
     
  
