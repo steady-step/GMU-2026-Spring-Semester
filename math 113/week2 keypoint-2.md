@@ -50,8 +50,11 @@
    when all limits have constant values 
 
       1. lim (f(x)+g(x)) = lim f(x) + lim g(x)
+      
       2. lim (f(x)-g(x)) = lim f(x) - lim g(x)
+      
       3. lim (f(x)*g(x)) = lim f(x) * lim g(x)
+      
       4. lim (f(x)/g(x)) = lim f(x) / lim g(x) ( lim g(x) is not same with 0)
 
 
