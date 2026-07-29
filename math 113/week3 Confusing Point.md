@@ -30,11 +30,6 @@
 
     This laws are only applied for four basic operations. 
 
-## Composition of Function
-
-    if g is continiuous at a, and f is continiuous at g(a) f(g(x)) is continiuous at a.
-
-    So lim x->a f(g(x))=f(g(a)). We can use this law.
 
 
 
