@@ -28,7 +28,10 @@
 
     and f(x)<=g(x) or f(x)<g(x), 
     
-    (x range of satisfying that condition -> (a-k,a)∪(a,a+k) (lim x->a) or (k,infinity) (lim x-> infinity) or (-infinity,k) (lim x-> - infinity))
+    (x range of satisfying that condition -> (a-k,a)∪(a,a+k) (lim x->a) (if lim x->a+ : (a,a+k), lim x->a- : (a-k,a))
+    
+    or (k,infinity) (lim x-> infinity) or (-infinity,k) (lim x-> - infinity))
+    
     L <= M
     
 ## Squeeze Theorom
