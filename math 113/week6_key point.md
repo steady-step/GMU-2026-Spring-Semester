@@ -22,7 +22,7 @@ by squeeze theorem, lim θ->0 cosθ=1. limθ->0 1=1 therefore, lim θ->0 sinθ/�
 
 ### Cos proof
 
-<img src="week6_file2.jpg" width="500">  
+<img src="week6_file2.jpg" width="1000">  
 
 ### Others
 
