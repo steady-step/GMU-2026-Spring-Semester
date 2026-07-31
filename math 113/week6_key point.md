@@ -22,6 +22,27 @@ by squeeze theorem, lim θ->0 cosθ=1. limθ->0 1=1 therefore, lim θ->0 sinθ/�
 
 ### Cos proof
 
+<img src="week6_file2.jpg" width="500">  
+
+### Others
+
+By, Angle addition formulas & above formulas,
+
+d/dx (sinx) = cosx 
+
+d/dx (cosx) = -sinx
+
+And, sec x = 1/cos x , cec x = 1/sin x , cot x = 1/tan x
+
+d/dx(tanx) = (sinx/cosx)' , by quotient rule,
+
+(cos^2 x + sin^2 x) / (cosx)^2 = (1/cosx)^2 = (secx)^2
+
+
+
+
+
+
 
 
 
