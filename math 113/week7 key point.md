@@ -92,7 +92,33 @@ y' = (6y-3x^2)/3y^2-6x
 
 ### Detail about implicit function
 
-y'
+Calculated y' holds true in every differentiable function in the equation.
+
+We can maximize the function range for getting more y'.
+
+The range which can not be differentiable can not use the y' result as analyzing the process for getting y' value,
+
+it is impossible to go through the process as it can not be differentiable.
+
+But, the range is filtered by y' results 
+
+**ex**
+
+x^2+y^2=25 , y' = -x/y, (5,0) -> impossible
+
+The process for calculating y''
+
+if y' = -x/y, we can also consider y' and -x/y as just each x function.
+
+So we can differentiate.
+
+y'' = - (y-xy')/y^2 = - 25/y^3
+
+
+
+
+
+
 
 
 
