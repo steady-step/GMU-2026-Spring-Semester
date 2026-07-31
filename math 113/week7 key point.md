@@ -9,7 +9,7 @@
 
 **if f is derivative at a, and g is derivative at f(a),**
 
-**g(f(a)) is continuous at a. (the range can be open interval)**
+**g(f(a)) is derivative at a. (the range can be open interval)**
 
 
 ## Chain rules
