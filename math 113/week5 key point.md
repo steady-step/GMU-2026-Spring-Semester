@@ -27,7 +27,7 @@
 
     2) the number when f'(0) = 1 in exponential function.
 
-    Therefore, (e^x)'= e^x, (b^x)'= b^x * lnb
+    Therefore, (e^x)'= e^x, also, (b^x)'= b^x * lnb
 
     because b^x = (e^lnb)^x= e^(lnb*x) by chain rule,
 
