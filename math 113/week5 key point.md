@@ -25,7 +25,7 @@
 
     1) lim n->infinity (1+1/n)^n (compound interest)
 
-    2) the number when f'(0)==1 in exponential function.
+    2) the number when f'(0) = 1 in exponential function.
 
     Therefore, (e^x)'= e^x, (b^x)'= b^x * lnb
 
