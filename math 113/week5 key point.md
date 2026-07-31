@@ -19,15 +19,19 @@
 
     therefore it is same with f'(x)+g'(x).. This proof process is same when being subtraction formula.
 
-    if we differentiate exponential fuction, the result is b^x * f'(0)...
+    if we differentiate exponential function, f'(x) = b^x * lim h->0 (b^h-1)/h (f'(0))
 
-    We define e^x as f'(0)=1.... E is also same with the value (lim n->infinity (1+1/n)^n) -> when we receive 100% bank interest divided infinitely in 1 year.
+    We define e as these two.
 
-    We can also get this expression in e^x one.. f'(0) = lim h->0 e^h-1/h = 1 , e ~lim h->0 (h+1)^1/h , if we assume 1/h = n, lim n->infinity (1+1/n)^n
+    1) lim n->infinity (1+1/n)^n (compound interest)
 
-    It is same with bank interest case!
+    2) the number when f'(0)==1 in exponential function.
 
-    As f'(0)=1, (e^x)' = e^x..
+    Therefore, (e^x)'= e^x, (b^x)'= b^x * lnb
+
+    because b^x = (e^lnb)^x= e^(lnb*x) by chain rule,
+
+    e^(lnb*x) * lnb = b^x * lnb
 
  <img src="week5_file1.png" width="200">
 
