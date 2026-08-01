@@ -145,7 +145,7 @@ Method is simple.
 
 
 
-ex) 
+ex 1) 
 
 **Fine the linearization of the function f (x) = root x + 3 at a = 1 and use it to approximate root 3.98 and root 4.05.**
 
