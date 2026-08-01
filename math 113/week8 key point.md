@@ -20,7 +20,22 @@ we can use logarithmic differentiation.
 
 2) Use log Laws of logarithms and do implicit differentiation.
 
-ex)
+ex) 
+
+<img src="week8_file2.jpg" width="800">
+
+There are four types of differentiation about exponent and base.
+
+1. (5^3)' = 0
+
+2. ((2x+1)^3)' = 3*(2x+1)*2= 6(2x+1)
+
+3. 2^(3x+1) = 2^(3x+1) ln2 * 3
+
+4. The case when exponent and base are all variables (ex : x^(rootx))
+
+
+
 
 
 
