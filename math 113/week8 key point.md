@@ -32,7 +32,103 @@ There are four types of differentiation about exponent and base.
 
 3. 2^(3x+1) = 2^(3x+1) ln2 * 3
 
-4. The case when exponent and base are all variables (ex : x^(rootx))
+4. The case when exponent and base are all variables (ex : x^(rootx)) -> use logarithmic differentiation
+
+<img src="week8_file3.jpg" width="1000"> 
+
+## Inverse Trigonometric Functions
+
+**sin^-1(x) = arcsin(x),  cos^-1(x) = arccos(x),  tan^-1(x) = arctan(x)**
+
+**(sin^-1(x))' = 1/(root 1-x^2)),  (cos^-1(x))' = - 1/(root 1-x^2)), (tan^-1(x))' = 1/1+x^2**
+
+Originally, making inverse trigonometric function is impossible.
+
+**I will introduce the way we make inverse function of sin x and its derivative.**
+
+First, we limit the range of the sin(x). ( [-ㅠ/2,ㅠ/2])
+
+if we do that, inverse function can be function.
+
+For calculating its derivative, just use implicit derivative 
+
+as it can calculate slope although we don't need to consider whether it is function or not for now.
+
+sin(y) = x, (inverse function)
+
+y' = 1/cosy, cosy = +- root (1-sin^2y) = += root(1-x^2)
+
+y' = 1/+-(root 1-x^2) -> y' value which includes the point before limiting the range.
+
+As the range of y is [-ㅠ/2,ㅠ/2],
+
+cos y becomes bigger than 0,
+
+(Also, considering its shape)
+
+y' = + root(1-x^2)
+
+Other Inverse Trigonometric Functions and its derivative are also be calculated through this way.
+
+## Related rates
+
+The problem about calculating rates through related other given rates
+
+There are two ways for resolving this kind of problems.
+
+1) Use Leibniz's notation.
+
+2) Use implicit function.
+
+
+ex1)
+
+Air is being pumped into a spherical balloon so that its volume increases at a rate of 100 cm3/s.
+
+How fast is the radius of the balloon increasing when the diameter is 50 cm?
+
+First, given condition : dv/dt = 100cm^3/s, unknown : dr/dt (when r=25)
+
+V = 4/3ㅠr^2, dV/dr = 4ㅠr^2, 
+
+By Leibniz's notation,
+
+dV/dt = dV/dr * dr/dt
+
+Therefore, 100 = 4ㅠr^2 * dr/dt
+
+as r= 25, dr/dt = 1/25ㅠ cm/s
+
+
+ex2)
+
+A ladder 10 ft long rests on a vertical wall. If the bottom of the ladder slides away from the wall at a rate of 4 ft/s, 
+
+how fast is the top of the ladder sliding down the wall when the bottom of the ladder is 6 ft from the wall.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
