@@ -107,6 +107,101 @@ A ladder 10 ft long rests on a vertical wall. If the bottom of the ladder slides
 how fast is the top of the ladder sliding down the wall when the bottom of the ladder is 6 ft from the wall.
 
 
+<img src="week8_file4.jpg" width="1000"> 
+
+First, we set two variables x and y.
+
+By Pythagorean theorem, x^2+ y^2 = 100.
+
+dx/dt = 4ft/s, dy/dt = ??? when x= 6ft.
+
+x and y are all variables about t.
+
+So we can use implicit derivative about t.
+
+By, implicit derivative, we assume x as x(t), and y as y(t) (function about t)
+
+x(t)^2 + y(t)^2 = 100
+
+2x(t) dx(t)/dt + 2y(t) dy(t)/dt = 0
+
+2 * 6 *4 + 2 * 8 * (???) = 0
+
+therefore, **answer = -3ft/s**
+
+## Linear Approximations
+
+Sometimes, it is hard to calculate accurate function value.
+
+So, we need to approximate this kind of values.
+
+That way is linear approximation using tangent line.
+
+Method is simple.
+
+1) Calculate a tangent line about one point. this process is called as linearization.
+
+2) Approximate through the tangent line. this process is called as Linear Approximations
+
+
+
+ex) 
+
+**Fine the linearization of the function f (x) = root x + 3 at a = 1 and use it to approximate root 3.98 and root 4.05.**
+
+**Are these approximations over-estimated or under-estimated?**
+
+First, f'(1) = 1/4, therefore, tangent line : L(x) = 1/4x+ 4/7
+
+x -> 0.98 : 1.995 (approximations of root 3.98)
+
+x -> 1.05 : 2.0125 (approximations of root 4.05)
+
+Considering the graph's shape, tangent line is always above the function.
+
+Therefore, they are all overestimated.
+
+ex 2)
+
+The radius of a sphere was measured and found to be 21 cm with possible error in measurement of at most 0.05 cm.
+
+What is the maximum error in using this value of the radius in computing the volume of the sphere? (approximation)
+
+V = 4/3 ㅠ r^3, dV/dr = 4ㅠr^2, as dV and dr are also independent variables,
+
+dV = dr * 4ㅠr^2. **dV = 0.05 * 4ㅠ * 21^2 = 88.2ㅠ**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
