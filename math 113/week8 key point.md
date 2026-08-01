@@ -28,7 +28,7 @@ There are four types of differentiation about exponent and base.
 
 1. (5^3)' = 0
 
-2. ((2x+1)^3)' = 3*(2x+1)*2= 6(2x+1)
+2. ((2x+1)^3)' = 3*(2x+1)^2*2= 6(2x+1)^2
 
 3. 2^(3x+1) = 2^(3x+1) ln2 * 3
 
