@@ -39,9 +39,9 @@ We can utilize this notation.
 
 ## Implicit Differentiation
 
-**Explicit function : the form of y= ~ (it is not function, just form)**
+**Explicit function : the form of Dependent variable = the expression about Independent variable (it is not function, just form)**
 
-**Implicit function : the form of etc. except y~ (it is also just form)**
+**Implicit function : Other expression form about dependent variable and independent variable except explicit form. (it is also just form)**
 
 The key point for resolving implicit differentiation is assuming 
 
