@@ -42,7 +42,7 @@
       
       3. If it exists 'a' even one with all M, this condition is positive infinity.
 
-      (This infinity condition con have negative number for a moment unlike x->infinity condition.)
+      (This infinity condition can have negative number for a moment unlike x->infinity condition.)
     
 
 ## formulas about limits
