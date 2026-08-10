@@ -1,7 +1,7 @@
 # Week2 keypoint-2
 
 ## Definiton of limit
-<img src="week2_file3.png" width="250">
+<img src="week2_file3.png" width="450">
   We usually think limit is just a situation. But, it is false. Limit is a constant. 
   
     We define f(x)->L, as x->a like these.
@@ -45,7 +45,7 @@
       (This infinity condition can have negative number for a moment unlike x->infinity condition.)
     
 
-## formulas about limits
+## Limit laws
 
    when all limits have constant values 
 
@@ -66,7 +66,7 @@
 
     3. intuitively (f(x)=x^2->infinity, as x->infinity)
 
-    4. use formulas 
+    4. use limit laws
 
     5. Indeterminate form
 
