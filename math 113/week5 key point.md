@@ -1,4 +1,4 @@
-# week5 key point
+# Week5 key point
 
     if f(x)=c, f'(x)=0... You can easily prove this with differentiation process.
 
@@ -33,7 +33,7 @@
 
     e^(lnb*x) * lnb = b^x * lnb
 
- <img src="week5_file1.png" width="200">
+ <img src="week5_file1.png" width="500">
 
     if f and g are differentiable, (fg)'=fg'+gf'
 
@@ -63,12 +63,7 @@
 
     f(x) and f'(x) are different function. Although f(x) is composition, f'(x) is not..
 
-    If we want to check the domain of f'(x), there are two steps.
-
-    1. exclude f(x) domain (It can calculate with composition function range, common range(when a+b,a-b,a*b...), presented range(x>5), denominator=0 etc...)
-
-    2. exclude f'(x) domain( it will be cusp or vertical tangent line)
-
+ 
 
     
 
