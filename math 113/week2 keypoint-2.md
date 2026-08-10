@@ -28,7 +28,7 @@
      
      4. Find M. if we can find all M with all error, L is the real value of limit. 
 
-## definiton of infinity
+## Definiton of infinity
 
  Infinity is not number, it is condition.
 
