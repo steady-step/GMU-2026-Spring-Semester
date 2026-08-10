@@ -73,72 +73,45 @@
 
     the meaning of those signal was uncertain.
 
-    Mathematicians of later generations defines dx like this
+    Mathematicians of later generations defines these signals like this.
 
-    dx -> equation of tangent line delta x of function.
+    if d~ is located at denominator (ex: dx in dy/dx)
 
-    dy -> equation of tangent line delta y of function.
+    it means the tangent line's horizontal delta
 
-    dx and dy are variables.
+    and we use the horizontal line's name in d~ (ex: dx)
 
-    also, x,y delta x, and delta y are also variables.
+    Also, if d~ is located at numerator (ex: dy in dy/dx)
 
-    We usually can use delta x like this -> delta x/delta y = 3 (usually)
+    it means the tangent line's vertical delta
 
-    at x=2, delta x=0.05, f(x) ??
+    and we use the vertical line's name in d~ (ex: dy, df(x), d(x^2+1))
 
-    Like this, we can use dx and dy.
+    They are all unique variables.
 
-    dy/dx = 3x^2 (usual definition) x means tangent point,
+    The variable located in denominator is independent variable(it is not 0)
 
-    but we usually write it as just x.
+    and the one located in numerator is dependent variable.
 
-    As at one point, there is only one tangent line,
+    The vertical line's name can be moved to right.
 
-    so it is also function, and if we write its domain,
+    (ex: d/dx * y, d/dx * (x^2+1)
 
-    it is same with f'(x).
+    d^2y/dx^2 = d/dx * (dy/dx)
 
-    dy = 3x^2 * dx is possible.
+    The precise definition of d^2y/dx^2 is the rate of  tangent line's horizontal and vertical delta when x-axis and dy/dx axis.
 
-    Also, if we consider only one tangent line, 3x^2 changes from variables to constants.
+    Therefore, as dy/dx means just the rate of tangent line's horizontal and vertical delta,
 
-    **dx and dy is only for equation of tangent line.**
+    it can be used also in usual equation. (ex: x^2+y^2=25, there are also tangent lines in this equation.)
 
-    we can do like this.
-
-    ex)In the tangent line at x=1, dy/dx?
-
-    ex)Consider the tangent line at x=1 as a linear function. 
-    
-    If we fix a point on this line at x=3 and define dx=2, dy?
-
-    d(f(x)) or dy -> Equation of Tangent Line's delta y , original function = f(x),
-
-    d(x^2+1) -> possible -> Equation of Tangent Line's delta y, origianl : x^2+1
-
-    d/dx f(x) -> possbile, we sometimes use d/dx like derivative machine.
-
-    this is same with d(f(x))/dx.
-
-    d^2y/dx^2 = consider derivative as origianl function.
-
-    dx^2 = delta x of Equation of Tangent Line of derivative.
-
-    d^2y = delta y of Equation of Tangent Line of derivative.
-
-    d^2y/dx^2=6x, d^2y = dx^2 * 6x.
-
-    (x is tangent point)
-
-    it is same signal with f''(x)
+    But, when we use it in function, we can just consider it as just derivative.
 
     If we define dx and dy like this, derivative has no problem.
 
     But, in integral, there are problems.
 
 <img src="week4_file1.png" width="500">    
-
 
     As shown in the image above,
 
@@ -148,15 +121,15 @@
 
     This is collusion of definition.
 
-    It is enough to accept this situation as just collusion of definition between Leifnitz and Later mathematicians.
+    It is enough to accept this situation as just collusion of definition between Leibniz and Later mathematicians.
 
     Also, later mathematicians uses dx when using integration by substitution
 
-    although the definition is not appropriate for using it in ingeration.
+    although the definition is not appropriate for using it in integration.
 
     In other words, the key point is
 
-    1. There is definiton collusion between Leifnitz and Later mathematicians. (We dealed with later one in previous section.)
+    1. There is definition collusion between Leibniz and Later mathematicians. 
     
     2. It is correct that we consider dx and dy definition as later definition.
 
@@ -167,8 +140,6 @@
        later mathmatician selected uses it origianlly, but make a new way (integration by substitution)
 
        for using dx like it satifies the definition.
-
-       (integration by substitution is based on other math laws.
 
     
 
