@@ -72,14 +72,9 @@ Other Inverse Trigonometric Functions and its derivative are also be calculated 
 
 ## Related rates
 
-The problem about calculating rates through related other given rates
+This problem is about rates which change simultaneously.
 
-There are two ways for resolving this kind of problems.
-
-1) Use Leibniz's notation.
-
-2) Use implicit function.
-
+We can utilize chain rule and its Leibniz's notation.
 
 ex1)
 
@@ -87,7 +82,11 @@ Air is being pumped into a spherical balloon so that its volume increases at a r
 
 How fast is the radius of the balloon increasing when the diameter is 50 cm?
 
-First, given condition : dv/dt = 100cm^3/s, unknown : dr/dt (when r=25)
+First, this relationship is composition. (V(r(t)))
+
+Therefore, we can utilize Leibniz's notation.
+
+given condition : dv/dt = 100cm^3/s, unknown : dr/dt (when r=25)
 
 V = 4/3ㅠr^2, dV/dr = 4ㅠr^2, 
 
@@ -117,9 +116,7 @@ dx/dt = 4ft/s, dy/dt = ??? when x= 6ft.
 
 x and y are all variables about t.
 
-So we can use implicit derivative about t.
-
-By, implicit derivative, we assume x as x(t), and y as y(t) (function about t)
+So we can represent like this.
 
 x(t)^2 + y(t)^2 = 100
 
@@ -167,7 +164,9 @@ The radius of a sphere was measured and found to be 21 cm with possible error in
 
 What is the maximum error in using this value of the radius in computing the volume of the sphere? (approximation)
 
-V = 4/3 ㅠ r^3, dV/dr = 4ㅠr^2, as dV and dr are also independent variables,
+V = 4/3 ㅠ r^3, dV/dr = 4ㅠr^2, 
+
+as dV and dr are also real variables,
 
 dV = dr * 4ㅠr^2. **dV = 0.05 * 4ㅠ * 21^2 = 88.2ㅠ**
 
