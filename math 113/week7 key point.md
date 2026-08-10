@@ -105,7 +105,9 @@ So thanks to implicit derivative, we can calculate slope of equation although it
 
 if y' = -x/y, we can also consider y' and -x/y as just each x function.
 
-So we can change it as f'(x) = -x/f(x) (we assume f'(x) is differentiable)
+So we can change it as f'(x) = -x/f(x) (condition : f'(x) and f(x) are differentiable and f(x) is not 0)
+
+
 
 
 
