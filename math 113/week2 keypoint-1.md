@@ -12,41 +12,37 @@
 
 ## Composition of functions
 
-    Ths signal of composition is f ∘ g. it means f(g(x)). f ∘ g is not same with g ∘ f. 
+    The signal of composition is f ∘ g. it means f(g(x)). f ∘ g is not same with g ∘ f. 
     
-    Domain f ∘ g is the set of all x in the domain of g, and also g(x) should be the domain of the f.
+    It ignores middle steps. The focus is only the first input and last output.
 
-## One to one function and Inverse Fuction.
+## One to one function and Inverse Function.
 
-  <img src="week2_file1.png" width="200">
+  <img src="week2_file1.png" width="500">
   
     One to One function means f(x1) is not equal f(x2) whenever x1 is not equal x2. 
     
     Especially, when codomain is same with range, we called it one-to-one correspondence. 
   
-    The image above here is one to one fuction. it is not correspondence. But, we can control
+    The image above here is one to one function. it is not correspondence. But, we can control
   
-    codomains same with range to make it correspondence. So, when we make conditions related to that, we usually use one to one fuction.
+    codomains same with range to make it correspondence. So, when we make conditions related to that, we usually use one to one function.
   
-  <img src="week2_file2.png" width="200">
+  <img src="week2_file2.png" width="500">
   
-    When we want to check whether the fuction is one to one, we can use horizontal line. 
+    When we want to check whether the function is one to one, we can use horizontal line. 
     
     If there are over two locations met with the graph,  it is not one to one.
     
-    Also, Inverse Fuction is the reverse with original fuction. the domain and range are changed each other. 
+    Also, Inverse Function is the reverse with original function. the domain and range are changed each other. 
     
-    The conditon for making inverse fuction is one to one.
-    
-    The detail condition is correspondecne, but we can control codomain to make correspondence.
-    
-    To make inverse fuction, First of all, write g=f(x), and solve the equation for x in terms of y, and change x and y. 
-    
-    f^-1(f(x))=x, f(f^-1(x))=x, but we should consider the domain related with inverse and composition. 
+    The condition for making inverse function is one to one.
+        
+    To make inverse function, make equation to x = form and change x and y.
 
 ## the number e.
 
-    e is one of the irrational number. it is approximately 2.7~. we can draw (y=e^x graph) simmlar with y=2^x.
+    e is one of the irrational number. it is approximately 2.7~. we can draw (y=e^x graph) similar with y=2^x.
     
     Also, we define ln. it means log which have a base "e". we can draw it also, and use many formulas related with log and exponent.
     
