@@ -42,33 +42,25 @@
 
     the size of domain f' <= the size of domain f.
 
-    misunderstanding point : if x is domain, y=3 -> fuction, slope=0, x=3-> not fuction, slope -> doesn't exist.
+    In the closed interval, it is impossible to have limit value at end point.
 
-    limit : if the limit value exists, left-hand limit should be same with right-hand limit. In the closed interval, 
+    Differentiation : if the derivative exists, left-hand derivative and right-hand derivative should be same. 
     
-    it is impossible to have limit value at end point.
+    In the closed interval, it is impossible to have the derivative value at the end point.
 
-    Differentiation : if the derivative exists, left-hand derivative and right-hand derivative should be same. In the closed interval, 
+    Continuity : if the function is continuous at x=a, the function should be left-continuous and right-continuous, but!!
+
+    In the closed interval, the interval is recognized as continuity only if the both end points are either continuous.
+
+    the signal of derivative. -> f'(x), y', dy/dx,  D f(x)
+
+    second derivative : f''(x), d^2y/dx^2, y''.
+
+    f'(x) -> the value when substituting a value x to f'(x) (derivative of f).
+
+    y' -> The variable which means codomain's element of derivative. 
     
-    it is impossible to have the derivative value at the end point.
-
-    Continuity : if the fuction is continuous at x=a, the fuction should be left-continuous and right-continuous, but!!
-
-    In the closed interval, the interval is recognized as continuity only if the both end points are either continious.
-
-    the signal of derivative. -> f'(x), y', dy/dx, df/dx, D f(x), Dxf(x) (based on x)
-
-    second derivative : f''(x), d^2y/dx^2
-
-    If the fuction can differentiate at the interval, the fuction is continuous at the interval. (Reverse is not applied this law)
-
-    3 reason why the function is impossible to differentiate
-
-    1) discontinuous
-
-    2) cusp point (ex: y=|x|, x=0), it is not smooth point. left-hand derivative is not same with right one.
-
-    3) vertical tangent line : the slope is not defined.
+    (When original function's equation uses y as the variable which means codomain's element)
 
 
 ## Leibniz's notation
