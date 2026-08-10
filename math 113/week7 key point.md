@@ -101,14 +101,15 @@ we can consider it like real derivative of equation although original equation i
 
 So thanks to implicit derivative, we can calculate slope of equation although it it not function.
 
-**The process for calculating y''**
+**Calculating y''**
 
-if y' = -x/y, we can also consider y' and -x/y as just each x function.
+if y' = -x/y, we can consider y' and -x/y as just each x function.
 
 So we can change it as f'(x) = -x/f(x) (condition : f'(x) and f(x) are differentiable and f(x) is not 0)
 
+**problem solving**
 
-
+<img src="week7_image1.jpg" width="500">  
 
 
 
