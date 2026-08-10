@@ -34,6 +34,10 @@ Analyzing Leibniz's notation, there are two du. they are different variables.
 
 (du in du/dx is vertical delta of tangent line in x-u graph, du in dy/du is horizontal delta of tangent line in u-y graph)
 
+But, if the composition situation occurred, they becomes same and the result becomes dy/dx. 
+
+This is also proved by first proof.
+
 ## Implicit Differentiation
 
 **Explicit function : the form of Dependent variable = the expression about Independent variable (it is not function, just form)**
@@ -87,29 +91,23 @@ x^3 + y^3 = 6xy
 y' = (6y-3x^2)/3y^2-6x
 
 
-### Detail about implicit function
+### Detail about implicit derivative
 
 Calculated y' holds true in every differentiable function in the equation.
 
-We can maximize the function range for getting more y'.
+However, as in the process when calculating f'(x), range which can not be differentiable is filtered by f'(x) results,
 
-The range which can not be differentiable can not use the y' result as analyzing the process for getting y' value,
+we can consider it like real derivative of equation although original equation is not function. (ex: x^2 + y^2 = 25)
 
-it is impossible to go through the process as it can not be differentiable.
+So thanks to implicit derivative, we can calculate slope of equation although it it not function.
 
-But, the range is filtered by y' results 
-
-**ex**
-
-x^2+y^2=25 , y' = -x/y, (5,0) -> impossible
-
-The process for calculating y''
+**The process for calculating y''**
 
 if y' = -x/y, we can also consider y' and -x/y as just each x function.
 
-So we can differentiate.
+So we can change it as f'(x) = -x/f(x) (we assume f'(x) is differentiable)
 
-y'' = - (y-xy')/y^2 = - 25/y^3
+
 
 
 
