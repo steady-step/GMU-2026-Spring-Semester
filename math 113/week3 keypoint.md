@@ -73,7 +73,7 @@
 
     we can prove this law with limit laws.
 
-    these fuctions are continuous in the domain.
+    these functions are continuous in the domain.
 
      -> polynomials, rational, root, trigonomatic, exponential, logarithmic, inverse trigonomatic fuction.
 
