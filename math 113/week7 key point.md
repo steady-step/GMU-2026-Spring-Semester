@@ -20,21 +20,11 @@ F(x) = f(g(x)), F'(x) = f'(g(x)) * g'(x)
 
 ex) y=(2x+1)^3 -> y' = 3*(2x+1)^2 * 2 = 6*(2x+1)^2
 
-Also, by Leibniz's notation,
+Also, it can be represented through Leibniz's notation.
 
 dy/dx = du/dx * dy/du
 
-**Proof**
 
-<img src="week7_file1.jpg" width="1000"> 
-
-We can utilize this notation.
-
-1) y = (2x+1)^3 -> y' ?
-
-   u=2x+1, y=u^3 -> use chain rule like above calculation.
-
-2) dy/dx = du/dx * dy/du = 2 * 3u^2 = 6u^2 = 6(2x+1)^2
 
 
 ## Implicit Differentiation
