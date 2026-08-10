@@ -2,15 +2,17 @@
 
 ## functions
 
-    function : relation from a set of inputs to a set of outputs and each set of input is connected to only one set of outputs
+    set : a group with clear criteria for attendance and access
+
+    function : The condition in relation from a one set to another set and elements of starting set are connected to only one element each of another set.
     
-    domain : the set of all inputs
+    domain : The starting set of function.
     
-    codomain : the set of all possible output values (not output values)
+    codomain : The finishing set of function.
     
-    range : the set of output values
+    range : the set of containing codomain's matched elements.
     
-## Representation of funcntion (4 ways)
+## Representation of function (4 ways)
 
     1. verbally (introduce function in words)
     
@@ -20,14 +22,14 @@
     
     4. algebraically(such as y=x+3)
     
-<img src="week1_file1.png" width="150">
+<img src="week1_file1.png" width="500">
 
     But, Not every table, graph, and equation defines functions. 
     
     this graph is not function. To know whether it's graph, you can write vertical line. if there are several lines it's not function. 
     
     Also, y^2=x is not function. 
-  <img src="week1_file2.png" width="150">
+  <img src="week1_file2.png" width="500">
   
     This is a example of table which is not function. There are 3 values of the same x=3.
 
@@ -41,7 +43,7 @@
     
        (Linear is one of the types of Polynomials, degree=1)
        
-<img src="week1_file3.png" width="200">
+<img src="week1_file3.png" width="500">
 
     4. Power functions : y=x^a(a is real number), if a is fraction, it is root function. 
     
