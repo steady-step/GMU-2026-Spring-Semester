@@ -47,7 +47,7 @@
 
 ## Limit laws
 
-   when all limits have constant values 
+   when all limits have constant values,
 
       1. lim (f(x)+g(x)) = lim f(x) + lim g(x)
       
@@ -55,20 +55,8 @@
       
       3. lim (f(x)*g(x)) = lim f(x) * lim g(x)
       
-      4. lim (f(x)/g(x)) = lim f(x) / lim g(x) ( lim g(x) is not same with 0)
+      4. lim (f(x)/g(x)) = lim f(x) / lim g(x) ( lim g(x) is not 0)
 
-
-## 5 ways for caculating limits
-
-    1. numerically (with calculator)
-
-    2. graphically (with graph)
-
-    3. intuitively (f(x)=x^2->infinity, as x->infinity)
-
-    4. use limit laws
-
-    5. Indeterminate form
 
 
 
