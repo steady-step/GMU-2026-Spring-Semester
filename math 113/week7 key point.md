@@ -22,10 +22,17 @@ ex) y=(2x+1)^3 -> y' = 3*(2x+1)^2 * 2 = 6*(2x+1)^2
 
 Also, it can be represented through Leibniz's notation.
 
-dy/dx = du/dx * dy/du
+dy/dx = du/dx * dy/du 
 
+(condition : the graphs in this situation are all functions & The situation and inserted value is assumed as composition function)
 
+These two are same meaning. If either is proved, both are proved.
 
+Mathematicians failed to prove Leibniz's notation, therefore, these two is resolved after succeeding first proof.
+
+Analyzing Leibniz's notation, there are two du. they are different variables. 
+
+(du in du/dx is vertical delta of tangent line in x-u graph, du in dy/du is horizontal delta of tangent line in u-y graph)
 
 ## Implicit Differentiation
 
