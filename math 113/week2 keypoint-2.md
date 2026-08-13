@@ -34,7 +34,7 @@
 
  Limit result can be infinity condition.
  
-    We define positive infinity of function value like these.
+    We define positive infinity in function like these.
     
       1. Suggest any positive 'M' for checking whether this condition is positive infinity.
       
