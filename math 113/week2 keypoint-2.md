@@ -14,11 +14,11 @@
       
       4. find the number when compressing. it is L. and it is constant. 
 
-    Also, when x->∞ we define L like these. 
+    Also, when x->∞, we define L like these. 
 
-    the range of x-> infinity like this
-
-    For any positive number M>0, all real numbers x such that x>M. (therefore, x is always positive)
+    First, the range of x-> infinity means
+    
+    for any positive number M>0, all real numbers x such that x>M. (therefore, x is always positive)
     
      1. Suppose L is the value of limit. 
      
