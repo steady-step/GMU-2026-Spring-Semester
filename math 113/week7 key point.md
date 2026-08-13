@@ -4,12 +4,12 @@
 
 **if f is continuous at a, and g is continuous at f(a),**
 
-**g(f(a)) is continuous at a. (the range can be point, close interval and open interval).** 
+**g(f(a)) is continuous at a. (the domain can be point, close interval and open interval).** 
 
 
 **if f is derivative at a, and g is derivative at f(a),**
 
-**g(f(a)) is derivative at a. (the range can be open interval)**
+**g(f(a)) is derivative at a. (the domain can be open interval)**
 
 
 ## Chain rule
@@ -116,7 +116,7 @@ x^3 + y^3 = 6xy
 
 3x^2 + 3y^2 y' = 6y + 6xy'
 
-y' = (6y-3x^2)/3y^2-6x
+y' = (6y-3x^2)/(3y^2-6x)
 
 
 ### Detail about implicit derivative
