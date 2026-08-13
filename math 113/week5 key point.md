@@ -1,67 +1,65 @@
 # Week5 key point
 
-    if f(x)=c, f'(x)=0... You can easily prove this with differentiation process.
+**if f(x)=c, f'(x)=0.**
 
-    f(x)=x^n, f'(x)=nx^n-1.. (if n is natural number.)
+**f(x)=x^n, f'(x)=nx^n-1. (if n is natural number.)**
 
-    proof : lim x->a x^n-a^n/x-a = (x-a)(x^n-1+x^n-2*a .....xa^n-2+a^n-1)/x-a = x^n-1.....
-           f'(a) = a^n-1*n = n*a^n-1, f'(x) = n*x^n-1..
+**if f is differentiable at x, (cf(x))'=c f'(x)..**
 
-    this formula is also valid in all real number.
+proof : lim h->0 cf(x+h)-cf(x)/h = c lim h->0 (f(x+h)-f(x))/h (by limit law) = cf'(x)
 
-    if f(x) is differentiable, (cf(x))'=c f'(x)..
+**if f and g are differentiable at x, (f(x)+g(x))'=f'(x)+g'(x) (f(x)-g(x))'=f'(x)-g'(x)**
 
-    proof : lim h->0 cf(x+h)-cf(x)/h = c lim h->0 f(x+h)-f(x)/h (by limit law) = cf'(x)
+proof : lim h->0 (f(x+h)+g(x+h)-f(x)-g(x))/h = lim h->0 (f(x+h)-f(x))/h + lim h->0 (g(x+h)-g(x))/h (by limit law)
 
-    if f(x) and g(x) are differentiable, (f(x)+g(x))'=f'(x)+g'(x) (f(x)-g(x))'=f'(x)-g'(x)
+therefore it is same with f'(x)+g'(x).. This proof process is same when being subtraction formula.
 
-    proof : lim h->0 f(x+h)+g(x+h)-f(x)-g(x)/h = lim h->0 f(x+h)-f(x)/h + lim h->0 g(x+h)-g(x) (by limit law)
+if we differentiate exponential function, f'(x) = b^x * lim h->0 (b^h-1)/h (f'(0))
 
-    therefore it is same with f'(x)+g'(x).. This proof process is same when being subtraction formula.
+We define e as these two.
 
-    if we differentiate exponential function, f'(x) = b^x * lim h->0 (b^h-1)/h (f'(0))
+**1) lim n->infinity (1+1/n)^n (compound interest)**
+   
+**2) the number when f'(0) = 1 in exponential function.**
 
-    We define e as these two.
+**Therefore, (e^x)'= e^x, also, (b^x)'= b^x * lnb**
 
-    1) lim n->infinity (1+1/n)^n (compound interest)
+**because b^x = (e^lnb)^x= e^(lnb*x) by chain rule,**
 
-    2) the number when f'(0) = 1 in exponential function.
+**e^(lnb*x) * lnb = b^x * lnb**
 
-    Therefore, (e^x)'= e^x, also, (b^x)'= b^x * lnb
+<img src="week5_file1.png" width="500">
 
-    because b^x = (e^lnb)^x= e^(lnb*x) by chain rule,
+if f and g are differentiable at x, (f(x)*g(x))' = f(x)g'(x) + f'(x)g(x)
 
-    e^(lnb*x) * lnb = b^x * lnb
+proof
 
- <img src="week5_file1.png" width="500">
+we assume u=f(x), v=g(x) 
 
-    if f and g are differentiable, (fg)'=fg'+gf'
+Δuv = (u+Δu)(v+Δv)-uv= uΔv + vΔu +ΔvΔu
 
-    we assume u=f(x), v=g(x) 
+lim Δx->0 Δuv/Δx = lim Δx->0 (uΔv/Δx + vΔu/Δx + ΔuΔv/Δx)
 
-    Δuv = (u+Δu)(v+Δv)-uv= uΔv + vΔu +ΔvΔu
+(∵v and u are differentiable & by limit law)
 
-    lim Δx->0 Δuv/Δx = lim Δx->0 (uΔv/Δx + vΔu/Δx + ΔuΔv/Δx)
+(ulimΔx->0 Δv/Δx) +(vlim Δx->0 Δu/Δx) + (Δu) * (lim Δx->0 Δv/Δx)
 
-    (∵v and u are diffentiable, by limit law)
+= u'v + v'u + 0 x v' = u'v + v'u
 
-    (ulimΔx->0 Δv/Δx) +(vlim Δx->0 Δu/Δx) + (Δu) * (lim Δx->0 Δv/Δx)
+if f and g are differentiable at x,
 
-    = u'v + v'u + 0 x v' = u'v + v'u
+(f(x)/g(x))' = (g(x)f'(x) - f(x)g'(x))/g(x)^2
 
-    if f and g are diffentiable,
+proof :  u=f(x), v=g(x), Δ(u/v) = (u+Δu)/(v+Δv)-u/v = (vΔu-uΔv)/(v(v+Δv))
 
-    (f/g)' = gf'-fg'/g^2
+(u/v)' = lim Δx->0 (u/v)/Δx = lim Δx->0 ((v * Δu/Δx) - (u * Δv/Δx))/v(v+Δv)
 
-    proof :  u=f(x), v=g(x), Δ(u/v) = (u+Δu)/(v+Δv)-u/v = (vΔu-uΔv)/(v(v+Δv))
+ (∵v and u are differentiable & by limit law)
 
-    (u/v)' = lim Δx->0 (u/v)/Δx = lim Δx->0 ((v * Δu/Δx) - (u * Δv/Δx))/v(v+Δv)
+ = (v*u' - u*v')/v^2
 
-    (∵v and u are diffentiable, by limit law)
 
-    = (v*u' - u*v')/v^2
-
-    f(x) and f'(x) are different function. Although f(x) is composition, f'(x) is not..
+ **f(x) and f'(x) are different function. Although f(x) is composition, f'(x) is not**
 
  
 
