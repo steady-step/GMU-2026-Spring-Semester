@@ -42,9 +42,29 @@ Mathematician realized it is hard to prove the rule using Leibniz's notation,
 
 they proved it using Lagrange's notation and use both together.
 
-The reason why we use both is they have own advantages.
+They have own advantages and we can use them for each appropriate situation.
 
+For example, we use chain rule's Lagrange's notation for just calculating and Leibniz's notation for related rates.
 
+(It will deal with at week 8)
+
+Lastly, we will analyze chain rule's Leibniz notation.
+
+As I said before, we assume the notation is in the situation of the chain rule.
+
+So, u means g(x) of f(g(x)). Therefore, like Lagrange's notation, substitute appropriate variable or
+
+substitute its result made by x or y (ex: dy/dx : 3x+1), the situation becomes satisfied with original rule, and
+
+the different two variable du (they are different. they are each x-u graph's vertical delta and u-y graph's horizontal delta)
+
+becomes same and the result becomes same with Lagrange's notation.
+
+It is proved as Lagrange's notation is previously proved.
+
+Like this, other differentiation rules also have its Leibniz's notation. It is just another notation of the rule.
+
+**But, the most important thing is the Leibniz's notation holds true only when original rule's condition is satisfied in the Leibniz's notation.**
 
 ## Implicit Differentiation
 
