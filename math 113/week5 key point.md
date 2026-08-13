@@ -59,7 +59,7 @@ proof :  u=f(x), v=g(x), Δ(u/v) = (u+Δu)/(v+Δv)-u/v = (vΔu-uΔv)/(v(v+Δv))
  = (v*u' - u*v')/v^2
 
 
- **f(x) and f'(x) are different function. Although f(x) is composition, f'(x) is not**
+ **f(x) and f'(x) are different function. Although f(x) is composition, f'(x) is not.**
 
  
 
