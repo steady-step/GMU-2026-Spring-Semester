@@ -88,7 +88,7 @@ Therefore, we can utilize Leibniz's notation.
 
 given condition : dv/dt = 100cm^3/s, unknown : dr/dt (when r=25)
 
-V = 4/3ㅠr^2, dV/dr = 4ㅠr^2, 
+V = 4/3ㅠr^3, dV/dr = 4ㅠr^2, 
 
 By Leibniz's notation,
 
