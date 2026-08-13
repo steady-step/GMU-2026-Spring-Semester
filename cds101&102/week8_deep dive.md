@@ -20,13 +20,15 @@ left skewed -> skewness < 0
 
 symmetrical -> skewness = 0
 
+### Histogram vs Bar graph
+
 | v.s | Histogram | Bar graph   |
 |--- | --- | --- |
 | x-axis| number| categoricals|
 |y-axis | number(count or percentage)|number(count)|
 |interval between rectagnles |DNE| exists|
 
-
+**Histogram is not PDF**
 
 
 
