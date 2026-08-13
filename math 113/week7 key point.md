@@ -12,31 +12,39 @@
 **g(f(a)) is derivative at a. (the range can be open interval)**
 
 
-## Chain rules
+## Chain rule
 
 **if g is derivative at a, and f is derivative at f(a),**
 
 F(x) = f(g(x)), F'(x) = f'(g(x)) * g'(x)
 
-ex) y=(2x+1)^3 -> y' = 3*(2x+1)^2 * 2 = 6*(2x+1)^2
+## Two Notation Methods for Differentiation Formulas
 
-Also, it can be represented through Leibniz's notation.
+There are two methods for representing differentiation rules.
 
-dy/dx = du/dx * dy/du 
+First is Lagrange's notation.
 
-(condition : the graphs in this situation are all functions & The situation and inserted value is assumed as composition function)
+It just uses f'(x) signal as derivative.
 
-These two are same meaning. If either is proved, both are proved.
+This way is widely used as it is intuitive and easy to use.
 
-Mathematicians failed to prove Leibniz's notation, therefore, these two is resolved after succeeding first proof.
+Second is Leibniz's notation.
 
-Analyzing Leibniz's notation, there are two du. they are different variables. 
+For example, chain rule can be represented as dy/dx = du/dx * dy/du.
 
-(du in du/dx is vertical delta of tangent line in x-u graph, du in dy/du is horizontal delta of tangent line in u-y graph)
+But, as Leibniz's notation just means random tangent line's horizontal and vertical delta,
 
-But, if the composition situation occurred, they becomes same and the result becomes dy/dx. 
+we should assume the notation is in situation of the specific rule.
 
-This is also proved by first proof.
+As they both mean the specific rule, if we prove either, another is also proved.
+
+Mathematician realized it is hard to prove the rule using Leibniz's notation,
+
+they proved it using Lagrange's notation and use both together.
+
+The reason why we use both is they have own advantages.
+
+
 
 ## Implicit Differentiation
 
