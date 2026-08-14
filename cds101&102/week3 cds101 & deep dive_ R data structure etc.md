@@ -67,19 +67,21 @@
 
     a["b","c"], a["b",], a[,"b"], a["b"]
 
-    a[c(1,2),c(3,4)], a[c("e","b"],c("c","d")]
+    a[c(1,2),c(3,4)], a[c("e","b"],c("c","d")],
 
-    They are possible.
+    if variable d = 3, a[d]
+
+    They are all possible.
 
     [[]] -> doesn't maintain its original data
 
-    but only two styles are possible
+    but only three styles are possible
 
-    a[[2]], a[["a"]]
+    a[[2]], a[["a"]], a[d](variable)
 
     $ -> doesn't maintain its original data
 
-    only one style is possible -> a$column1
+    only one style is possible -> a$colname
 
     additional grammsr
  
