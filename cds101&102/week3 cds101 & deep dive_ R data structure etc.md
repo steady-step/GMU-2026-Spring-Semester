@@ -61,7 +61,7 @@
 
     index -> [] or [[]] or $
 
-    [] -> maintain its original data
+    [] -> maintain its original data structure
 
     a[1,2] a[2,] a[,2], a[,], a[2]
 
@@ -75,15 +75,17 @@
 
     [[]] -> doesn't maintain its original data
 
-    but only three styles are possible
+    in this form, only one number or colname can be entered.
 
-    a[[2]], a[["a"]], a[d](variable)
+    ex) a[[3]], a[["col1"]]
 
     $ -> doesn't maintain its original data
 
-    only one style is possible -> a$colname
+    only colname is possible -> a$colname
 
-    additional grammsr
+    In this form, we don't use " ".
+
+    additional grammar
  
     x <- c("a","b","c","d","e","f")
 
