@@ -16,7 +16,7 @@
 
     Major attributes : names, dim/dimnames, levels etc.
 
-## Grammer
+## Grammar
 
     For creating matrix, we use this function. matrix() in that, we can insert data, nrow, ncol, byrow, dimnames.
 
