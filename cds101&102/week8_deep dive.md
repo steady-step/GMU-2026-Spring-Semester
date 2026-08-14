@@ -21,7 +21,7 @@ Modality : the number of local maximum at Probability Density Function.
 | v.s | Histogram | Bar graph   |
 |--- | --- | --- |
 | x-axis| continuous number | categorical data|
-|y-axis | number(count or percentage)|diverse kinds of number(average, number etc.)|
+|y-axis | number(count or percentage)|diverse kinds of numbers(average, number etc.)|
 |interval between rectangles |DNE| exists|
 
 **Histogram is not PDF.**
