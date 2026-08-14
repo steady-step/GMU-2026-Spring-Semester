@@ -14,6 +14,8 @@ Skewness : Mean of deviation^3 / sd^3
 
 Modality : the number of local maximum at Probability Density Function.
 
+(There can be diverse PDF shapes in one data set.)
+
 -> unimodal(1), bimodal(2), multimodal(3+), uniform(0)
 
 ## Histogram vs Bar graph
