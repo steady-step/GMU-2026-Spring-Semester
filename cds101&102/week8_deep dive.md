@@ -10,20 +10,20 @@ Statistically, we can find two things:
 
 skewness & modality.
 
-Skewness : Mean of deviation^3 / sd^3 
+Skewness : Mean of (deviation^3) / sd^3 
 
 Modality : the number of local maximum at Probability Density Function.
 
 (There can be diverse PDF shapes in one data set.)
 
--> unimodal(1), bimodal(2), multimodal(3+), uniform(0)
+-> unimodal(1), bimodal(2), multimodal(3+), uniform(no mode)
 
 ## Histogram vs Bar graph
 
 | v.s | Histogram | Bar graph   |
 |--- | --- | --- |
 | x-axis| continuous number | categorical data|
-|y-axis | number(count or percentage)|diverse kinds of numbers(average, number etc.)|
+|y-axis | number(count or percentage)|diverse kinds of numbers(average, count etc.)|
 |interval between rectangles |DNE| exists|
 
 **Histogram is not PDF.**
