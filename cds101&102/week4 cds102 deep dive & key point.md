@@ -22,7 +22,7 @@
 
     ex) select(data,starts_with('a')), select(data,contains("p")).
 
-    when using select function, comma is equals with or for condition.
+    When using select function, comma is equals with or for condition.
 
     Also, we can use & and | only when column names are not included such as starts_with, contains
 
