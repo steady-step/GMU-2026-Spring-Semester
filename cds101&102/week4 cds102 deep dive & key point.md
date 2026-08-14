@@ -8,7 +8,7 @@
 
     plot(matlab) : 1 variable : line graph based on index, 2 variables : line graph.
 
-## Grammer
+## Grammar
 
     dplyr package -> it is used for wrangling data frame, and we can also use it through calling tidyverse.
 
