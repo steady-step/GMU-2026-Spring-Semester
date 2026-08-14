@@ -1,6 +1,6 @@
 # Week3 cds102
 
-## Grammer
+## Grammar
 
     qplot() -> A fuction for making plot. We can make plot conveniently with this fuction. (Quick plot)
 
