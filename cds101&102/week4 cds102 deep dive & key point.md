@@ -34,8 +34,10 @@
 
     sturcture is like that.. filter(data,condition1,2,3,...)
 
-    condition structure is column operator condition ( ex) column1 == 3)
-
+    By the condition, each row can have TRUE or FALSE in the function process and 
+    
+    only True row is extracted.
+    
     in filter, comma is equal with and for condition.
 
     Also, we can use & and | in each condtion.
