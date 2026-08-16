@@ -26,7 +26,7 @@
 
      present error over 0.
 
-     if we can find m which means, at (m,infinity), all existing f(x) is in (f(x)-error,f(x)+error), it is passed.
+     if we can find m which means, at (m,infinity), all existing f(x) is in (L-error,L+error), it is passed.
 
      If it is passed on any positive error, the value is real limit value.
 
