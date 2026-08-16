@@ -88,6 +88,44 @@ therefore, maximum = 17, minimum = -3
 
 -> f'(c) = (f(b)-f(a))/(b-a), There exists at least one c.
 
+## What f' tells us about the graph
+
+f' means tangent line's slope.
+
+f'(x) > 0 : tangent line's slope > 0 
+
+f'(x) < 0 : tangent line's slope < 0 
+
+f'(x) = 0 : tangent line's slope = 0
+
+Also, the range when being f'(x)>0 and f'(x) should be open interval. it can not be just point.
+
+But, the range when being f'(x) = 0 can not only interval but also point.
+
+## First derivative test
+
+The test for checking whether critical number is local maximum/minimum point.
+
+**if f is continuous**
+
+f' changes + -> - at c, f(c) is local maximum
+
+f' changes - -> + at c, f(c) is local maximum
+
+## What f'' tells us about graph??
+
+f'' means the derivative of f'.
+
+Therefore, if f'' > 0 -> the tangent slope increases in the range,
+
+**Shape of graph**
+
+
+
+
+
+
+
 
 
 
