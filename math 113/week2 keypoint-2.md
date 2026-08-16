@@ -26,25 +26,21 @@
 
      present error over 0.
 
-     if we can find m which means, at (m,infinity), (f(x)-error,f(x)+error) exists.
+     if we can find m which means, at (m,infinity), all existing f(x) is in (f(x)-error,f(x)+error), it is passed.
 
-     
+     If it is passed on any positive error, the value is real limit value.
 
-## Definiton of infinity
+## Definition of infinity
 
  Infinity is not number, it is condition.
-
- Limit result can be infinity condition.
  
-    We define positive infinity in function like these.
+    We define positive infinity in number line about variable like this.
     
-      1. Suggest any positive 'M' for checking whether this condition is positive infinity.
-      
-      2. find the number 'a' which can make the number(L) over M. the number(L) can be evaluated like the same way which I used at defining f(x)->L, as x->a.
-      
-      3. If it exists 'a' even one with all M, this condition is positive infinity.
+      1. Present positive number M.
 
-      (This infinity condition can have negative number for a moment unlike x->infinity condition.)
+      2. If there exists bigger variable value over M, it is passed.
+
+      3. If it is passed on any positive number M, this variable condition is positive infinity.
     
 
 ## Limit laws
