@@ -104,7 +104,7 @@ But, the range when being f'(x) = 0 can not only interval but also point.
 
 ## First derivative test
 
-The test for checking whether critical number is local maximum/minimum point.
+The test using f' for checking whether critical number is local maximum/minimum point.
 
 **if f is continuous**
 
@@ -116,10 +116,37 @@ f' changes - -> + at c, f(c) is local maximum
 
 f'' means the derivative of f'.
 
-Therefore, if f'' > 0 -> the tangent slope increases in the range,
+Therefore, f'' > 0 -> the tangent slope of f increases as the f''>0 domain value increases
 
 **Shape of graph**
 
+<img src="week9_file1.png" width="400"> 
+
+-> The graph is always above the tangent line. This curve is concave upward.
+
+if f'' <0 -> the tangent slope of f decreases as the f''>0 domain value increases
+
+**Shape of graph**
+
+<img src="week9_file2.png" width="400"> 
+
+-> The graph is always below the tangent line. This curve is concave downward.
+
+the range of f''(x) > 0 & f''(x) <0 should be open interval, it can not be point.
+
+f''(x) = 0 -> it can not only point but also interval.
+
+if it is interval : f graph's tangent slope is same in the interval
+
+if it is point : the point should be usual point or inflection point
+
+## The second derivative test
+
+The test using f'' for checking whether critical number is local maximum/minimum point.
+
+1) f'(c) = 0, f''(c) > 0 -> f(c) is local minimum
+
+2) f'(c) = 0, f''(c) < 0 -> f(c) is local maximum
 
 
 
