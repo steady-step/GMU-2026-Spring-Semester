@@ -1,32 +1,34 @@
 # Week2 keypoint-2
 
-## Definiton of limit
+## Definition of function limit
 <img src="week2_file3.png" width="450">
-  We usually think limit is just a situation. But, it is false. Limit is a constant. 
+  We can think limit value is a situation. But, it is false. Limit value is a constant. 
   
     We define f(x)->L, as x->a like these.
     
-      1. Make open interval(x) except a (a-r,a),(a,a+r) 
+      1. Make interval(x) -> (a-r,a)∪(a,a+r) (a is constant and r is positive variable)
       
-      2. compress r to 0. 
+      2. interval(r) -> the condition when although we make smaller number over 0, the smaller possible value of r exists.
       
-      3. analyze all f(x) in the interval when compressing r to 0. 
-      
-      4. find the number when compressing. it is L. and it is constant. 
+      3. analyze where f(x) converges. The converging number L is limit value.
 
     Also, when x->∞, we define L like these. 
 
-    First, the range of x-> infinity means
-    
-    for any positive number M>0, all real numbers x such that x>M. (therefore, x is always positive)
-    
-     1. Suppose L is the value of limit. 
+     1. Make interval(x) -> (m,+infinity) (m is positive variable)
+
+     2. interval(m) -> +infinity
+
+     3. find the estimated limit value
+
+     4. checking whether it is real limit value.
+
+     (process)
+
+     present error over 0.
+
+     if we can find m which means, at (m,infinity), (f(x)-error,f(x)+error) exists.
+
      
-     2. Make random error for verifying whether L is the value of limit. 
-     
-     3. if L is 3, and error is 0.01, we should find M, which means all f(x) is range from 2.99 to 3.01 in x>M.
-     
-     4. Find M. if we can find all M with all error, L is the real value of limit. 
 
 ## Definiton of infinity
 
