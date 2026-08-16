@@ -32,7 +32,7 @@ Condition
 
 2. the all elements of interval(x) should be f's domain
 
-3. if by all x, f(c)<=f(x), f(c) is local maximum
+3. if by all x, f(c)<=f(x), f(c) is local minimum
 
 (There only needs to be one or more intervals of this kind.)
 
@@ -66,7 +66,7 @@ critical number -> f'(x) = 3x^2-6x=0 -> 0,2
 
 f(0) = 1
 
-f(2) =3
+f(2) = -3
 
 therefore, maximum = 17, minimum = -3
 
@@ -110,7 +110,7 @@ The test using f' for checking whether critical number is local maximum/minimum 
 
 f' changes + -> - at c, f(c) is local maximum
 
-f' changes - -> + at c, f(c) is local maximum
+f' changes - -> + at c, f(c) is local minimum
 
 ## What f'' tells us about graph??
 
