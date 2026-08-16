@@ -45,15 +45,15 @@
 
 ## Limit laws
 
-   when all limits have constant values,
+   when limits each have constant value,
 
-      1. lim (f(x)+g(x)) = lim f(x) + lim g(x)
+      1. lim (a+b) = lim a + lim b
       
-      2. lim (f(x)-g(x)) = lim f(x) - lim g(x)
+      2. lim (a-b) = lim a - lim b
       
-      3. lim (f(x)*g(x)) = lim f(x) * lim g(x)
+      3. lim (a*b) = lim a * lim b
       
-      4. lim (f(x)/g(x)) = lim f(x) / lim g(x) ( lim g(x) is not 0)
+      4. lim (a/b) = lim a / lim b ( lim b is not 0)
 
 
 
