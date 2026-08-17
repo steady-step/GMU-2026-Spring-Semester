@@ -12,7 +12,7 @@
       
       2. present an error value over 0.
 
-      3. If we can find at least one positive variable r which means if changing interval x to (a-r,a)∪(a,a+r), 
+      3. If we can find at least one positive variable r which means if changing interval x to ((a-r,a)∪(a,a+r))∩(original interval), 
       
          all f(x) is in (L-error,L+error), it is passed.
 
