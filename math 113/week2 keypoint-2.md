@@ -8,7 +8,7 @@
     
       1. Make interval(x) -> (a-r,a)∪(a,a+r) (a is constant and r is positive variable)
       
-      2. r's condition -> the condition when although we make smaller number over 0, the smaller possible value of r exists.
+      2. r's condition -> the condition when although we make any small number over 0, the smaller possible value of r exists.
       
       3. analyze where f(x) converges. The converging number L is limit value.
 
