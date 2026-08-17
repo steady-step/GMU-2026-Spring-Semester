@@ -18,7 +18,7 @@
 
       4. If it is passed by any positive error, L is limit value.
 
-      (Precondition : f(x) can be defined on open interval containing a (except possibly at a itself)).
+      (Precondition : f(x) must be defined on some open interval containing a (except possibly at a itself)).
 
       
     Also, when x->∞, we define L like these. 
