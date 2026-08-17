@@ -36,7 +36,7 @@
 
     4. If it is passed by any positive error, L is the real limit value.
 
-    Precondition: f(x) is defined for sufficiently large values of x.
+    Precondition: Independent variable x's condition : +infinity
     
 ## Definition of infinity
 
