@@ -18,7 +18,7 @@
 
       4. If it is passed by any positive error, L is limit value.
 
-      (Precondition : 
+      (Precondition : The range of x should fully contain at least one open interval including a. (except possibly a itself)
 
     Also, when we define lim x-> infinity f(x) = L,
 
