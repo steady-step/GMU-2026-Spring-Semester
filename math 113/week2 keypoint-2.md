@@ -6,7 +6,7 @@
   
     When we define lim x->a f(x) = L, 
 
-    first, we suppose L is limit value, and check whether it is real result.
+    first, we suppose countless Ls are limit value, and check whether it is real result.
        
       1. Suppose L is limit value.
       
@@ -24,7 +24,7 @@
 
     Also, when we define lim x-> infinity f(x) = L,
 
-    first, we suppose L is limit value, and check whether it is real result.
+    first, we suppose countless Ls are limit value, and check whether it is real result.
 
     1. Suppose L is limit value.
 
