@@ -12,9 +12,9 @@
       
       2. present an error value over 0.
 
-      3. If we can find at least one positive variable r which means at (a-r,a)∪(a,a+r), all f(x) is in (L-error,L+error),
-
-         it is passed.
+      3. If we can find at least one positive variable r which means if changing interval x to (a-r,a)∪(a,a+r), 
+      
+         all f(x) is in (L-error,L+error), it is passed.
 
       4. If it is passed by any positive error, L is limit value.
 
