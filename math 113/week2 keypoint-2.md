@@ -34,7 +34,7 @@
 
     4. If it is passed by any positive error, L is the real limit value.
 
-    Precondition: f(x) must be defined on some interval ((k, +infinity) for some real number k.
+    Precondition: f(x) must be defined on some interval (k, +infinity) for some real number k.
 
 ## Definition of infinity
 
