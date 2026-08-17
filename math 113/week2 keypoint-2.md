@@ -30,7 +30,7 @@
 
     2. Present an error value over 0.
 
-    3. If we can find at least one positive variable m which means if changing interval x to (m,infinity), 
+    3. If we can find at least one positive variable m which means if changing interval x to (m,infinity)∩(original interval), 
       
        all f(x) is in (L-error,L+error), it is passed.
 
