@@ -24,7 +24,7 @@
 
      (process)
 
-     present error over 0.
+     present an error value over 0.
 
      if we can find m which means, at (m,+infinity), all existing f(x) is in (L-error,L+error), it is passed.
 
@@ -36,20 +36,22 @@
  
     We define positive infinity about variable like this.
     
-      1. Present positive number M.
+      1. Present a positive number M.
 
-      2. If there exists bigger variable value over M, it is passed.
+      2. If there can exist larger variable value over M, it is passed.
 
       3. If it is passed on any positive number M, this variable condition is positive infinity.
 
-    Also, when using ∞ in interval notation, it is just simple signal.
+    Also, when using ∞ in interval notation, ∞ doesn't contain complex meaning.
+
+    It just means the interval goes on forever without an end.
 
     ex: (5,∞) ->{x|x>5}
     
 
 ## Limit laws
 
-   when limits each have constant value,
+   when limits each have inherent value,
 
       1. lim (a+b) = lim a + lim b
       
