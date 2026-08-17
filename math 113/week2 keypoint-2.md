@@ -1,17 +1,17 @@
 # Week2 keypoint-2
 
 ## Definition of function limit
-<img src="week2_file3.png" width="450">
   We can think limit value is a situation. But, it is false. Limit value is a constant. 
   
-    We define f(x)->L, as x->a like these.
-    
-      1. Make interval(x) -> (a-r,a)∪(a,a+r) (a is constant and r is positive variable)
-      
-      2. r's condition -> the condition when although we make any small number over 0, the smaller possible value of r exists.
-      
-      3. analyze where f(x) converges. The converging number L is limit value.
+    When we define lim x->a f(x) = L, 
 
+    first, we suppose L is limit value, and check whether it is real limit value.
+       
+      1. Suppose L is limit value.
+      
+      2. present an error value over 0.
+
+      3. 
     Also, when x->∞, we define L like these. 
 
      1. Make interval(x) -> (m,+infinity) (m is positive variable)
