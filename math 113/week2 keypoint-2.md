@@ -20,24 +20,21 @@
 
       (Precondition : f(x) must be defined on some open interval containing a (except possibly at a itself)).
 
-      
-    Also, when x->∞, we define L like these. 
+    Also, when we define lim x-> infinity f(x) = L,
 
-     1. Make interval(x) -> (m,+infinity) (m is positive variable)
+    first, we suppose L is limit value, and check whether it is real result.
 
-     2. m's condition -> +infinity
+    1. Suppose L is limit value.
 
-     3. find the estimated limit value
+    2. Present an error value over 0.
 
-     4. checking whether it is real limit value.
+    3. If we can find a positive variable m which means that at (m, +infinity), 
+    
+       all existing f(x) values are in (L-error,L+error), it is passed.
 
-     (process)
+    4. If it is passed by any positive error, L is the real limit value.
 
-     present an error value over 0.
-
-     if we can find m which means, at (m,+infinity), all existing f(x) is in (L-error,L+error), it is passed.
-
-     If it is passed on any positive error, the value is real limit value.
+    Precondition: f(x) must be defined on some interval ((k, +infinity) for some real number k.
 
 ## Definition of infinity
 
