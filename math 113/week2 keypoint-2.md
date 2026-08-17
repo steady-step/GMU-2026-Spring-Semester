@@ -1,17 +1,24 @@
 # Week2 keypoint-2
 
 ## Definition of function limit
+
   We can think limit value is a situation. But, it is false. Limit value is a constant. 
   
     When we define lim x->a f(x) = L, 
 
-    first, we suppose L is limit value, and check whether it is real limit value.
+    first, we suppose L is limit value, and check whether it is real result.
        
       1. Suppose L is limit value.
       
       2. present an error value over 0.
 
-      3. 
+      3. If we can find positive variable r which means at (a-r,a)∪(a,a+r), all f(x) is in (L-error,L+error),
+
+         it is passed.
+
+      4. If it is passed by any positive error, L is limit value.
+
+      
     Also, when x->∞, we define L like these. 
 
      1. Make interval(x) -> (m,+infinity) (m is positive variable)
