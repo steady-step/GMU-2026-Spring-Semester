@@ -59,7 +59,7 @@
 
 ## Limit laws
 
-   when limits each have inherent value,
+   when lim a and lim b exist,
 
       1. lim (a+b) = lim a + lim b
       
