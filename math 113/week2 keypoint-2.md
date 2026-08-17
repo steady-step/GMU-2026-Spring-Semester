@@ -65,7 +65,7 @@
       
       3. lim (a*b) = lim a * lim b
       
-      4. lim (a/b) = lim a / lim b ( lim b is not 0)
+      4. lim (a/b) = lim a / lim b (lim b is not 0)
 
 
 
