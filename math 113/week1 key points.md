@@ -2,7 +2,7 @@
 
 ## functions
 
-    set : a group with clear criteria for attendance and access
+    set : A collection of objects that can be clearly determined by a certain condition.
 
     function : The condition in relation from a one set to another set and elements of starting set are connected to only one element each of another set.
     
