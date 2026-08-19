@@ -36,7 +36,7 @@
     
     L <= M
     
-## Squeeze Theorom
+## Squeeze Theorem
 
     If  lim f(x) = L, lim x->a g(x) = L 
 
