@@ -20,19 +20,15 @@
 
     Therefore, lim x->a n root f(x) = n root L = n root lim x->a f(x).
 
-
-
 ## Comparison Theorem 
 
     If  lim f(x) = L, lim g(x) = M ,
 
-    and f(x)<=g(x) or f(x)<g(x), 
+    and f(x)<=g(x)
     
-    (when lim x->a : open interval (a-r,a)∪(a,a+r) that satifies that condition should exist at least one.)
+    (when lim x->a : positive variable r's value which at (a-r,a) ∪(a,a+r), it satisfies that condition should exist at least one)
 
-    (lim x-> a+ : (a,a+r), lim x->infinity -> (k,infinity))
-
-    (r,k are real number variable)
+    (lim x-> a+ : (a,a+r), lim x->infinity -> (k,infinity), k is positive variable)
     
     L <= M
     
@@ -40,7 +36,7 @@
 
     If  lim f(x) = L, lim x->a g(x) = L 
 
-    and f(x)<=h(x)<=g(x) or f(x)<h(x)<g(x) or f(x)<=h(x)<g(x) or f(x)<h(x)<=g(x) 
+    and f(x)<=h(x)<=g(x),
 
     (Other conditions are same with Comparison Theorem)
 
