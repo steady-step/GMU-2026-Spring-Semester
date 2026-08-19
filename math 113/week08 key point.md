@@ -6,7 +6,7 @@ d/dx ($log_{b} x$) = 1/x lnb
 
 Proof : 
 
-<img src="week8_file1.jpg" width="1000"> 
+<img src="week08_file1.jpg" width="1000"> 
 
 By above formulas, d/dx (ln x) = 1/x
 
@@ -22,7 +22,7 @@ we can use logarithmic differentiation.
 
 ex) 
 
-<img src="week8_file2.jpg" width="800">
+<img src="week08_file2.jpg" width="800">
 
 There are four types of differentiation about exponent and base.
 
@@ -34,7 +34,7 @@ There are four types of differentiation about exponent and base.
 
 4. The case when exponent and base are all variables (ex : x^(rootx)) -> use logarithmic differentiation
 
-<img src="week8_file3.jpg" width="1000"> 
+<img src="week08_file3.jpg" width="1000"> 
 
 ## Inverse Trigonometric Functions
 
@@ -106,7 +106,7 @@ A ladder 10 ft long rests on a vertical wall. If the bottom of the ladder slides
 how fast is the top of the ladder sliding down the wall when the bottom of the ladder is 6 ft from the wall.
 
 
-<img src="week8_file4.jpg" width="1000"> 
+<img src="week08_file4.jpg" width="1000"> 
 
 First, we set two variables x and y.
 
