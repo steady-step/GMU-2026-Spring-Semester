@@ -26,7 +26,7 @@
 
     and f(x)<=g(x)
     
-    (when lim x->a : positive variable r's value which at (a-r,a) ∪(a,a+r), it satisfies that condition should exist at least one)
+    (when lim x->a : at (a-r,a) ∪(a,a+r), r : positive variable, (a-r,a) ∪(a,a+r) which satisfies thata condition exists at least one.  )
 
     (lim x-> a+ : (a,a+r), lim x->infinity -> (k,infinity), k is positive variable)
     
