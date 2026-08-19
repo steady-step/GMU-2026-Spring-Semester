@@ -14,9 +14,9 @@ If f and g have at least one interval at which there are all differentiable and 
 
 (when lim x->a, the interval is open interval including a, 
 
-lim x->a+ : positive variable b's value(b>a) which at (a,b), it satisfies that condition should exist at least one.
+lim x->a+ : variable b's value(b>a) which at (a,b), it satisfies that condition should exist at least one.
 
-lim x->a- : positive variable c's value(c<a) which at (c,a), it satisfies that condition should exist at least one.
+lim x->a- : variable c's value(c<a) which at (c,a), it satisfies that condition should exist at least one.
 
 lim x->∞  : positive variable m's value which at (m,∞), it satisfies that condition should exist at least one.
 
