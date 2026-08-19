@@ -12,9 +12,17 @@ Also, ∞/-∞, -∞/∞ -∞/-∞ are all classified as ∞/∞ form.
 
 If f and g have at least one interval at which there are all differentiable and g'(x) ≠ 0,
 
-(when lim x->a, the interval is open interval including a, lim x->a+, (a,b), lim x->a- : (c,a), lim x-> ∞ : (m,∞)
+(when lim x->a, the interval is open interval including a, 
 
-(b,c,m are real number variable)  (a can be possibly excepted)
+lim x->a+ : positive variable b's value(b>a) which at (a,b), it satisfies that condition should exist at least one.
+
+lim x->a- : positive variable c's value(c<a) which at (c,a), it satisfies that condition should exist at least one.
+
+lim x->∞  : positive variable m's value which at (m,∞), it satisfies that condition should exist at least one.
+
+lim x->-∞  : negative variable m's value which at (-∞,m), it satisfies that condition should exist at least one.)
+
+(a can be possibly excepted)
 
 lim x->a+,a-,∞,-∞,a f(x) =0, lim g(x) = 0 or lim f(x) = +-∞, lim g(x) = +-, -+∞,
 
