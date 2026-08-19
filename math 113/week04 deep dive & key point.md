@@ -26,15 +26,13 @@
 
      ex) The area of square which has 1m side is 1m^2 as the area is proportional in both m units(width, height -> m*m = m^2)
 
-     Even, we can utilize graphs.
+     Even, we can utilize graph in physic.
      
-     if s(x-axis) and m/s(y-axis) graph exists, first we can calculate its area and slope using mathematical method.
+     if s(x-axis) and m/s(y-axis) graph exists,
+     
+     ex1) area=6 -> its unit is m/s * s = m -> distance
 
-     ex1) area=6 -> By definite integral, its unit is m/s * s = m therefore 6m
-
-     ex2) its slope = 3 (By derivative) -> 6m/s / 2s = 3m/s^2 -> acceleration
-
-     Like these, we can utilize mathematics in physics.
+     ex2) its slope = 3  -> its unit is m/s / s = m/s^2 -> acceleration
     
 ## Mathematical theories
 
