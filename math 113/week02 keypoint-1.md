@@ -18,7 +18,7 @@
 
 ## One to one function and Inverse Function.
 
-  <img src="week2_file1.png" width="500">
+  <img src="week02_file1.png" width="500">
   
     One to One function means f(x1) is not equal f(x2) whenever x1 is not equal x2. 
     
@@ -28,7 +28,7 @@
   
     codomains same with range to make it correspondence. So, when we make conditions related to that, we usually use one to one function.
   
-  <img src="week2_file2.png" width="500">
+  <img src="week02_file2.png" width="500">
   
     When we want to check whether the function is one to one, we can use horizontal line. 
     
