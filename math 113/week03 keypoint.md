@@ -22,28 +22,29 @@
 
 
 
-## Comparison Theorom 
+## Comparison Theorem 
 
-    If  lim x->a(or x->a+, a-, + or - infinity) f(x) = L, lim x->a (or x->a+, a-, + or - infinity) g(x) = M (the point of approach should be same each other)
+    If  lim f(x) = L, lim g(x) = M ,
 
     and f(x)<=g(x) or f(x)<g(x), 
     
-    (x range of satisfying that condition -> (a-k,a)∪(a,a+k) (lim x->a) (if lim x->a+ : (a,a+k), lim x->a- : (a-k,a))
-    
-    or (k,infinity) (lim x-> infinity) or (-infinity,k) (lim x-> - infinity))
+    (when lim x->a : open interval (a-r,a)∪(a,a+r) that satifies that condition should exist at least one.)
+
+    (lim x-> a+ : (a,a+r), lim x->infinity -> (k,infinity))
+
+    (r,k are real number variable)
     
     L <= M
     
 ## Squeeze Theorom
 
-    
-    If  lim x->a(or x->a+, a-, + or - infinity) f(x) = L, lim x->a (or a+, a-, x->+ or - infinity) g(x) = L (the point of approach should be same each other)
+    If  lim f(x) = L, lim x->a g(x) = L 
 
     and f(x)<=h(x)<=g(x) or f(x)<h(x)<g(x) or f(x)<=h(x)<g(x) or f(x)<h(x)<=g(x) 
 
-    (x range is same with comparision theorom when f(x)<=h(x)<=g(x))
+    (Other conditions are same with Comparison Theorem)
 
-    lim x->a h(x) = L
+    lim h(x) = L
 
 ## Continuity of function
 
