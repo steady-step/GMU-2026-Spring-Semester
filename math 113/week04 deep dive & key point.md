@@ -111,7 +111,7 @@
 
     But, in integral, there are problems.
 
-<img src="week4_file1.png" width="500">    
+<img src="week04_file1.png" width="500">    
 
     As shown in the image above,
 
