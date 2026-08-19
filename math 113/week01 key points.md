@@ -22,14 +22,14 @@
     
     4. algebraically(such as y=x+3)
     
-<img src="week1_file01.png" width="500">
+<img src="week01_file1.png" width="500">
 
     But, Not every table, graph, and equation defines functions. 
     
     this graph is not function. To know whether it's graph, you can write vertical line. if there are several lines it's not function. 
     
     Also, y^2=x is not function. 
-  <img src="week1_file02.png" width="500">
+  <img src="week01_file2.png" width="500">
   
     This is a example of table which is not function. There are 3 values of the same x=3.
 
@@ -43,7 +43,7 @@
     
        (Linear is one of the types of Polynomials, degree=1)
        
-<img src="week1_file03.png" width="500">
+<img src="week01_file3.png" width="500">
 
     4. Power functions : y=x^a(a is real number), if a is fraction, it is root function. 
     
