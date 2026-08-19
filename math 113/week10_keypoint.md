@@ -90,6 +90,36 @@ Two ways are all uploaded.
 
 Below are examples of sketching graphs.
 
+<img src="week10_file3.jpg" width="500"> 
+
+<img src="week10_file4.jpg" width="500"> 
+
+### Slant Asymptotes
+
+Asymptotes can be oblique.
+
+**Definition in function**
+
+When y=mx+b exists(m ≠ 0), (condition : lim x-> ∞ (f(x)-(mx+b))=0)
+
+y=mx+b is Slant Asymptotes
+
+Slant Asymptotes always exists 
+
+when the degree of the numerator is one greater than the degree of the denominator in rational function.
+
+ex) f(x) = (x^2+x+2)/x-1 -> By long division, x^2+x+2 = (x-1)(x+2)+4,
+
+f(x) = x+2 + 4/(x-1) -> x+2 is Slant Asymptotes
+
+proof : lim x-> ∞ (f(x) - (x+2)) = ∞
+
+
+
+
+
+
+
 
 
 
