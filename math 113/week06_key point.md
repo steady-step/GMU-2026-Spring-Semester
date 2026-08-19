@@ -6,7 +6,7 @@ First, **lim θ->0 sinθ/θ=1, lim θ->0 cosθ-1/θ=0**
 
 ### Sin proof
 
-<img src="week6_file1.jpg" width="500">  
+<img src="week06_file1.jpg" width="500">  
 
 △oab = 1/2 sinθ, sector oab = θ/2, △obc= 1/2 tanθ
 
@@ -22,7 +22,7 @@ by squeeze theorem, lim θ->0 cosθ=1. limθ->0 1=1 therefore, lim θ->0 sinθ/�
 
 ### Cos proof
 
-<img src="week6_file2.jpg" width="1000">  
+<img src="week06_file2.jpg" width="1000">  
 
 ### Others
 
