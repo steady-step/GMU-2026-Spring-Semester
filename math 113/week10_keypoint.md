@@ -60,9 +60,40 @@ If function g has limit value (L) and f is continuous at L,
 
 lim(f(g(x)) = f(limg(x)) = f(L)
 
-Below is solution process of lim x->0+ (1+sin4x)^cotx
+Below is solution process of lim x->0+ (1+sin4x)^cotx.
 
 Two ways are all uploaded.
+
+**Using natural logrithm**
+
+<img src="week10_file1.jpg" width="900"> 
+
+**using e^ln(~)**
+
+<img src="week10_file2.png" width="900"> 
+
+## Factors for sketching graph effectively
+
+1. Domain
+
+2. Intercept
+
+3. Symmetry
+
+4. Asymptotes
+
+5. f'
+
+6. local maximum/minimum
+
+7. f''
+
+Below are examples of sketching graphs.
+
+
+
+
+
 
 
 
