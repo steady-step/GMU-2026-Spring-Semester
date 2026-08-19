@@ -14,17 +14,17 @@ If f and g have at least one interval at which there are all differentiable and 
 
 (when lim x->a, the interval should be open interval including a, 
 
-lim x->a+ : the interval should be (a,b). (variable b>a
+lim x->a+ : the interval should be one of the (a,b). (variable b>a)
 
-lim x->a- : variable c's value(c<a) which at (c,a), it satisfies that condition should exist at least one.
+lim x->a- : the interval should be one of the (c,a). (variable a>c)
 
-lim x->∞  : positive variable m's value which at (m,∞), it satisfies that condition should exist at least one.
+lim x->∞ : the interval should be one of the (m,∞). (m is positive variable)
 
-lim x->-∞  : negative variable m's value which at (-∞,m), it satisfies that condition should exist at least one.)
+lim x->-∞ : the interval should be one of the (-∞,m). (m is negative variable))
 
 (a can be possibly excepted)
 
-lim x->a+,a-,∞,-∞,a f(x) =0, lim g(x) = 0 or lim f(x) = +-∞, lim g(x) = +-, -+∞,
+lim f(x) =0, lim g(x) = 0 or lim f(x) = +-∞, lim g(x) = +-, -+∞,
 
 right side's limit value exists or +-∞,
 
