@@ -120,7 +120,7 @@ Therefore, f'' > 0 -> the tangent slope of f increases as the f''>0 domain value
 
 **Shape of graph**
 
-<img src="week9_file1.png" width="400"> 
+<img src="week09_file1.png" width="400"> 
 
 -> The graph is always above the tangent line. This curve is concave upward.
 
@@ -128,7 +128,7 @@ if f'' <0 -> the tangent slope of f decreases as the f''>0 domain value increase
 
 **Shape of graph**
 
-<img src="week9_file2.png" width="400"> 
+<img src="week09_file2.png" width="400"> 
 
 -> The graph is always below the tangent line. This curve is concave downward.
 
