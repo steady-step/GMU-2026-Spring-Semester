@@ -139,7 +139,7 @@ So we can change it as f'(x) = -x/f(x) (condition : f'(x) and f(x) are different
 
 **problem solving**
 
-<img src="week7_image1.jpg" width="500">  
+<img src="week07_image1.jpg" width="500">  
 
 
 
