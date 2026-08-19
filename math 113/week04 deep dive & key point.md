@@ -30,9 +30,9 @@
      
      if s(x-axis) and m/s(y-axis) graph exists,
      
-     ex1) area=6 -> its unit is m/s * s = m -> distance
+     ex1) area -> its unit is m/s * s = m -> distance
 
-     ex2) its slope = 3  -> its unit is m/s / s = m/s^2 -> acceleration
+     ex2) slope  -> its unit is m/s / s = m/s^2 -> acceleration
     
 ## Mathematical theories
 
