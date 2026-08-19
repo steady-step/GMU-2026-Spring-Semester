@@ -28,7 +28,7 @@ We define e as these two.
 
 **e^(lnb*x) * lnb = b^x * lnb**
 
-<img src="week5_file1.png" width="500">
+<img src="week05_file1.png" width="500">
 
 if f and g are differentiable at x, (f(x)*g(x))' = f(x)g'(x) + f'(x)g(x)
 
