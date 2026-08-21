@@ -1,5 +1,6 @@
 # GMU 2026 Spring Semester Archive
-This repository is to document my computational data science journey at **George Mason University**.
+
+This repository is to document my first semester journey at **George Mason University**.
 
 ### Courses
 - **CDS 101/102**: Introduction to Data Science & Lab
