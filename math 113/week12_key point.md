@@ -30,7 +30,7 @@ There are 4 ways for deciding point.
 
 3. Mid point
 
-4. Sample point(random location)
+4. Sample point(random point)
 
 In this situation, Rn is used as dependent variable by n, and it means sum of area using right endpoint.
 
