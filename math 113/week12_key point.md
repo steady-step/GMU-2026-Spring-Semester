@@ -96,7 +96,7 @@ $\text{If } m \le f(x) \le M \text{ for } a \le x \le b \text{ then } m(b - a) \
 
 **Problem solving of $\int_{0}^{3} (x^3 - 6x) \ dx$ using sigma**
 
-
+<img src="week12_file1.jpg" width="700"> 
 
 
 
