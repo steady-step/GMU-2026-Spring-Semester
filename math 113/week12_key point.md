@@ -58,9 +58,9 @@ We can define integral like this.
 
 $\int_{a}^{b} f(x) \ dx = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i^*) \Delta x$
 
-First, right side is the definition of the definite integral that we discussed earlier.
+First, right side is a form that we discussed earlier.
 
-Left side is another signal which means integral.
+Left side is another signal of lim equation.
 
 As I dealt at week 04 deep dive, dx is symbol that do not conform to the definition.
 
