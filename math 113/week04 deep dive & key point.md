@@ -38,13 +38,11 @@
 
     Equation of tangent line at (a,b) -> y-b = f'(a)(x-a)
 
-    the size of domain f' <= the size of domain f.
+    Differentiation : the way for calculating tangent line's slope.
 
-    In the closed interval, it is impossible to have limit value at end point.
+    method 1 : lim x->a (f(x)-f(a))/(x-a) -> value at a
 
-    Differentiation : if the derivative exists, left-hand derivative and right-hand derivative should be same. 
-    
-    In the closed interval, it is impossible to have the derivative value at the end point.
+    method 2: lim h->0 (f(x+h)-f(x))/h -> function about x -> (derivative)
 
     Continuity : if the function is continuous at x=a, the function should be left-continuous and right-continuous, but!!
 
@@ -54,11 +52,11 @@
 
     second derivative : f''(x), d^2y/dx^2, y''.
 
-    f'(x) -> the value when substituting a value x to f'(x) (derivative of f).
+    f'(x) -> Dependent variable about x. It reflects derivative's value.
 
-    y' -> The variable which means codomain's element of derivative. 
+    y' -> The dependent variable about f's codomain.
     
-    (When original function's equation uses y as the variable which means codomain's element)
+    (When original function's equation uses y as codomain' dependent variable)
 
 
 ## Leibniz's notation
