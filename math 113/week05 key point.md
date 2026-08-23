@@ -1,5 +1,7 @@
 # Week5 key point
 
+There are many generalized differentiation formula made by definition of derivative, limit law etc.
+
 **if f(x)=c, f'(x)=0.**
 
 **f(x)=x^n, f'(x)=nx^n-1. (if n is natural number.)**
