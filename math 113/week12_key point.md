@@ -48,19 +48,19 @@ we can calculate the interval's area.
 
 ## The Definite Integral
 
-The calculated area is called as Integral.
+The calculated area by integration is called as Integral.
 
 We can define integral like this.
+
+**When f which satisfies integration condition exists,**
+
+**integral:** 
 
 $\int_{a}^{b} f(x) \ dx = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i^*) \Delta x$
 
 First, right side is the definition of the definite integral that we discussed earlier.
 
 Left side is another signal which means integral.
-
-These signals can only hold when integration condition is satisfied.
-
-Also, the result about this equation always exists if signals hold.
 
 As I dealt at week 04 deep dive, dx is symbol that do not conform to the definition.
 
