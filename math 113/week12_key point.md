@@ -72,13 +72,15 @@ we just use dx like it conform to the definition.
 
 ## Others about integral
 
-Although above definition only holds on a<b, but mathematicians also defined the situation when a>b and a=b
+Although by definition of symbol, $\int_{a}^{a} f(x) \ dx$ and $\int_{b}^{a} f(x) \ dx$ can not exist,
 
-$\int_{a}^{a} f(x) \ dx = 0$
+mathematicians defined also $\int_{a}^{a} f(x) \ dx$ and $\int_{b}^{a} f(x) \ dx$ for consistency in integral calculation.
 
-$\int_{a}^{b} f(x) \ dx = -\int_{b}^{a} f(x) \ dx \quad (\text{for } a > b)$
+$\int_{a}^{a} f(x) \ dx = 0$ 
 
-**There are many other properties about integral.**
+$\int_{b}^{a} f(x) \ dx = -\int_{a}^{b} f(x) \ dx$
+
+**There are many other properties about integral calculation.**
 
 $\int_{a}^{b} f(x) \ dx = \int_{a}^{b} f(t) \ dt$
 
