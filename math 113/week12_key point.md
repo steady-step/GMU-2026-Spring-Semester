@@ -60,7 +60,7 @@ Left side is another signal which means integral.
 
 These signals can only hold when integration condition is satisfied.
 
-Also, the result about this equation always exists if the integration condition is satisfied.
+Also, the result about this equation always exists if signals hold.
 
 As I dealt at week 04 deep dive, dx is symbol that do not conform to the definition.
 
