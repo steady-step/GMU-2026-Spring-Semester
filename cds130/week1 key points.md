@@ -4,7 +4,7 @@
 
     A system of Principles
     
-    Social function : Make everything smoothly, Make trust not to break business trasaction.
+    Social function : Make everything smoothly, Make trust not to break business transaction.
     
     top 4 values - truth, honesty, fairness, equity
     
@@ -14,13 +14,19 @@
 
 ## What is CDS?
 
-    Computational science is the intersection of science, mathematics, and computer science.
+    Computational science is own academic discipline which focuses on computer modeling.
 
-    The main goal of CDS is to resolve complex problems through computer virtual model.
+    In other words, it focuses on the way for changing complex situation to computer model.
 
-    Introducing the way for resolving problems through CDS,
-
+    Also, during modeling process, science, mathematics, and numerical methods can be utilized.
     
+    (Numerical method : A branch of mathematics that simplifies complex expressions so that computers can calculate them more easily)
+
+    But, for resolving problems, It is important not only performing modeling but also data analysis.
+
+    So, as in the mason curriculum, data science also exists, my department name is Computational & Data Science.
+
+    It is just combination of two own major. (Data Science & Computational Science)
 
 ## In situ vs  In silico
 
