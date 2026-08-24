@@ -26,7 +26,7 @@
 
     So, as in the mason curriculum, data science also exists, my department name is Computational & Data Science.
 
-    It is just combination of two own major. (Data Science & Computational Science)
+    It is just combination word of two own majors. (Computational Science & Data Science)
 
 ## In situ vs  In silico
 
