@@ -8,27 +8,19 @@
     
     top 4 values - truth, honesty, fairness, equity
     
-    mechanism : choices -> comsequences -> responsibility
+    mechanism : choices -> consequence -> responsibility
 
-    Especailly Ethics for professionals -> Confidentiality, public safety and trust
+    Especially Ethics for professionals -> Confidentiality, public safety and trust
 
 ## What is CDS?
 
-<img src="week1_file1.png" width="240">
+    Computational science is the intersection of science, mathematics, and computer science.
 
-    Computational science is the intersection of science, mathematics, and computer science to solve problem and get insight through them.
+    The main goal of CDS is to resolve complex problems through computer virtual model.
 
-    So, First of all, we can find problem situation from science. And, change the scientific situation to mathematics.(F=ma ->  Differentiation) 
+    Introducing the way for resolving problems through CDS,
+
     
-    Next, Computer can not understand the process of differentiation. So, we should change this things to simple calculation.
-    
-    It is numerical methods. Through this situation, it is changed as the algorithm which can be calculated by computer. 
-    
-    Finally we use computer with R, Matlab etc.
-    
-    It is computational science. We make simulations with computer. Also, during the simulation, there occurs many raw datas. 
-    
-    So we visualize that for analyzing. Therefore my major is computational and "DATA" science. 
 
 ## In situ vs  In silico
 
