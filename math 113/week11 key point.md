@@ -36,15 +36,7 @@ If she can row 6 km/h and run 8 km/h where should she land to reach B as soon as
 
 **if F' = f, F is f's Antiderivative.**
 
-ex) f(x) = x^2, F(x) = 1/3x^3 + C
 
-C is called as constant of integration.
-
-**if**
-
-f(x) = 1/x -> F(x) = ln|x| + C
-
-f(x) = x^n -> F(x) = x^(n+1)/(n+1) + C (n ≠ -1)
 
 
 
