@@ -14,7 +14,7 @@
 
 ## Chain rule
 
-**if g is derivative at a, and f is derivative at f(a),**
+**if g is derivative at a, and f is derivative at g(a),**
 
 F(a) = f(g(a)), F'(a) = f'(g(a)) * g'(a)
 
