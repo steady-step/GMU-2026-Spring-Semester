@@ -8,9 +8,9 @@ g(x) = $\int_{a}^{x} f(t) \, dt$ -> g'(x) = f(x)
 
 ex) g(x) = $\int_{0}^{x} \sqrt{1+t^2} \, dt$ , g'(x) ?
 
-if x : [0,∞) -> $\sqrt{1+t^2} \$ is continuous.
+if x : [0,∞) -> $\sqrt{1+t^2}\$ is continuous.
 
-Therefore, g'(x) = $\sqrt{1+x^2} \$ ( x : [0,∞))
+Therefore, g'(x) = $\sqrt{1+x^2}\$ ( x : [0,∞))
 
 **Although we can find the derivative at (-∞,0] in another way, we just found only [0,∞) part as this section deals with FTC1.**
 
