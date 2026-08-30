@@ -36,7 +36,7 @@ If she can row 6 km/h and run 8 km/h where should she land to reach B as soon as
  
 **if F' = f, F is f's Antiderivative.**
 
-There can be countless antiderivative of f except F due to integration constant
+There can be countless antiderivative of f except F by integration constant.
 
 
 
