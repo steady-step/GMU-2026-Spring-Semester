@@ -16,7 +16,7 @@
 
 **if g is derivative at a, and f is derivative at f(a),**
 
-F(x) = f(g(x)), F'(x) = f'(g(x)) * g'(x)
+F(a) = f(g(a)), F'(a) = f'(g(a)) * g'(a)
 
 ## Two Notation Methods for Differentiation Formulas
 
