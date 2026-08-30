@@ -121,7 +121,7 @@ v(t) = t^2-t-6  (m/s)
 
 Therefore, by Net Change Theorem,
 
-$\int_{1}^{4} \left( \frac{1}{3}t^3 - \frac{1}{2}t^2 - 6t \right) \, dt = \left[ \frac{1}{12}t^4 - \frac{1}{6}t^3 - 3t^2 \right]_{1}^{4}$
+$$\int_{1}^{4} (t^2 - t - 6) \, dt = \left[ \frac{1}{3}t^3 - \frac{1}{2}t^2 - 6t \right]_{1}^{4} = -\frac{9}{2}$$
 
 = -9/2
 
