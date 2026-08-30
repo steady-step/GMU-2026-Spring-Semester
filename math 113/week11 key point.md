@@ -33,8 +33,10 @@ If she can row 6 km/h and run 8 km/h where should she land to reach B as soon as
 <img src="week11_file2.jpg" width="500"> 
 
 ## Antiderivative
-
+ 
 **if F' = f, F is f's Antiderivative.**
+
+There can be countless antiderivative of f except F due to integration constant
 
 
 
