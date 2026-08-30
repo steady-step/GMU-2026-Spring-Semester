@@ -93,6 +93,62 @@ $\int (10x^4 - 2\sec^2 x) \, dx = 10 \int x^4 \, dx - 2 \int \sec^2 x \, dx$
 
 = 2x^5 -2tanx + C
 
+## The Net Change Theorem
+
+$\int_{a}^{b} f(x) \, dx = F(b) - F(a)$ 
+
+∵ f(x) = F'(x),
+
+it can be $\int_{a}^{b} F'(x) \, dx = F(b) - F(a)$
+
+we can know the integral of a rate of change is the net change.
+
+This is Net Change Theorem.
+
+This theorem is typically used in distance, speed and time relationship.
+
+$\int_{t_1}^{t_2} a(t) \, dt = v(t_2) - v(t_1)$
+
+$\int_{t_1}^{t_2} v(t) \, dt = s(t_2) - s(t_1)$ (displacement)
+
+$\int_{t_1}^{t_2} |v(t)| \, dt$ (distance)
+
+ex) A particle moves along a line so that its velocity at time t is
+
+v(t) = t^2-t-6  (m/s)
+
+1<=t<=4, displacement? -> v(t) graph is continuous at [1,4].
+
+Therefore, by Net Change Theorem,
+
+$\int_{1}^{4} \left( \frac{1}{3}t^3 - \frac{1}{2}t^2 - 6t \right) \, dt = \left[ \frac{1}{12}t^4 - \frac{1}{6}t^3 - 3t^2 \right]_{1}^{4}$
+
+= -9/2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
