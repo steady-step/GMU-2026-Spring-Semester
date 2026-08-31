@@ -55,11 +55,11 @@ Meaning : The set which has all functions whose derivative is f(x).
 
 So, it is a set. Not function.
 
-But, when we represent this set through set-builder notation,
+So, we can represent this set through set-builder notation,
 
-$\int f(x) \, dx$ = { $\{ F_c(x) \mid F_c(x) = F(x) + c, \text{ } c\text{는 모든 실수} \}$ } or
+ex)
 
-{ $\{ F_c(x) \mid F_c(x) = \frac{1}{3}x^3 + c, \text{ } c\text{는 모든 실수} \}$ }
+$\left\{ y = \frac{1}{3}x^3 + c \mid c \text{ is any real number, } x \text{ is the independent variable, } y \text{ is the dependent variable} \right\}$
 
 So, we write this set-builder notation simply like these :
 
