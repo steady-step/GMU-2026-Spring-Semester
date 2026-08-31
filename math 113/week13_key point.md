@@ -55,19 +55,19 @@ Meaning : The set which has all functions whose derivative is f(x).
 
 So, it is a set. Not function.
 
-So, we can represent this set through set-builder notation,
+We can define this set through set-builder notation,
 
 ex)
 
-$\left\{ y = \frac{1}{3}x^3 + c \mid c \text{ is any real number, } x \text{ is the independent variable, } y \text{ is the dependent variable} \right\}$
+{ $\{ y = \frac{1}{3}x^3 + c \mid c \in \mathbb{R}, \text{ where } x \text{ is the independent variable and } y \text{ is the dependent variable} \}$ }
 
-So, we write this set-builder notation simply like these :
+Also, we can write set-builder notation of indefinite integral simply through these two kinds of equations :
 
 $\int f(x) \, dx$ = F(x)+ C 
 
 $\int f(x) \, dx$ = 1/3 x^3 + C
 
-So, this set is called as indefinite integrals.
+This defined set is called as indefinite integrals.
 
 ex)
 
