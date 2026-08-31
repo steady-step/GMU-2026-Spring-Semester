@@ -51,7 +51,7 @@ $\left[ \ln|x| \right]_{3}^{6}$ = ln6 -ln3 = ln2
 
 Signal : $\int f(x) \ dx$
 
-Meaning : The set which has all functions whose derivative is f(x).
+Meaning : The set which has all functions whose derivative is f(x) and domain variable is x.
 
 So, it is a set. Not function.
 
@@ -61,7 +61,7 @@ ex)
 
 { $\{ y = \frac{1}{3}x^3 + c \mid c \in \mathbb{R} \text{ where } x \text{ is the independent variable and } y \text{ is the dependent variable} \}$ }
 
-Also, we can write set-builder notation of indefinite integral simply through these two kinds of equations :
+Also, we can write set-builder notation of indefinite integral simply through these two kinds of equations if it exists:
 
 $\int f(x) \ dx$ = F(x)+ C 
 
@@ -79,7 +79,7 @@ $\int x^n \ dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1)$
 
 **C is called as constant of integration.**
 
-Also, the simplified expression can be calculated each other by this rule :
+Also, the simplified expression of set-builder notation can be calculated each other by this rule :
 
 $\int cf(x) \ dx = c \int f(x) \ dx$
 
