@@ -22,10 +22,27 @@ but we can change g'(x)dx to du when calculating as the result is same.
 
 So, it is key point for calculating integral easily.
 
-After replacing any part of equation to another variable,
+After substituting any part of equation to another variable,
 
 if you change other part so that it satisfies substitution form,
 
 we can easily calculate integral.
 
 ex)
+
+<img src="week14_file1.jpg" width="800"> 
+
+As conditions for substitution rule are satisfied,
+
+(x^4+2 can be differentiable for all real number x, cos is continuous for all real number)
+
+we can use substitution rule.
+
+
+
+
+
+
+
+Above image is solving process.
+
