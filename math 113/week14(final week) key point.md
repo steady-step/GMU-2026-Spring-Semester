@@ -72,7 +72,7 @@ ex1)
 
 As conditions of substitution rule for definite integral are satisfied,
 
-((3-5x)' is continuous at [1,2], 1/(t^2) is continuous at [-7,-2])
+((3-5x)' is continuous at [1,2], 1/(t^2) is continuous at [-7,-2], we assume t is f's domain variable)
 
 we can use substitution rule.
 
@@ -82,9 +82,34 @@ ex2)
 
 As conditions of substitution rule for definite integral are satisfied,
 
-((lnx)' = 1/x is continuous at [1,e], t is continuous at [0,1])
+((lnx)' = 1/x is continuous at [1,e], t is continuous at [0,1], we assume t is f's domain variable)
 
 we can use substitution rule.
+
+
+## Other rules about definite integral
+
+if f is continuous at [-a,a]
+
+f : even function -> $\int_{-a}^{a} f(x) dx = 2 \int_{0}^{a} f(x) dx$
+
+f : odd function -> $\int_{-a}^{a} f(x) dx = 0$
+
+
+## Areas between curves
+
+if f and g are continuous and f(x)>=g(x) at [a,b]
+
+
+
+A = $\int_{a}^{b} \left[ f(x) - g(x) \right] dx$
+
+
+
+
+
+
+
 
 
 
