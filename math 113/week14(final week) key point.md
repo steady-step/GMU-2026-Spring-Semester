@@ -28,13 +28,24 @@ if you change other part so that it satisfies substitution form,
 
 we can easily calculate integral.
 
-ex)
+ex1)
 
 <img src="week14_file1.jpg" width="800"> 
 
 As conditions for substitution rule are satisfied,
 
-(x^4+2 can be differentiable for all real number x, cos is continuous for all real number)
+(x^4+2 is differentiable for all real number x, cos function is continuous for all real number)
+
+we can use substitution rule.
+
+
+ex2)
+
+<img src="week14_file2.jpg" width="800"> 
+
+As conditions for substitution rule are satisfied,
+
+(5x is differentiable for all real number x, e^ function is continuous for all real number)
 
 we can use substitution rule.
 
@@ -42,7 +53,4 @@ we can use substitution rule.
 
 
 
-
-
-Above image is solving process.
 
