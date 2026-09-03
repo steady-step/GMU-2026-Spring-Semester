@@ -126,7 +126,19 @@ Also, function can be x = f(y), at this situation, we should do integration abou
 
 ex)
 
+<img src="week14_file6.png" width="500"> 
+
 y = x - 1 , y^2 = 2x + 6, Area?
+
+If we consider above two functions' domain variable y,
+
+x = y + 1 , x = (y^2 - 6)/2
+
+by y axis, y + 1 > (y^2 - 6)/2 at [-2,4]
+
+Therefore, A = $\int_{-2}^{4} \left[ (y+1) - \left( \frac{y^2-6}{2} \right) \right] dy$ = 18
+
+
 
 
 
