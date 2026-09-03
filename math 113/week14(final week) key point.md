@@ -116,7 +116,7 @@ But, if the relative size relationship changes in between,
 
 we must divide the interval and evaluate it section by section.
 
-ex) y = cosx, y = sinx, $[0,\pi/2]$, Area?
+ex) **y = cosx, y = sinx, $[0,\pi/2]$, Area?**
 
 ∵ at $[0,\pi/4]$, cosx > sinx.  at $[\pi/4,\pi/2]$, sinx > cosx.
 
@@ -128,9 +128,9 @@ ex)
 
 <img src="week14_file6.png" width="500"> 
 
-y = x - 1 , y^2 = 2x + 6, Area?
+**y = x - 1 , y^2 = 2x + 6, Area?**
 
-If we consider above two functions' domain variable y,
+If we consider above two functions' domain variable as y,
 
 x = y + 1 , x = (y^2 - 6)/2
 
