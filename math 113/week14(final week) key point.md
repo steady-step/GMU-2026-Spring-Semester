@@ -98,11 +98,37 @@ f : odd function -> $\int_{-a}^{a} f(x) dx = 0$
 
 ## Areas between curves
 
-if f and g are continuous and f(x)>=g(x) at [a,b]
+<img src="week14_file5.jpg" width="400"> 
 
-
+if f and g are continuous and f(x)>=g(x) at [a,b],
 
 A = $\int_{a}^{b} \left[ f(x) - g(x) \right] dx$
+
+ex)
+
+**y = e^x, y = x, x = 0, x = 1, Area?**
+
+∵ y = e^x and y = x are continuous at [0,1], e^x > x at [0,1],
+
+A = $\int_{0}^{1} (e^x - x) dx$ = e-3/2
+
+But, if the relative size relationship changes in between, 
+
+we must divide the interval and evaluate it section by section.
+
+ex) y = cosx, y = sinx, $[0,\pi/2]$, Area?
+
+∵ at $[0,\pi/4]$, cosx > sinx.  at $[\pi/4,\pi/2]$, sinx > cosx.
+
+A = $\int_{0}^{\frac{\pi}{4}} (\cos x - \sin x) dx + \int_{\frac{\pi}{4}}^{\frac{\pi}{2}} (\sin x - \cos x) dx$ = $2\sqrt{2}-2$
+
+Also, function can be x = f(y), at this situation, we should do integration about y-axis. 
+
+ex)
+
+y = x - 1 , y^2 = 2x + 6, Area?
+
+
 
 
 
