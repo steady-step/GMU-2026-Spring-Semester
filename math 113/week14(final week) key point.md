@@ -138,6 +138,9 @@ by y axis, y + 1 > (y^2 - 6)/2 at [-2,4]
 
 Therefore, A = $\int_{-2}^{4} \left[ (y+1) - \left( \frac{y^2-6}{2} \right) \right] dy$ = 18
 
+## Course Conclusion
+
+This marks the official completion of my MATH 113 course at GMU Korea. Thank you for visiting my portfolio!
 
 
 
