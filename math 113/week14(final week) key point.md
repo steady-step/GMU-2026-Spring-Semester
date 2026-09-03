@@ -32,7 +32,7 @@ ex1)
 
 <img src="week14_file1.jpg" width="800"> 
 
-As conditions for substitution rule are satisfied,
+As conditions of substitution rule for indefinite integral are satisfied,
 
 (x^4+2 is differentiable for all real number x, cos function is continuous for all real number)
 
@@ -43,7 +43,7 @@ ex2)
 
 <img src="week14_file2.jpg" width="800"> 
 
-As conditions for substitution rule are satisfied,
+As conditions of substitution rule for indefinite integral are satisfied,
 
 (5x is differentiable for all real number x, e^ function is continuous for all real number)
 
@@ -68,13 +68,23 @@ Also, we can utilize this rule as we did before in indefinite section.
 
 ex1)
 
+<img src="week14_file3.jpg" width="700"> 
 
+As conditions of substitution rule for definite integral are satisfied,
 
+((3-5x)' is continuous at [1,2], 1/(t^2) is continuous at [-7,-2])
 
+we can use substitution rule.
 
+ex2)
 
+<img src="week14_file4.jpg" width="700"> 
 
+As conditions of substitution rule for definite integral are satisfied,
 
+((lnx)' = 1/x is continuous at [1,e], t is continuous at [0,1])
+
+we can use substitution rule.
 
 
 
