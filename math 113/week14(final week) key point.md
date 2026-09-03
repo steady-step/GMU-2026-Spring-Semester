@@ -1,8 +1,8 @@
 # Week 14 key point
 
-## Substitution Rule of indefinite integral
+## Substitution Rule for indefinite integral
 
-**If g is differentiable at x range, and f is continuous at g(x) range,**
+**If g is differentiable at x range, and f is continuous at g range,**
 
 By FTC1 & Chain rule,
 
@@ -12,7 +12,7 @@ In this situation, if we set u = g(x),
 
 $\int f(g(x))g'(x) \ dx = \int f(u) \ du$
 
-This is substitution rule.
+This is substitution rule for indefinite integral.
 
 But, when analyzing above equation, g'(x) dx becomes du!!
 
@@ -48,6 +48,39 @@ As conditions for substitution rule are satisfied,
 (5x is differentiable for all real number x, e^ function is continuous for all real number)
 
 we can use substitution rule.
+
+
+## Substitution Rule of definite integral
+
+**If g' is continuous at [a,b], and f is continuous at g range,**
+
+By FTC1 & Chain rule,
+
+$\int_{a}^{b} f(g(x))g'(x) dx = [F(g(x))]_{a}^{b}$
+
+In this situation, if we set u = g(x),
+
+$\int_{a}^{b} f(g(x))g'(x) dx = \int_{g(a)}^{g(b)} f(u) du$
+
+This is substitution rule for definite integral.
+
+Also, we can utilize this rule as we did before in indefinite section.
+
+ex1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
