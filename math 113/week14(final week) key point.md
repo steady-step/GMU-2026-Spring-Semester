@@ -2,7 +2,7 @@
 
 ## Substitution Rule for indefinite integral
 
-**If g is differentiable at x range, and f is continuous at g range,**
+**If g is differentiable on x range, and f is continuous on g range,**
 
 By FTC1 & Chain rule,
 
@@ -52,7 +52,7 @@ we can use substitution rule.
 
 ## Substitution Rule of definite integral
 
-**If g' is continuous at [a,b], and f is continuous at g range,**
+**If g' is continuous on [a,b], and f is continuous on g range,**
 
 By FTC1 & Chain rule,
 
@@ -72,7 +72,7 @@ ex1)
 
 As conditions of substitution rule for definite integral are satisfied,
 
-((3-5x)' is continuous at [1,2], 1/(t^2) is continuous at [-7,-2], we assume t is f's domain variable)
+((3-5x)' is continuous on [1,2], 1/(t^2) is continuous on [-7,-2], we assume t is f's domain variable)
 
 we can use substitution rule.
 
@@ -82,14 +82,14 @@ ex2)
 
 As conditions of substitution rule for definite integral are satisfied,
 
-((lnx)' = 1/x is continuous at [1,e], t is continuous at [0,1], we assume t is f's domain variable)
+((lnx)' = 1/x is continuous on [1,e], t is continuous on [0,1], we assume t is f's domain variable)
 
 we can use substitution rule.
 
 
 ## Other rules about definite integral
 
-if f is continuous at [-a,a]
+if f is continuous on [-a,a]
 
 f : even function -> $\int_{-a}^{a} f(x) dx = 2 \int_{0}^{a} f(x) dx$
 
@@ -100,7 +100,7 @@ f : odd function -> $\int_{-a}^{a} f(x) dx = 0$
 
 <img src="week14_file5.jpg" width="400"> 
 
-if f and g are continuous and f(x)>=g(x) at [a,b],
+if f and g are continuous and f(x)>=g(x) on [a,b],
 
 A = $\int_{a}^{b} \left[ f(x) - g(x) \right] dx$
 
@@ -108,7 +108,7 @@ ex)
 
 **y = e^x, y = x, x = 0, x = 1, Area?**
 
-∵ y = e^x and y = x are continuous at [0,1], e^x > x at [0,1],
+∵ y = e^x and y = x are continuous on [0,1], e^x > x on [0,1],
 
 A = $\int_{0}^{1} (e^x - x) dx$ = e-3/2
 
@@ -118,7 +118,7 @@ we must divide the interval and evaluate it section by section.
 
 ex) **y = cosx, y = sinx, $[0,\pi/2]$, Area?**
 
-∵ at $[0,\pi/4]$, cosx > sinx.  at $[\pi/4,\pi/2]$, sinx > cosx.
+∵ on $[0,\pi/4]$, cosx > sinx.  on $[\pi/4,\pi/2]$, sinx > cosx.
 
 A = $\int_{0}^{\frac{\pi}{4}} (\cos x - \sin x) dx + \int_{\frac{\pi}{4}}^{\frac{\pi}{2}} (\sin x - \cos x) dx$ = $2\sqrt{2}-2$
 
@@ -134,7 +134,7 @@ If we consider above two functions' domain variable as y,
 
 x = y + 1 , x = (y^2 - 6)/2
 
-by y axis, y + 1 > (y^2 - 6)/2 at [-2,4]
+by y axis, y + 1 > (y^2 - 6)/2 on [-2,4]
 
 Therefore, A = $\int_{-2}^{4} \left[ (y+1) - \left( \frac{y^2-6}{2} \right) \right] dy$ = 18
 
