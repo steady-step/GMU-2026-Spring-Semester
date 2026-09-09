@@ -32,7 +32,7 @@ Second is Leibniz's notation.
 
 For example, chain rule can be represented as dy/dx = du/dx * dy/du.
 
-But, as Leibniz's notation just means random tangent line's horizontal and vertical delta,
+But, as Leibniz's notation just means random tangent line's delta,
 
 we should assume the notation is in situation of the specific rule.
 
