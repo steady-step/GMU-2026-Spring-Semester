@@ -69,39 +69,29 @@
 
     the meaning of those signal was uncertain.
 
-    Mathematicians of later generations defines these signals like this.
+    Mathematicians of later generations define these signals like this.
 
-    if d~ is located at denominator (ex: dx in dy/dx)
+    When dx and dy are used in a same expression,
 
-    it means the tangent line's horizontal delta
+    dx : delta x of tangent line in x-y graph
 
-    and we use the horizontal line's name in d~ (ex: dx)
+    dy : delta y of tangent line in x-y graph
 
-    Also, if d~ is located at numerator (ex: dy in dy/dx)
-
-    it means the tangent line's vertical delta
-
-    and we use the vertical line's name in d~ (ex: dy, df(x), d(x^2+1))
+    And, dy can be changed to other expressions. (ex: d f(x), d(x^2+1) as y=f(x)=x^2+1)
 
     They are all unique variables.
 
-    The variable located in denominator is independent variable(it is not 0)
+    Also, if d~ is located in numerator, the axis name can be moved to the right.
 
-    and the one located in numerator is dependent variable.
-
-    The vertical line's name can be moved to right.
-
-    (ex: d/dx * y, d/dx * (x^2+1)
+    (ex: d/dx * y, d/dx * (x^2+1))
 
     d^2y/dx^2 = d/dx * (dy/dx)
 
-    The precise definition of d^2y/dx^2 is the rate of  tangent line's horizontal and vertical delta when x-axis and dy/dx axis.
+    The precise definition of d^2y/dx^2 is the rate of tangent line's delta (dy/dx) and delta x in x-(dy/dx) graph.
 
-    Therefore, as dy/dx means just the rate of tangent line's horizontal and vertical delta,
-
-    it can be used also in usual equation. (ex: x^2+y^2=25, there are also tangent lines in this equation.)
-
-    But, when we use it in function, we can just consider it as just derivative.
+    As dy/dx means just the rate of tangent line's delta rate,
+    
+    it can be also used although graph is not function. (ex: x^2+y^2=25)
 
     If we define dx and dy like this, derivative has no problem.
 
