@@ -18,7 +18,7 @@
 
       4. If it is passed by any positive error, L is limit value.
 
-      (Precondition : Domain x should contain at least one open interval including a. (except possibly a itself))
+      (Precondition : Domain x should contain at least one open interval including a. (a can be possibly excluded in domain x))
 
     Also, when we define lim x-> infinity f(x) = L,
 
